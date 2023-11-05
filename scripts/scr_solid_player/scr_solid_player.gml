@@ -19,14 +19,14 @@ function scr_solid_player(argument0, argument1, argument2) //gml_Script_scr_soli
         if (y > old_y)
         {
             var _list = ds_list_create()
-            var _platforms = instance_place_list(x, y, 193, _list, 0)
+            var _platforms = instance_place_list(x, y, obj_platform, _list, 0)
             var collided = 0
             if (_platforms > 0)
             {
                 for (var i = 0; i < _platforms; i++)
                 {
                     platform = ds_list_find_value(_list, i)
-                    var _can_collide = object_index.can_collide(platform)
+                    var _can_collide = platform.can_collide(platform)
                     if (_can_collide == 1 && place_meeting(x, y, platform) && (!(place_meeting(x, old_y, platform))))
                         collided = 1
                 }
