@@ -1,0 +1,10 @@
+depth = 4
+image_index = 0
+image_speed = 0
+can_switch = 1
+image_speed = 0.35
+oldtargety = 0
+activated = 0
+targety = oldtargety
+targety2 = oldtargety
+mode = 0

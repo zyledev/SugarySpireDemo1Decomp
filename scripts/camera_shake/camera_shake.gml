@@ -1,0 +1,3 @@
+function camera_shake () {
+
+}
