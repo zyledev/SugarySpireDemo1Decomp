@@ -26,7 +26,7 @@ function scr_solid_player(argument0, argument1, argument2) //gml_Script_scr_soli
                 for (var i = 0; i < _platforms; i++)
                 {
                     platform = ds_list_find_value(_list, i)
-                    var _can_collide = object_index.object_index.can_collide(platform)
+                    var _can_collide = object_index.can_collide(platform)
                     if (_can_collide == 1 && place_meeting(x, y, platform) && (!(place_meeting(x, old_y, platform))))
                         collided = 1
                 }
