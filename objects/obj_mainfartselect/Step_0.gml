@@ -11,20 +11,21 @@ if abletomove
         selected++;
     }
 }
-if (obj_player.key_jump2 && selected == 0 && obj_file1.sprite_index != spr_file1confirm)
+if (obj_player.key_jump2 && selected == 0 && obj_file1.sprite_index != spr_file1confirm && abletomove)
 {
     scr_sound(sound_toppingot);
     abletomove = 0;
     obj_file1.image_index = 0;
     obj_file1.sprite_index = spr_file1confirm;
 }
-if (obj_player.key_jump2 && selected == 1 && (!instance_exists(obj_options)))
+if (obj_player.key_jump2 && selected == 1 && (!instance_exists(obj_options)) && abletomove)
 {
     scr_sound(sound_toppingot);
     abletomove = 0;
 	//show_message("Uh oh! Options arent implemented yet!")
     instance_create(0, 0, obj_options);
 }
+	
 
 var asset = layer_sprite_get_id(layer_get_id("Assets_1"), "graphic_5C74AFEA");
 layer_sprite_index(asset, selected);
