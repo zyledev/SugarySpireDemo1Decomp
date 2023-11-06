@@ -98,7 +98,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b88580e8-ea7f-431f-9888-f3d3f47dc01e","path":"sprites/spr_player_suplexdash/spr_player_suplexdash.yy",},},},"Disabled":false,"id":"64155593-e46b-45aa-99ca-6e1dfed195ac","IsCreationKey":false,"Key":9.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 50,
     "yorigin": 50,

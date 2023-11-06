@@ -138,7 +138,7 @@ with (obj_player)
         stompAnim = 0
     if (toomuchalarm1 > 0)
         toomuchalarm1 -= 1
-    if (toomuchalarm1 <= 0 && (state == 83 || state == 2 || state == 63 || state == 88 || (state == 64 && mach2 >= 100) || state == 30 || state == 15 || state == 110 || state == 111 || state == 117 || (state == 26 && mach2 >= 100)))
+    if (toomuchalarm1 <= 0 && (state == 83 || state == 2 || state == 63 || state == 88 || (state == 64 && mach2 >= 100) || state == 30 || state == 110 || state == 111 || state == 117 || (state == 26 && mach2 >= 100)))
     {
         playerid = other.object_index
         image_index = (other.image_index - 1)
