@@ -28,7 +28,7 @@ if (obj_player.key_jump2 && selected == 1 && (!instance_exists(obj_options)))
 var asset = layer_sprite_get_id(layer_get_id("Assets_1"), "graphic_5C74AFEA");
 layer_sprite_index(asset, selected);
 
-var justfarded = 0
+/*var justfarded = 0
 switch selected
 {
     case 2:
@@ -43,3 +43,4 @@ switch selected
 }
 
 lightX = lerp(lightX, justfarded, 0.2)
+*/

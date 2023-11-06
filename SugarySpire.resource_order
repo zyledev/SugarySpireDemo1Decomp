@@ -604,6 +604,7 @@
     {"name":"spr_crack_run","order":588,"path":"sprites/spr_crack_run/spr_crack_run.yy",},
     {"name":"spr_title","order":589,"path":"sprites/spr_title/spr_title.yy",},
     {"name":"spr_marshemellow_run","order":590,"path":"sprites/spr_marshemellow_run/spr_marshemellow_run.yy",},
+    {"name":"palroom","order":2095,"path":"rooms/palroom/palroom.yy",},
     {"name":"spr_rudejanitor","order":591,"path":"sprites/spr_rudejanitor/spr_rudejanitor.yy",},
     {"name":"bg_mines1para2_escape","order":592,"path":"sprites/bg_mines1para2_escape/bg_mines1para2_escape.yy",},
     {"name":"spr_marshmellow_idle","order":593,"path":"sprites/spr_marshmellow_idle/spr_marshmellow_idle.yy",},

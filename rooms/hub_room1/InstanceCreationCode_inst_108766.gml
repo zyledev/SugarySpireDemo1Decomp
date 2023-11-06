@@ -1,0 +1,2 @@
+targetRoom = palroom
+visible = false

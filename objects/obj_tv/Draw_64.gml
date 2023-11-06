@@ -1,4 +1,4 @@
-if (room != scootercutsceneidk && room != devroom && room != rank_room && room != timesuproom && room != realtitlescreen)
+if (room != scootercutsceneidk && room != devroom && room != palroom && room != rank_room && room != timesuproom && room != realtitlescreen)
 {
     font = global.collectfont
     draw_set_font(font)

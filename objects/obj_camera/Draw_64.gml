@@ -1,4 +1,4 @@
-if (room != scootercutsceneidk && room != devroom && room != rank_room && room != realtitlescreen)
+if (room != scootercutsceneidk && room != devroom && room != palroom && room != rank_room && room != realtitlescreen)
 {
     scr_pal_swap_set(501, heatpal, 0)
     draw_sprite_part_ext(spr_heatmeterunder, obj_stylebar.image_index, 0, 0, (global.style * 4.25), sprite_get_height(spr_heatmeterunder), -6, 8, 1, 1, c_white, 1)

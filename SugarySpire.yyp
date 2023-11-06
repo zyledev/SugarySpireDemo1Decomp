@@ -642,6 +642,7 @@
     {"id":{"name":"spr_crack_run","path":"sprites/spr_crack_run/spr_crack_run.yy",},},
     {"id":{"name":"spr_title","path":"sprites/spr_title/spr_title.yy",},},
     {"id":{"name":"spr_marshemellow_run","path":"sprites/spr_marshemellow_run/spr_marshemellow_run.yy",},},
+    {"id":{"name":"palroom","path":"rooms/palroom/palroom.yy",},},
     {"id":{"name":"spr_rudejanitor","path":"sprites/spr_rudejanitor/spr_rudejanitor.yy",},},
     {"id":{"name":"bg_mines1para2_escape","path":"sprites/bg_mines1para2_escape/bg_mines1para2_escape.yy",},},
     {"id":{"name":"spr_marshmellow_idle","path":"sprites/spr_marshmellow_idle/spr_marshmellow_idle.yy",},},
@@ -2019,6 +2020,7 @@
     {"roomId":{"name":"hudtest","path":"rooms/hudtest/hudtest.yy",},},
     {"roomId":{"name":"scootercutsceneidk","path":"rooms/scootercutsceneidk/scootercutsceneidk.yy",},},
     {"roomId":{"name":"rank_room","path":"rooms/rank_room/rank_room.yy",},},
+    {"roomId":{"name":"palroom","path":"rooms/palroom/palroom.yy",},},
   ],
   "templateType": null,
   "TextureGroups": [

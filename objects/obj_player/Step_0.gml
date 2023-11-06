@@ -138,14 +138,14 @@ with (obj_player)
         stompAnim = 0
     if (toomuchalarm1 > 0)
         toomuchalarm1 -= 1
-    if (toomuchalarm1 <= 0 && (state == 83 || state == 2 || state == 63 || state == 88 || (state == 64 && mach2 >= 100) || state == 30 || state == 110 || state == 111 || state == 117 || (state == 26 && mach2 >= 100)))
+    /*if (toomuchalarm1 <= 0 && (state == 83 || state == 2 || state == 63 || state == 88 || (state == 64 && mach2 >= 100) || state == 30 || state == 110 || state == 111 || state == 117 || (state == 26 && mach2 >= 100)))
     {
         playerid = other.object_index
         image_index = (other.image_index - 1)
         image_xscale = other.xscale
         sprite_index = other.sprite_index
         toomuchalarm1 = 6
-    }
+    }*/
     if (state != 65 && state != 59 && state != 8 && state != 32 && state != 109 && sprite_index != spr_player_crouchshoot && state != 58 && state != 26 && state != 30 && state != 66 && state != 61 && state != 60)
         mask_index = spr_player_mask
     else

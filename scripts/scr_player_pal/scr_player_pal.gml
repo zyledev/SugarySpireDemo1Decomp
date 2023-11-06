@@ -30,7 +30,7 @@ function scr_player_pal() //gml_Script_scr_player_pal
     if key_jump2
     {
         state = 0
-        targetRoom = 59
+        targetRoom = hub_room1
         targetDoor = "C"
         instance_create(x, y, obj_fadeout)
     }

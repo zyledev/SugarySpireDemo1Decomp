@@ -30,4 +30,10 @@ hallway = 0
 box = 0
 roomstartx = x
 roomstarty = y
+
+if(room == palroom)
+{
+	state = 102
+}
+
 //scr_pal_swap_init_system(shd_pal_swapper)

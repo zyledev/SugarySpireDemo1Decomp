@@ -114,7 +114,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"708c557f-5167-4407-bbf0-33483c239722","path":"sprites/spr_pizzelleselectedpal/spr_pizzelleselectedpal.yy",},},},"Disabled":false,"id":"9052f4eb-0d3a-4ecc-8447-487be0061002","IsCreationKey":false,"Key":17.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 100,
     "yorigin": 100,

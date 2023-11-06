@@ -99,7 +99,7 @@ function scr_player_handstandjump() //gml_Script_scr_player_handstandjump
             image_index = 0
             image_speed = 0.2
             movespeed = 10
-            state = (63 << 0)
+            //state = 63
         }
     }
 }
