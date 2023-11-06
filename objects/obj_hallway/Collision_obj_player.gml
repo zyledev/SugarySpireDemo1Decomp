@@ -7,6 +7,7 @@ with (other.id)
         obj_player.targetDoor = other.targetDoor
         obj_player.targetRoom = other.targetRoom
         obj_player.hallway = 1
+		obj_player.vertical = 0
         obj_player.hallwaydirection = other.image_xscale
         obj_player.x = obj_player.x
         obj_player.y = obj_player.y

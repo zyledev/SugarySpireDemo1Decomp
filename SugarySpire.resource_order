@@ -1837,7 +1837,6 @@
     {"name":"mu_mineshaft2","order":2258,"path":"sounds/mu_mineshaft2/mu_mineshaft2.yy",},
     {"name":"sound_box","order":2259,"path":"sounds/sound_box/sound_box.yy",},
     {"name":"sfx_geyser","order":2260,"path":"sounds/sfx_geyser/sfx_geyser.yy",},
-    {"name":"sound_BITCH","order":2261,"path":"sounds/sound_BITCH/sound_BITCH.yy",},
     {"name":"sfx_scream1","order":2262,"path":"sounds/sfx_scream1/sfx_scream1.yy",},
     {"name":"mu_minessecret","order":2263,"path":"sounds/mu_minessecret/mu_minessecret.yy",},
     {"name":"sound_fireass","order":2264,"path":"sounds/sound_fireass/sound_fireass.yy",},

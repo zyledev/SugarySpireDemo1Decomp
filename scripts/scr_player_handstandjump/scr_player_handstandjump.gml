@@ -1,5 +1,6 @@
 function scr_player_handstandjump() //gml_Script_scr_player_handstandjump
 {
+	sprite_index = spr_suplexdash
     switch character
     {
         case "P":

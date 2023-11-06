@@ -24,7 +24,7 @@ function scr_player_knightpep() //gml_Script_scr_player_knightpep
         jumpstop = 0
     if ((sprite_index == spr_knightpep_idle || sprite_index == spr_knightpep_walk) && key_slap2)
     {
-        scr_sound(20)
+        scr_sound(sound_break)
         instance_create(x, y, obj_swordhitbox)
         instance_create((x + ((-xscale) * 10)), y, obj_slidecloud)
         sprite_index = spr_knightpep_attack
