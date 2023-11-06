@@ -1,3 +1,5 @@
+
+
 if (state != 101)
     scr_collide()
 if (state == 101)

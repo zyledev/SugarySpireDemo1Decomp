@@ -148,6 +148,14 @@ function scr_collide_destructibles() //gml_Script_scr_collide_destructibles
     }
     with (obj_baddie)
     {
+		if(!variable_instance_exists(id, "hsp")) { hsp = 0; } 
+		if(!variable_instance_exists(id, "vsp")) { vsp = 0; } 
+		if(!variable_instance_exists(id, "state")) { state = 0; } 
+		if(!variable_instance_exists(id, "grav")) { grav = 0; } 
+		if(!variable_instance_exists(id, "thrown")) { thrown = 0; } 
+		if(!variable_instance_exists(id, "flash")) { flash = 0; } 
+		if(!variable_instance_exists(id, "movespeed")) { movespeed = 0; } 
+
         if (place_meeting((x + hsp), y, obj_destructibles) && thrown == 1)
         {
             instance_destroy(instance_place((x + hsp), y, obj_destructibles))

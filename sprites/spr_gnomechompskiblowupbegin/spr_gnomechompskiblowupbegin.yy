@@ -122,7 +122,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e008ba9c-1adb-4189-916d-08793e5e9927","path":"sprites/spr_gnomechompskiblowupbegin/spr_gnomechompskiblowupbegin.yy",},},},"Disabled":false,"id":"d1e0eb3f-2db4-4ce1-aeeb-8385651edc37","IsCreationKey":false,"Key":21.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 50,
     "yorigin": 50,
