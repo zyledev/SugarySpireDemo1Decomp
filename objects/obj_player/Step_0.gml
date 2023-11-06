@@ -34,7 +34,7 @@ with (obj_player)
     if (state == 30)
     {
         if (!audio_is_playing(sound_tumble))
-            scr_sound(59)
+            scr_sound(sound_tumble)
     }
     else
         audio_stop_sound(sound_tumble)
@@ -45,14 +45,14 @@ with (obj_player)
     if (state == 111 && sprite_index == spr_cotton_run)
     {
         if (!audio_is_playing(sound_customdash1))
-            scr_sound(75)
+            scr_sound(sound_customdash1)
     }
     else
         audio_stop_sound(sound_customdash1)
     if (state == 111 && sprite_index == spr_cotton_maxrun)
     {
         if (!audio_is_playing(sound_customdash2))
-            scr_sound(77)
+            scr_sound(sound_customdash2)
     }
     else
         audio_stop_sound(sound_customdash2)

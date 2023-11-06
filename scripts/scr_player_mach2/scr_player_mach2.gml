@@ -84,7 +84,7 @@ function scr_player_mach2() //gml_Script_scr_player_mach2
                     input_buffer_jump = 0
                 if ((!key_attack) && grounded)
                 {
-                    scr_sound(5)
+                    scr_sound(sound_break)
                     sprite_index = spr_machslidestart
                     state = 64
                     image_index = 0
@@ -93,7 +93,7 @@ function scr_player_mach2() //gml_Script_scr_player_mach2
             }
             if (move == -1 && xscale == 1 && grounded)
             {
-                scr_sound(34)
+                scr_sound(sound_maximumspeedstop)
                 sprite_index = spr_machslideboost
                 state = 64
                 image_index = 0
@@ -101,7 +101,7 @@ function scr_player_mach2() //gml_Script_scr_player_mach2
             }
             if (move == 1 && xscale == -1 && grounded)
             {
-                scr_sound(34)
+                scr_sound(sound_maximumspeedstop)
                 sprite_index = spr_machslideboost
                 state = 64
                 image_index = 0

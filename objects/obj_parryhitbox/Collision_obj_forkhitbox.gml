@@ -1,4 +1,4 @@
-scr_sound(58)
+scr_sound(sound_parry)
 with (obj_baddie)
 {
     if (object_index != obj_charcherry)

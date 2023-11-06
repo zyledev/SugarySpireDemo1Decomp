@@ -7,7 +7,7 @@ with (obj_player)
         instance_create_depth(other.x, other.y, -1, obj_baddiegibs)
         shake_mag = 3
         shake_mag_acc = (3 / room_speed)
-        scr_sound(15)
+        scr_sound(sound_combo1)
         other.sprite_index = spr_harryalive
         other.hp -= 1
         hsp = ((-xscale) * 4)

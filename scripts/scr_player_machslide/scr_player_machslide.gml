@@ -39,7 +39,7 @@ function scr_player_machslide() //gml_Script_scr_player_machslide
     {
         movespeed = 12
         sprite_index = spr_player_mach4
-        scr_sound(sound_break)
+        scr_sound(sound_dash2)
         momemtum = 1
         state = 83
         image_index = 0

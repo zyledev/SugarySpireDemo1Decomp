@@ -52,12 +52,12 @@ function scr_player_slap() //gml_Script_scr_player_slap
         {
             if (slaphand == 1)
             {
-                scr_sound(16)
+                scr_sound(sound_combo2)
                 sprite_index = spr_player_slap1
             }
             if (slaphand == -1)
             {
-                scr_sound(15)
+                scr_sound(sound_combo1)
                 sprite_index = spr_player_slap2
             }
         }
@@ -65,12 +65,12 @@ function scr_player_slap() //gml_Script_scr_player_slap
         {
             if (slaphand == 1)
             {
-                scr_sound(16)
+                scr_sound(sound_combo2)
                 sprite_index = spr_player_slaprun1
             }
             if (slaphand == -1)
             {
-                scr_sound(15)
+                scr_sound(sound_combo1)
                 sprite_index = spr_player_slaprun2
             }
         }
@@ -78,12 +78,12 @@ function scr_player_slap() //gml_Script_scr_player_slap
         {
             if (slaphand == 1)
             {
-                scr_sound(16)
+                scr_sound(sound_combo2)
                 sprite_index = spr_player_slap1air
             }
             if (slaphand == -1)
             {
-                scr_sound(15)
+                scr_sound(sound_combo1)
                 sprite_index = spr_player_slap2air
             }
         }

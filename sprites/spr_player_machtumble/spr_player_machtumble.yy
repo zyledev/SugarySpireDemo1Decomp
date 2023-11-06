@@ -100,7 +100,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"352e381b-78a4-4673-8a3f-f76bd78dbc62","path":"sprites/spr_player_machtumble/spr_player_machtumble.yy",},},},"Disabled":false,"id":"a6c6986b-cec9-4f1f-8f5c-1a50f4ac82b8","IsCreationKey":false,"Key":10.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 62,
     "yorigin": 50,

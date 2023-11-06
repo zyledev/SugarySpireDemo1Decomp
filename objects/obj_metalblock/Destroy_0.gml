@@ -9,6 +9,6 @@ if (ds_list_find_index(global.saveroom, id) == -1)
         shake_mag = 20
         shake_mag_acc = (40 / room_speed)
     }
-    scr_sound(11)
+    scr_sound(sound_metaldestroy)
     ds_list_add(global.saveroom, id)
 }

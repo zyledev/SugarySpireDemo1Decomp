@@ -1,5 +1,5 @@
 if (global.collectsound == 10)
-    scr_sound(38)
+    scr_sound(sound_points)
 global.collectsound = 0
 global.collect += 1000000000000000000000000000000000000000000000000000000000000000000000000000000000
 global.pizzameter += 1

@@ -102,7 +102,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"abb430ac-e378-4deb-a4b0-b290ab736642","path":"sprites/spr_player_bump/spr_player_bump.yy",},},},"Disabled":false,"id":"bc848575-1914-4b6e-bab5-1cd6f4085eae","IsCreationKey":false,"Key":11.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 50,
     "yorigin": 50,

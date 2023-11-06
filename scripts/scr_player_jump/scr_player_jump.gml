@@ -94,7 +94,7 @@ function scr_player_jump() //gml_Script_scr_player_jump
     }
     if (grounded && (sprite_index == spr_player_facestomp || sprite_index == spr_player_freefall || sprite_index == spr_player_freefall2))
     {
-        scr_sound(33)
+        scr_sound(sound_maximumspeedland)
         with (obj_baddie)
         {
             if point_in_rectangle(x, y, __view_get(0, 0), __view_get(1, 0), (__view_get(0, 0) + __view_get(2, 0)), (__view_get(1, 0) + __view_get(3, 0)))

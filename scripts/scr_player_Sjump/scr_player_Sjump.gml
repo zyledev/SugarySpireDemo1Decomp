@@ -41,7 +41,7 @@ function scr_player_Sjump() //gml_Script_scr_player_Sjump
     }
     if (scr_solid(x, (y - 1)) && (!(place_meeting(x, (y - 1), obj_destructibles))) && (!(place_meeting((x + sign(hsp)), y, obj_slope))) && (!(place_meeting((x - sign(hsp)), y, obj_slope))))
     {
-        scr_sound(33)
+        scr_sound(sound_maximumspeedland)
         a = 0
         if (sprite_index == spr_player_supersidejump)
             sprite_index = spr_player_supersidejumpland
@@ -70,7 +70,7 @@ function scr_player_Sjump() //gml_Script_scr_player_Sjump
     }
     if (sprite_index == spr_null && place_meeting((x + hsp), y, obj_solid) && (!(place_meeting((x + hsp), y, obj_destructibles))))
     {
-        scr_sound(33)
+        scr_sound(sound_maximumspeedland)
         a = 0
         sprite_index = spr_player_mach3hitwall
         with (obj_camera)

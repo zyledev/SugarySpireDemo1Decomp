@@ -26,7 +26,7 @@ if (ds_list_find_index(global.baddieroom, id) == -1)
     global.combo += 1
     if (global.combo == 1)
     {
-        scr_sound(33)
+        scr_sound(sound_maximumspeedland)
         instance_create(x, y, obj_10)
         global.collect += 10
     }

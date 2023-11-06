@@ -18,7 +18,7 @@ function scr_player_machroll() //gml_Script_scr_player_machroll
     }
     if (scr_solid((x + 1), y) && xscale == 1 && (!(place_meeting((x + sign(hsp)), y, obj_slope))) && (!(place_meeting((x + sign(hsp)), y, obj_destructibles))))
     {
-        scr_sound(33)
+        scr_sound(sound_maximumspeedland)
         with (obj_camera)
         {
             shake_mag = 20
@@ -48,7 +48,7 @@ function scr_player_machroll() //gml_Script_scr_player_machroll
     }
     if (scr_solid((x - 1), y) && xscale == -1 && (!(place_meeting((x + sign(hsp)), y, obj_slope))) && (!(place_meeting((x + sign(hsp)), y, obj_destructibles))))
     {
-        scr_sound(33)
+        scr_sound(sound_maximumspeedland)
         with (obj_camera)
         {
             shake_mag = 20

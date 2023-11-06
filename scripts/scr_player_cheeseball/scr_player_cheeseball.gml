@@ -3,7 +3,7 @@ function scr_player_cheeseball() //gml_Script_scr_player_cheeseball
     hsp = (xscale * 12)
     if ((!scr_slope()) && instance_place((x + sign(hsp)), y, obj_solid))
     {
-        scr_sound(24)
+        scr_sound(sound_jump)
         obj_player.grav = 0.5
         repeat (8)
             instance_create(x, y, obj_slimedebris)

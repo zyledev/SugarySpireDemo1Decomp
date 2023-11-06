@@ -8,7 +8,7 @@ if (ds_list_find_index(global.baddieroom, id) == -1)
     instance_create(x, y, obj_baddiegibs)
     instance_create(x, y, obj_baddiegibs)
     instance_create(x, y, obj_baddiegibs)
-    scr_sound(15)
+    scr_sound(sound_combo1)
     with (obj_camera)
     {
         shake_mag = 3

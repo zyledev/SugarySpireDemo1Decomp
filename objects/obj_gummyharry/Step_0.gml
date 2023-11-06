@@ -9,7 +9,7 @@ with (obj_player)
             instance_create_depth(other.x, other.y, -1, obj_baddiegibs)
             shake_mag = 3
             shake_mag_acc = (3 / room_speed)
-            scr_sound(15)
+            scr_sound(sound_combo1)
             other.sprite_index = spr_harryalive
             other.hp -= 1
             hsp = ((-xscale) * 4)
@@ -34,7 +34,7 @@ with (obj_player)
     if (place_meeting((x + hsp), y, other.id) && instakillmove == 1)
     {
         instance_destroy(other.id)
-        scr_sound(15)
+        scr_sound(sound_combo1)
         shake_mag = 20
         shake_mag_acc = (40 / room_speed)
     }

@@ -56,7 +56,7 @@ function scr_player_Sjumpprep() //gml_Script_scr_player_Sjumpprep
         sprite_index = spr_player_superjumppreplight
     if ((!key_up) && (sprite_index == spr_player_superjumppreplight || sprite_index == spr_player_superjumpleft || sprite_index == spr_player_superjumpright || sprite_index == spr_pizzano_sjumpprep) && (!(scr_solid(x, (y - 16)))) && (!(scr_solid(x, (y - 32)))))
     {
-        scr_sound(48)
+        scr_sound(sound_superjumprelease)
         instance_create(x, y, obj_explosioneffect)
         sprite_index = spr_player_superjump
         if (character == "N")
@@ -65,7 +65,7 @@ function scr_player_Sjumpprep() //gml_Script_scr_player_Sjumpprep
         vsp = -15
     }
     if (!audio_is_playing(sound_superjumpcharge2))
-        scr_sound(47)
+        scr_sound(sound_superjumpcharge2)
     image_speed = 0.35
 }
 

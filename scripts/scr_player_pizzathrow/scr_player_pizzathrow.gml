@@ -28,7 +28,7 @@ function scr_player_pizzathrow() //gml_Script_scr_player_pizzathrow
     }
     if key_slap2
     {
-        scr_sound(16)
+        scr_sound(sound_combo2)
         sprite_index = spr_player_pizzathrow2
     }
     if (floor(image_index) == 3)

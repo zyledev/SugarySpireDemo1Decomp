@@ -2,7 +2,7 @@ with (obj_player)
 {
     if (state == 6 || state == 7)
     {
-        scr_sound(18)
+        scr_sound(sound_combo4)
         obj_player.grav = 0.5
         instance_create(x, y, obj_slimedebris)
         instance_create(x, y, obj_slimedebris)
@@ -24,7 +24,7 @@ with (obj_player)
     }
     else if (state != 66 && hurted == 0 && cutscene == 0 && state != 65)
     {
-        scr_sound(54)
+        scr_sound(sound_touchspike)
         global.hurtcounter += 1
         alarm[8] = 60
         alarm[7] = 120

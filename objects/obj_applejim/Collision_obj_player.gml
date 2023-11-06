@@ -11,7 +11,7 @@ if (state == 200)
     {
         if (state == 6 || state == 7)
         {
-            scr_sound(18)
+            scr_sound(sound_combo4)
             obj_player.grav = 0.5
             instance_create(x, y, obj_slimedebris)
             instance_create(x, y, obj_slimedebris)

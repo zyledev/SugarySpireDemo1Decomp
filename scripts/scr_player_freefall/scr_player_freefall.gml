@@ -42,7 +42,7 @@ function scr_player_freefall() //gml_Script_scr_player_freefall
         sprite_index = spr_caneslam
     if (grounded && (!input_buffer_jump) < 8 && (!(place_meeting(x, (y + 1), obj_destructibles))))
     {
-        scr_sound(33)
+        scr_sound(sound_maximumspeedland)
         image_index = 0
         if (global.cane == 0)
             state = 70

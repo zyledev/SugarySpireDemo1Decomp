@@ -26,7 +26,7 @@ if (instance_exists(baddieID) && place_meeting(x, y, obj_player) && obj_player.c
             }
             if (instance_exists(other.baddieID) && y < other.baddieID.y && attacking == 0 && state == 51 && vsp > 0 && other.baddieID.vsp >= 0 && sprite_index != spr_stompprep)
             {
-                scr_sound(23)
+                scr_sound(sound_enemyslap)
                 suplexmove = 0
                 if (other.baddieID.object_index == obj_pizzaball)
                     global.golfhit += 1
@@ -86,7 +86,7 @@ if (instance_exists(baddieID) && place_meeting(x, y, obj_player) && obj_player.c
                 instance_create(other.baddieID.x, other.baddieID.y, obj_baddiegibs)
                 other.baddieID.flash = 1
                 other.baddieID.hp = 0
-                scr_sound(24)
+                scr_sound(sound_enemystomp)
                 instance_create(x, y, obj_bumpeffect)
                 other.baddieID.stunned = 200
                 if (x != other.baddieID.x)
@@ -122,7 +122,7 @@ if (instance_exists(baddieID) && place_meeting(x, y, obj_player) && obj_player.c
                 instance_create(other.baddieID.x, other.baddieID.y, obj_baddiegibs)
                 other.baddieID.flash = 1
                 other.baddieID.hp = 0
-                scr_sound(24)
+                scr_sound(sound_enemystomp)
                 instance_create(x, y, obj_bumpeffect)
                 other.baddieID.vsp = -10
                 other.baddieID.hsp = xscale

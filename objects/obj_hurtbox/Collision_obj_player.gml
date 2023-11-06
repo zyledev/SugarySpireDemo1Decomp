@@ -16,7 +16,7 @@ if (obj_player.state != (105 << 0) && obj_player.state != (66 << 0))
         }
         else if (state != 66 && state != 44 && hurted == 0 && cutscene == 0 && state != 65 && state != 109)
         {
-            scr_sound(54)
+            scr_sound(sound_touchspike)
             global.hurtcounter += 1
             alarm[8] = 60
             alarm[7] = 120

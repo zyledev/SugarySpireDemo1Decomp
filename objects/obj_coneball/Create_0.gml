@@ -23,7 +23,7 @@ hurtplayer = function() //gml_Script_anon_gml_Object_obj_coneball_Create_0_115_g
         }
         else if (state != 66 && hurted == 0 && cutscene == 0 && state != 65 && state != 109)
         {
-            scr_sound(54)
+            scr_sound(sound_touchspike)
             global.hurtcounter += 1
             alarm[8] = 60
             alarm[7] = 120
