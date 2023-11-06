@@ -88,7 +88,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"0076a5b4-22d0-4414-8a91-583d2f2158a8","path":"sprites/spr_introdebris/spr_introdebris.yy",},},},"Disabled":false,"id":"83fff506-7bf1-4e07-8254-8a8ad4484f93","IsCreationKey":false,"Key":4.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 50,
     "yorigin": 50,

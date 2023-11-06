@@ -144,7 +144,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"bc2ee3ff-74df-4853-986d-0f9cc1e8e7de","path":"sprites/spr_file3/spr_file3.yy",},},},"Disabled":false,"id":"f2eba453-c8c1-4578-9de1-20f8ab5a4d10","IsCreationKey":false,"Key":32.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 0,
     "yorigin": 0,

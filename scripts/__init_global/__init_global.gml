@@ -13,3 +13,5 @@ global.srank = 0
 global.seconds = 0
 global.minutes = 0
 global.fill = 0
+global.option_fullscreen = 0
+global.option_resolution = 0

@@ -22,6 +22,7 @@ if (obj_player.key_jump2 && selected == 1 && (!instance_exists(obj_options)))
 {
     scr_sound(sound_toppingot);
     abletomove = 0;
+	//show_message("Uh oh! Options arent implemented yet!")
     instance_create(0, 0, obj_options);
 }
 
