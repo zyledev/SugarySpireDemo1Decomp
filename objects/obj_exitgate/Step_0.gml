@@ -19,6 +19,6 @@ if (global.starrmode == 1)
     image_alpha -= 0.1
 if (image_alpha == 0)
 {
-    instance_destroy()
+    instance_destroy();
     ds_list_add(global.saveroom, id)
 }

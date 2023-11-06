@@ -19,7 +19,7 @@ switch state
         scr_enemy_stun()
         break
     case 89:
-        scr_pizzagoblin_throw()
+        scr_enemy_throw()
         break
     case 101:
         scr_enemy_cherrywait()
@@ -43,6 +43,6 @@ if (state != 98)
 if (flash == 1 && alarm[2] <= 0)
     alarm[2] = (0.15 * room_speed)
 if (state == 98 || (state == 101 && global.panic == 1))
-    instance_destroy()
+    instance_destroy();
 if (sprite_index != spr_charcherry_wait && global.panic == 0)
     sprite_index = spr_charcherry_wait

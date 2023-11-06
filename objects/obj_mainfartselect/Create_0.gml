@@ -1,4 +1,3 @@
-selected = 0
-lightX = 96
-abletomove = 1
-depth = 250
+selected = 0;
+abletomove = 1;
+depth = 250;

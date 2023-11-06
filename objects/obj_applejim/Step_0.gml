@@ -19,7 +19,7 @@ switch state
         scr_enemy_stun()
         break
     case 89:
-        scr_pizzagoblin_throw()
+        scr_enemy_throw()
         break
     case 200:
         scr_applejim_bash()
@@ -44,7 +44,7 @@ if (state == 98 && stunned > 40 && birdcreated == 0)
         ID = other.id
 }
 if (hp == 0)
-    instance_destroy()
+    instance_destroy();
 if (state != 98)
     birdcreated = 0
 if (flash == 1 && alarm[2] <= 0)

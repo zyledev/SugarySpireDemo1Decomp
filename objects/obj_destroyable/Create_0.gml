@@ -1,1 +1,1 @@
-thesecret = 0
+thesecret = 0;

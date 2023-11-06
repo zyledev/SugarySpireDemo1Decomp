@@ -8,7 +8,7 @@ function scr_hurtplayer(argument0) //gml_Script_scr_hurtplayer
             {
                 var _gby = (object_index == obj_player ? 1 : 2)
                 if (state == (4 << 0) && grabbedby == _gby)
-                    instance_destroy()
+                    instance_destroy();
             }
             state = (120 << 0)
             sprite_index = choose(spr_parry1, spr_parry2, spr_parry3)

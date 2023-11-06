@@ -2,47 +2,37 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_geyserspawner",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
+  ],
+  "managed": false,
+  "overriddenProperties": [],
+  "parent": {
+    "name": "Objects",
+    "path": "folders/Objects.yy",
+  },
+  "parentObjectId": null,
+  "persistent": false,
+  "physicsAngularDamping": 0.1,
+  "physicsDensity": 0.5,
+  "physicsFriction": 0.2,
+  "physicsGroup": 1,
+  "physicsKinematic": false,
+  "physicsLinearDamping": 0.1,
+  "physicsObject": false,
+  "physicsRestitution": 0.1,
+  "physicsSensor": false,
+  "physicsShape": 1,
+  "physicsShapePoints": [],
+  "physicsStartAwake": true,
+  "properties": [],
+  "solid": false,
   "spriteId": {
     "name": "spr_placeholder",
-    "path": "sprites/spr_placeholder/spr_placeholder.yy"
+    "path": "sprites/spr_placeholder/spr_placeholder.yy",
   },
   "spriteMaskId": null,
   "visible": true,
-  "solid": false,
-  "persistent": false,
-  "managed": false,
-  "parentObjectId": null,
-  "eventList": [
-    {
-      "resourceType": "GMEvent",
-      "resourceVersion": "1.0",
-      "name": "",
-      "isDnD": false,
-      "eventNum": 0,
-      "eventType": 0,
-      "collisionObjectId": null
-    },
-    {
-      "resourceType": "GMEvent",
-      "resourceVersion": "1.0",
-      "name": "",
-      "isDnD": false,
-      "eventNum": 0,
-      "eventType": 3,
-      "collisionObjectId": null
-    },
-    {
-      "resourceType": "GMEvent",
-      "resourceVersion": "1.0",
-      "name": "",
-      "isDnD": false,
-      "eventNum": 0,
-      "eventType": 8,
-      "collisionObjectId": null
-    }
-  ],
-  "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy"
-  }
 }

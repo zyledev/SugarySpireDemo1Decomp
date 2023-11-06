@@ -19,4 +19,4 @@ if (grounded && sprite_index != spr_juicepuddledone)
 if (animation_end() && sprite_index == spr_juicepuddlesplash)
     sprite_index = spr_juicepuddledone
 if scr_solid(x, y)
-    instance_destroy()
+    instance_destroy();

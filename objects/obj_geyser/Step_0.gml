@@ -10,4 +10,4 @@ if (sprite_index == spr_geyserreact && floor(image_index) == (image_number - 1))
 if (sprite_index == spr_geyser)
     image_alpha -= 0.1
 if (image_alpha <= 0)
-    instance_destroy()
+    instance_destroy();

@@ -5,12 +5,12 @@ function scr_collide_destructibles() //gml_Script_scr_collide_destructibles
         if place_meeting((x + hsp), y, obj_destructibles)
         {
             with (instance_place((x + hsp), y, obj_destructibles))
-                instance_destroy()
+                instance_destroy();
         }
         if place_meeting((x + hsp), y, obj_bigdestructibles)
         {
             with (instance_place((x + hsp), y, obj_bigdestructibles))
-                instance_destroy()
+                instance_destroy();
         }
     }
     if (state == 67 || state == 70 || state == 108)
@@ -18,12 +18,12 @@ function scr_collide_destructibles() //gml_Script_scr_collide_destructibles
         if place_meeting(x, (y + 1), obj_destructibles)
         {
             with (instance_place(x, (y + 1), obj_destructibles))
-                instance_destroy()
+                instance_destroy();
         }
         if place_meeting(x, (y + 1), obj_bigdestructibles)
         {
             with (instance_place(x, (y + 1), obj_bigdestructibles))
-                instance_destroy()
+                instance_destroy();
             state = 70
             sprite_index = spr_player_bodyslamland
         }
@@ -33,12 +33,12 @@ function scr_collide_destructibles() //gml_Script_scr_collide_destructibles
         if place_meeting(x, (y + 1), obj_destructibles)
         {
             with (instance_place(x, (y + 1), obj_destructibles))
-                instance_destroy()
+                instance_destroy();
         }
         if place_meeting(x, (y + 1), obj_bigdestructibles)
         {
             with (instance_place(x, (y + 1), obj_bigdestructibles))
-                instance_destroy()
+                instance_destroy();
         }
     }
     if (sprite_index == spr_null)
@@ -46,22 +46,22 @@ function scr_collide_destructibles() //gml_Script_scr_collide_destructibles
         if place_meeting((x + hsp), y, obj_destructibles)
         {
             with (instance_place((x + hsp), y, obj_destructibles))
-                instance_destroy()
+                instance_destroy();
         }
         if place_meeting((x + hsp), y, obj_bigdestructibles)
         {
             with (instance_place((x + hsp), y, obj_bigdestructibles))
-                instance_destroy()
+                instance_destroy();
         }
         if place_meeting((x - hsp), y, obj_destructibles)
         {
             with (instance_place((x - hsp), y, obj_destructibles))
-                instance_destroy()
+                instance_destroy();
         }
         if place_meeting((x - hsp), y, obj_bigdestructibles)
         {
             with (instance_place((x - hsp), y, obj_bigdestructibles))
-                instance_destroy()
+                instance_destroy();
         }
     }
     if (state == 17 || state == 36 || state == 2)
@@ -69,12 +69,12 @@ function scr_collide_destructibles() //gml_Script_scr_collide_destructibles
         if place_meeting(x, (y + 1), obj_destructibles)
         {
             with (instance_place(x, (y + 1), obj_destructibles))
-                instance_destroy()
+                instance_destroy();
         }
         if place_meeting(x, (y - 1), obj_bigdestructibles)
         {
             with (instance_place(x, (y - 1), obj_bigdestructibles))
-                instance_destroy()
+                instance_destroy();
         }
     }
     if place_meeting(x, (y + 1), obj_destructibleplatform)
@@ -91,12 +91,12 @@ function scr_collide_destructibles() //gml_Script_scr_collide_destructibles
         if place_meeting(x, (y - 1), obj_destructibles)
         {
             with (instance_place(x, (y - 1), obj_destructibles))
-                instance_destroy()
+                instance_destroy();
         }
         if place_meeting(x, (y - 1), obj_bigdestructibles)
         {
             with (instance_place(x, (y - 1), obj_bigdestructibles))
-                instance_destroy()
+                instance_destroy();
         }
     }
     if (state == 101)
@@ -104,22 +104,22 @@ function scr_collide_destructibles() //gml_Script_scr_collide_destructibles
         if place_meeting(x, (y - 1), obj_destructibles)
         {
             with (instance_place(x, (y - 1), obj_destructibles))
-                instance_destroy()
+                instance_destroy();
         }
         if place_meeting(x, (y - 1), obj_bigdestructibles)
         {
             with (instance_place(x, (y - 1), obj_bigdestructibles))
-                instance_destroy()
+                instance_destroy();
         }
         if place_meeting(x, (y + 1), obj_destructibles)
         {
             with (instance_place(x, (y + 1), obj_destructibles))
-                instance_destroy()
+                instance_destroy();
         }
         if place_meeting(x, (y + 1), obj_bigdestructibles)
         {
             with (instance_place(x, (y + 1), obj_bigdestructibles))
-                instance_destroy()
+                instance_destroy();
         }
     }
     if (state == 15)
@@ -134,13 +134,13 @@ function scr_collide_destructibles() //gml_Script_scr_collide_destructibles
                 image_index = 0
                 sprite_index = choose(spr_player_blockbreak1, spr_player_blockbreak2, spr_player_blockbreak3, spr_player_blockbreak4, spr_player_blockbreak5)
                 state = 50
-                instance_destroy()
+                instance_destroy();
             }
         }
         with (obj_destructibles)
         {
             if place_meeting((x - obj_player.hsp), y, obj_player)
-                instance_destroy()
+                instance_destroy();
         }
     }
     with (obj_baddie)

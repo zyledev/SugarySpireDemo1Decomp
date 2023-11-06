@@ -22,7 +22,7 @@ switch state
         scr_enemy_stun()
         break
     case 89:
-        scr_pizzagoblin_throw()
+        scr_enemy_throw()
         break
     case 101:
         scr_enemy_grabbed()

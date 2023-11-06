@@ -1,5 +1,5 @@
 if (!instance_exists(baddieID))
-    instance_destroy()
+    instance_destroy();
 if instance_exists(baddieID)
 {
     x = baddieID.x
@@ -181,4 +181,4 @@ if (instance_exists(baddieID) && place_meeting(x, y, obj_player) && obj_player.c
     }
 }
 if (!instance_exists(baddieID))
-    instance_destroy()
+    instance_destroy();

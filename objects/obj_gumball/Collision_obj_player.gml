@@ -8,7 +8,7 @@ if (obj_player.state == 17 || obj_player.state == 18)
     instance_create(x, y, obj_slimedebris)
     instance_create(x, y, obj_slimedebris)
     instance_create(x, y, obj_slimedebris)
-    instance_destroy()
+    instance_destroy();
 }
 else
 {
@@ -26,5 +26,5 @@ else
     instance_create(x, y, obj_slimedebris)
     instance_create(x, y, obj_slimedebris)
     instance_create(x, y, obj_slimedebris)
-    instance_destroy()
+    instance_destroy();
 }

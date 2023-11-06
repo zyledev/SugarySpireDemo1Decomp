@@ -1,4 +1,4 @@
-instance_destroy()
+instance_destroy();
 with (obj_camera)
 {
     shake_mag = 20

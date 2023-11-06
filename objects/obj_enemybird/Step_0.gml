@@ -5,6 +5,6 @@ if instance_exists(ID)
     if (ID.state != 98 || ID.stunned < 40)
     {
         ID.birdcreated = 0
-        instance_destroy()
+        instance_destroy();
     }
 }

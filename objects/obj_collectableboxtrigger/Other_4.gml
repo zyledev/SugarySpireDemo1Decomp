@@ -10,5 +10,5 @@ if (ds_list_find_index(global.saveroom, id) != -1)
         if (trigger == other.trigger)
             can_activate = 1
     }
-    instance_destroy()
+    instance_destroy();
 }

@@ -1,5 +1,5 @@
 if (!instance_exists(ID))
-    instance_destroy()
+    instance_destroy();
 if instance_exists(ID)
 {
     x = ID.x

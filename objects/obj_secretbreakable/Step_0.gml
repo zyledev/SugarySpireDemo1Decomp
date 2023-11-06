@@ -5,5 +5,5 @@ if (place_meeting((x + 1), y, obj_player) || place_meeting((x - 1), y, obj_playe
     var data = tilemap_get_at_pixel(map_id, x, y)
     data = tile_set_empty(data)
     tilemap_set_at_pixel(map_id, data, x, y)
-    instance_destroy()
+    instance_destroy();
 }

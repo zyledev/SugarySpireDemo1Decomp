@@ -2,19 +2,33 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_checkpoint_invis",
+  "eventList": [],
+  "managed": false,
+  "overriddenProperties": [],
+  "parent": {
+    "name": "Objects",
+    "path": "folders/Objects.yy",
+  },
+  "parentObjectId": null,
+  "persistent": false,
+  "physicsAngularDamping": 0.1,
+  "physicsDensity": 0.5,
+  "physicsFriction": 0.2,
+  "physicsGroup": 1,
+  "physicsKinematic": false,
+  "physicsLinearDamping": 0.1,
+  "physicsObject": false,
+  "physicsRestitution": 0.1,
+  "physicsSensor": false,
+  "physicsShape": 1,
+  "physicsShapePoints": [],
+  "physicsStartAwake": true,
+  "properties": [],
+  "solid": false,
   "spriteId": {
     "name": "spr_pizzelle_taunt",
-    "path": "sprites/spr_pizzelle_taunt/spr_pizzelle_taunt.yy"
+    "path": "sprites/spr_pizzelle_taunt/spr_pizzelle_taunt.yy",
   },
   "spriteMaskId": null,
   "visible": false,
-  "solid": false,
-  "persistent": false,
-  "managed": false,
-  "parentObjectId": null,
-  "eventList": [],
-  "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy"
-  }
 }

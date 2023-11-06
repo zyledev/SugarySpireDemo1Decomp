@@ -1,2 +1,2 @@
 if (global.cane == 1)
-    instance_destroy()
+    instance_destroy();

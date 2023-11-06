@@ -3,7 +3,7 @@ if (instance_number(obj_parallax) > 1)
     var _first = instance_find(obj_parallax, 0)
     if (id != _first)
     {
-        instance_destroy()
+        instance_destroy();
         return;
     }
 }

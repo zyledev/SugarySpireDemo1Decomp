@@ -35,7 +35,7 @@ metaMovedLeft = 0
 metaMovedRight = 0
 event_user(0)
 if (instance_number(object_index) > 1)
-    instance_destroy()
+    instance_destroy();
 function open_gml_Object_obj_shell_Create_0() //gml_Script_open_gml_Object_obj_shell_Create_0
 {
     isOpen = 1

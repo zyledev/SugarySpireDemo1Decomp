@@ -1,19 +1,23 @@
-
-        {
-          "resourceType": "GMSound",
-          "resourceVersion": "1.0",
-          "name": "mu_swamp",
-          "conversionMode": 0,
-          "compression": 3,
-          "type": 0,
-          "audioGroupId": {
-            "name": "audiogroup_default",
-            "path": "audiogroups/audiogroup_default",
-          },
-          "soundFile": "mu_swamp.ogg",
-          "parent": {
-            "name": "Sounds",
-            "path": "folders/Sounds.yy",
-          },
-        }
-        
+{
+  "resourceType": "GMSound",
+  "resourceVersion": "1.0",
+  "name": "mu_swamp",
+  "audioGroupId": {
+    "name": "audiogroup_default",
+    "path": "audiogroups/audiogroup_default",
+  },
+  "bitDepth": 1,
+  "bitRate": 128,
+  "compression": 3,
+  "conversionMode": 0,
+  "duration": 150.26086,
+  "parent": {
+    "name": "Sounds",
+    "path": "folders/Sounds.yy",
+  },
+  "preload": false,
+  "sampleRate": 44100,
+  "soundFile": "mu_swamp.ogg",
+  "type": 0,
+  "volume": 1.0,
+}

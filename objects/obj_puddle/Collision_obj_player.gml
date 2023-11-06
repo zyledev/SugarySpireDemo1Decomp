@@ -6,5 +6,5 @@ if (sprite_index == spr_juicepuddledone && other.grounded)
     obj_player.state = 108
     obj_player.vsp = -11
     obj_player.grounded = 0
-    instance_destroy()
+    instance_destroy();
 }

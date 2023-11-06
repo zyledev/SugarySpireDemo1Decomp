@@ -10,7 +10,7 @@ if (vsp < 12)
 if (countdown < 50)
     sprite_index = spr_bomblit
 if (countdown == 0)
-    instance_destroy()
+    instance_destroy();
 if scr_solid((x + floor(hsp)), y)
 {
     x = floor(x)

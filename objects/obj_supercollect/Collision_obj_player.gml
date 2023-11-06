@@ -9,4 +9,4 @@ if (global.combo >= 1 && global.combotime < 60)
     global.combotime += 2
     global.combofreeze += 2
 }
-instance_destroy()
+instance_destroy();

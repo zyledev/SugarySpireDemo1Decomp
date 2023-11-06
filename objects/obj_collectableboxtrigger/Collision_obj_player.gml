@@ -14,6 +14,6 @@ if ((global.panic == 1 && panicmode == 1) || panicmode == 0)
         }
         activated = 1
         ds_list_add(global.saveroom, id)
-        instance_destroy()
+        instance_destroy();
     }
 }

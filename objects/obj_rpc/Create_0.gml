@@ -1,7 +1,7 @@
 var appID = "862812043034886144"
 if (!rousr_dissonance_create(appID))
 {
-    instance_destroy()
+    instance_destroy();
     return;
 }
 rousr_dissonance_set_large_image("mainico", "")

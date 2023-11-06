@@ -2,59 +2,41 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_flingFrog",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":1,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
+  ],
+  "managed": false,
+  "overriddenProperties": [],
+  "parent": {
+    "name": "Objects",
+    "path": "folders/Objects.yy",
+  },
+  "parentObjectId": null,
+  "persistent": false,
+  "physicsAngularDamping": 0.1,
+  "physicsDensity": 0.5,
+  "physicsFriction": 0.2,
+  "physicsGroup": 1,
+  "physicsKinematic": false,
+  "physicsLinearDamping": 0.1,
+  "physicsObject": false,
+  "physicsRestitution": 0.1,
+  "physicsSensor": false,
+  "physicsShape": 1,
+  "physicsShapePoints": [],
+  "physicsStartAwake": true,
+  "properties": [],
+  "solid": false,
   "spriteId": {
     "name": "spr_flingFrog",
-    "path": "sprites/spr_flingFrog/spr_flingFrog.yy"
+    "path": "sprites/spr_flingFrog/spr_flingFrog.yy",
   },
   "spriteMaskId": {
     "name": "spr_player_mask",
-    "path": "sprites/spr_player_mask/spr_player_mask.yy"
+    "path": "sprites/spr_player_mask/spr_player_mask.yy",
   },
   "visible": true,
-  "solid": false,
-  "persistent": false,
-  "managed": false,
-  "parentObjectId": null,
-  "eventList": [
-    {
-      "resourceType": "GMEvent",
-      "resourceVersion": "1.0",
-      "name": "",
-      "isDnD": false,
-      "eventNum": 0,
-      "eventType": 0,
-      "collisionObjectId": null
-    },
-    {
-      "resourceType": "GMEvent",
-      "resourceVersion": "1.0",
-      "name": "",
-      "isDnD": false,
-      "eventNum": 0,
-      "eventType": 3,
-      "collisionObjectId": null
-    },
-    {
-      "resourceType": "GMEvent",
-      "resourceVersion": "1.0",
-      "name": "",
-      "isDnD": false,
-      "eventNum": 1,
-      "eventType": 3,
-      "collisionObjectId": null
-    },
-    {
-      "resourceType": "GMEvent",
-      "resourceVersion": "1.0",
-      "name": "",
-      "isDnD": false,
-      "eventNum": 0,
-      "eventType": 8,
-      "collisionObjectId": null
-    }
-  ],
-  "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy"
-  }
 }

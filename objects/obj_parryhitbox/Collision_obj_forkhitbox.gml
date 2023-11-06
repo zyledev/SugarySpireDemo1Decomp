@@ -4,7 +4,7 @@ with (obj_baddie)
     if (object_index != obj_charcherry)
     {
         if (distance_to_object(obj_parryhitbox.id) < 64)
-            instance_destroy()
+            instance_destroy();
     }
 }
 with (obj_player)

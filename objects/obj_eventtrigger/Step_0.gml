@@ -17,4 +17,4 @@ else if (reverse_output != -4 && condition != -4 && (!self.condition()))
     }
 }
 if (activated == 1 && flags.do_once == 1)
-    instance_destroy()
+    instance_destroy();

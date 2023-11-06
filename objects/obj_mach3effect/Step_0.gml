@@ -5,7 +5,7 @@ if (vanish == 1)
     if (gonealpha > 0)
         gonealpha -= 0.35
     else if (gonealpha <= 0)
-        instance_destroy()
+        instance_destroy();
 }
 visible = playerid.visible
 if (color == 1)

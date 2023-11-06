@@ -8,4 +8,4 @@ if (fadein == 0)
 else if (fadein == 1)
     fadealpha -= 0.375
 if (fadealpha == 0)
-    instance_destroy()
+    instance_destroy();

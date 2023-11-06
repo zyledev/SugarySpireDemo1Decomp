@@ -7,7 +7,7 @@ function scr_enemy_stun() //gml_Script_scr_enemy_stun
     {
         hsp = 0
         if (thrown == 1 && hp <= 0 && object_index != obj_noisecrusher)
-            instance_destroy()
+            instance_destroy();
         if (object_index == obj_noisecrusher && hp <= 0 && thrown == 1)
         {
             alarm[0] = 100
@@ -37,7 +37,7 @@ function scr_enemy_stun() //gml_Script_scr_enemy_stun
     {
         hsp = 0
         if (thrown == 1 && hp <= 0 && object_index != obj_noisecrusher)
-            instance_destroy()
+            instance_destroy();
         if (object_index == obj_noisecrusher && hp <= 0 && thrown == 1)
         {
             alarm[0] = 100
@@ -79,7 +79,7 @@ function scr_enemy_stun() //gml_Script_scr_enemy_stun
     {
         with (instance_create(x, y, obj_bulletimpact))
             image_xscale = (-other.image_xscale)
-        instance_destroy()
+        instance_destroy();
     }
     if (floor(image_index) == (image_number - 1) && stunned < 0)
     {
