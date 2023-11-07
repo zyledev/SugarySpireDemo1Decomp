@@ -22,7 +22,7 @@ if (pause == 1)
         draw_sprite(spr_pauseconfecti5, 1, 0, 0)
     else
         draw_sprite(spr_pauseconfecti5, 0, 0, 0)
-    scr_pal_swap_set(260, pal, 0)
+    scr_pal_swap_set(spr_pal, pal, 0)
     draw_sprite(spr_pizzelle_pause, global.panic, 686, 285)
     shader_reset()
     font = font_add_sprite_ext(spr_font, "ABCDEFGHIJKLMNOPQRSTUVWXYZ!.1234567890:", 1, 0)

@@ -1,6 +1,6 @@
 if (room != scootercutsceneidk && room != devroom && room != palroom && room != rank_room && room != realtitlescreen)
 {
-    scr_pal_swap_set(501, heatpal, 0)
+    scr_pal_swap_set(spr_heatpal, heatpal, 0)
     draw_sprite_part_ext(spr_heatmeterunder, obj_stylebar.image_index, 0, 0, (global.style * 4.25), sprite_get_height(spr_heatmeterunder), -6, 8, 1, 1, c_white, 1)
     draw_sprite_ext(spr_heatmeter, obj_stylebar.image_index, 128, 96, 1, 1, 0, c_white, 1)
     draw_sprite_ext(spr_cakehud, obj_stylebar.image_index, 128, 96, 1, 1, 0, c_white, 1)
