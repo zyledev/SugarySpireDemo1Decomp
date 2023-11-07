@@ -16,4 +16,4 @@ if (string_letters(roomname) == "entryway")
     obj_player.targetDoor = "A"
 }
 else
-    scr_sound(25)
+    scr_sound(sound_toppingot)

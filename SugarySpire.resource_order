@@ -464,6 +464,7 @@
     {"name":"spr_knight_stun","order":448,"path":"sprites/spr_knight_stun/spr_knight_stun.yy",},
     {"name":"spr_swed","order":449,"path":"sprites/spr_swed/spr_swed.yy",},
     {"name":"spr_swed_chargestart","order":450,"path":"sprites/spr_swed_chargestart/spr_swed_chargestart.yy",},
+    {"name":"Sprite994","order":1,"path":"sprites/Sprite994/Sprite994.yy",},
     {"name":"spr_swedscared","order":451,"path":"sprites/spr_swedscared/spr_swedscared.yy",},
     {"name":"spr_swedstun","order":452,"path":"sprites/spr_swedstun/spr_swedstun.yy",},
     {"name":"bgwafer_escape5","order":453,"path":"sprites/bgwafer_escape5/bgwafer_escape5.yy",},

@@ -16,4 +16,4 @@ if (room != rank_room && room != hub_room1 && room != hub_public && room != oute
 else if (room == hub_room1 || room == hub_public || room == outer_room1 || room == outer_room2 || room == scootercutsceneidk)
     game_restart()
 else
-    scr_sound(25)
+    scr_sound(sound_toppingot)

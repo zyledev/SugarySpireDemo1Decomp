@@ -49,10 +49,42 @@ function scr_player_climbwall() //gml_Script_scr_player_climbwall
             vsp = (-wallspeed)
         }
     }
-    if ((grounded && wallspeed <= 0) || wallspeed <= 0)
+	if ((scr_solid(x, y - 1, 1)) && (!(place_meeting(x, y - 1, obj_destructibles))))
+	{
+		scr_sound(sound_maximumspeedland)
+		with (obj_camera)
+		{
+		    shake_mag = 20
+		    shake_mag_acc = (40 / room_speed)
+		}
+		image_speed = 0.35
+		with (obj_baddie)
+		{
+		    if point_in_rectangle(x, y, __view_get(0, 0), __view_get(1, 0), (__view_get(0, 0) + __view_get(2, 0)), (__view_get(1, 0) + __view_get(3, 0)))
+		    {
+		        stun = 1
+		        alarm[0] = 200
+		        ministun = 0
+		        vsp = -5
+		        hsp = 0
+		    }
+		}
+		flash = 0
+		combo = 0
+		sprite_index = spr_player_ceilingcrash
+		state = 65
+		mach2 = 0
+		image_index = 0
+		instance_create((x + 10), (y + (10 * xscale)), obj_bumpeffect)
+	}
+    if (((grounded && wallspeed <= 0) || wallspeed <= 0))
     {
         state = (51 << 0)
         sprite_index = spr_fall
+    }
+	if ((sprite_index == spr_player_ceilingcrash && floor(image_number) >= image_number - 1))
+    {
+        state = (51 << 0)
     }
     image_speed = 0.6
     if (!instance_exists(obj_cloudeffect))

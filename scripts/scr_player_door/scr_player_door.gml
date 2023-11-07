@@ -1,5 +1,6 @@
 function scr_player_door() //gml_Script_scr_player_door
 {
+	x = approach(x, instance_nearest(x,y,obj_door).x + 50, 3) 
     hsp = 0
     mach2 = 0
     jumpAnim = 1

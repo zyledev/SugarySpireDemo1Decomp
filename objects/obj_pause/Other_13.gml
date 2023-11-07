@@ -1,3 +1,3 @@
 canmove = 0
-scr_sound(25)
+scr_sound(sound_toppingot)
 instance_create(0, 0, obj_options)

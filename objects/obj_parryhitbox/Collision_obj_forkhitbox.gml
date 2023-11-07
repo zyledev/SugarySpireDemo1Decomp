@@ -10,7 +10,7 @@ with (obj_baddie)
 with (obj_player)
 {
     state = 105
-    sprite_index = spr_player_parry
+    sprite_index = choose(spr_player_parry1, spr_player_parry2, spr_player_parry3)
     image_index = 0
     movespeed = -8
     flash = 1

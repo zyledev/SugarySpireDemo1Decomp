@@ -80,7 +80,11 @@ if (optionselected == 2)
 if ((obj_pause.key_slap2 || obj_pause.key_start) && (!instance_exists(obj_keyconfig)))
 {
     scr_soundeffect(sound_enemythrow)
-    obj_mainfartselect.selected = 0
-	obj_mainfartselect.abletomove = 1
+    if(instance_exists(obj_mainfartselect))
+	{ 
+		obj_mainfartselect.selected = 0
+		obj_mainfartselect.abletomove = 1
+	}
+	obj_pause.canmove = 1
     instance_destroy()
 }
