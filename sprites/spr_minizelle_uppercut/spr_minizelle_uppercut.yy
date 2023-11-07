@@ -80,7 +80,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"6c3eace0-4ba0-48c2-aae7-3654e47ea841","path":"sprites/spr_minizelle_uppercut/spr_minizelle_uppercut.yy",},},},"Disabled":false,"id":"e84af126-5031-4956-a2c5-ae45c404dd23","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 0,
     "yorigin": 0,

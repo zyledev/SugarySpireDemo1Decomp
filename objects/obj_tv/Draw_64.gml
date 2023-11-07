@@ -15,7 +15,7 @@ if (room != scootercutsceneidk && room != devroom && room != palroom && room != 
     draw_set_font(global.combofont)
     draw_set_halign(fa_center)
     draw_set_color(c_white)
-    draw_text_color(821, 52, string_hash_to_newline(global.combo), c_white, c_white, c_white, c_white, combofade)
+    draw_text_color(845, 89, string_hash_to_newline(global.combo < 10 ? "0" + string(global.combo) : global.combo), c_white, c_white, c_white, c_white, combofade)
 }
 draw_set_font(global.font)
 draw_set_halign(fa_center)

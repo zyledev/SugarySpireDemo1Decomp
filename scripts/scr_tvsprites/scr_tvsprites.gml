@@ -4,8 +4,8 @@ function scr_tvsprites() //gml_Script_scr_tvsprites
     {
         idletvspr = spr_pizzytv
         escapetvspr = spr_pizzytv_escape1
-        tvchange1 = 248
-        tvchange2 = 280
+        tvchange1 = spr_pizzytv2
+        tvchange2 = spr_pizzytv3
         cottontvspr = spr_pizzytvcotton
         hurttvspr = spr_pizzytvhurt
         minecarttvspr = spr_pizzytvmine
@@ -17,8 +17,8 @@ function scr_tvsprites() //gml_Script_scr_tvsprites
     {
         idletvspr = spr_pizzanotv
         escapetvspr = spr_pizzytv_escape1
-        tvchange1 = 163
-        tvchange2 = 163
+        tvchange1 = spr_pizzanotv2
+        tvchange2 = spr_pizzanotv2
         cottontvspr = spr_pizzytvcotton
     }
 }
