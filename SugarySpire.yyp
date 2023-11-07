@@ -502,7 +502,6 @@
     {"id":{"name":"spr_knight_stun","path":"sprites/spr_knight_stun/spr_knight_stun.yy",},},
     {"id":{"name":"spr_swed","path":"sprites/spr_swed/spr_swed.yy",},},
     {"id":{"name":"spr_swed_chargestart","path":"sprites/spr_swed_chargestart/spr_swed_chargestart.yy",},},
-    {"id":{"name":"Sprite994","path":"sprites/Sprite994/Sprite994.yy",},},
     {"id":{"name":"spr_swedscared","path":"sprites/spr_swedscared/spr_swedscared.yy",},},
     {"id":{"name":"spr_swedstun","path":"sprites/spr_swedstun/spr_swedstun.yy",},},
     {"id":{"name":"bgwafer_escape5","path":"sprites/bgwafer_escape5/bgwafer_escape5.yy",},},
