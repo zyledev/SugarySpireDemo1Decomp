@@ -6,6 +6,7 @@ tvsprite = spr_tvoff
 noisesprite = spr_player_superjump
 xi = 500
 yi = 600
+timer = 0
 imageindexstore = 0
 once = 0
 global.hurtcounter = 0
@@ -24,6 +25,7 @@ global.brank = 0
 global.crank = 0
 character = "PIZZELLE"
 tvcount = 500
+siny = 0
 combofade = 0
 invsprite = spr_invempty
 scr_pal_swap_init_system(shd_pal_swapper)

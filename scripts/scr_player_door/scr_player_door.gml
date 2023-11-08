@@ -1,6 +1,5 @@
 function scr_player_door() //gml_Script_scr_player_door
 {
-	x = approach(x, instance_nearest(x,y,obj_door).x + 50, 3) 
     hsp = 0
     mach2 = 0
     jumpAnim = 1
@@ -11,8 +10,10 @@ function scr_player_door() //gml_Script_scr_player_door
     crouchslideAnim = 1
     crouchAnim = 1
     machhitAnim = 0
-    if (sprite_index != spr_player_downpizzabox && sprite_index != spr_player_uppizzabox)
+    if (sprite_index != spr_player_downpizzabox && sprite_index != spr_player_uppizzabox){
         sprite_index = spr_lookdoor
+		x = approach(x, instance_nearest(x,y,obj_door).x + 50, 3) 
+	}
     if (floor(image_index) == (image_number - 1))
         image_speed = 0
     if (floor(image_index) == (image_number - 1) && (!instance_exists(obj_fadeout)) && (sprite_index == spr_player_downpizzabox || sprite_index == spr_player_uppizzabox))

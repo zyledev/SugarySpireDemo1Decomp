@@ -82,7 +82,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"dcbb4b7b-3a4d-444f-97ef-ba218937a06e","path":"sprites/spr_pizzytvcotton/spr_pizzytvcotton.yy",},},},"Disabled":false,"id":"644c768e-aa0a-41e2-96cb-a4e0407e0cee","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 139,
     "yorigin": 134,
