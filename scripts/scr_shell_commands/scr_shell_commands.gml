@@ -192,3 +192,147 @@ function meta_instance_create() //gml_Script_meta_instance_create
     };
 }
 
+function sh_setvar(args) 
+{
+	var arg1 = args[1] // object
+	var arg2 = args[2] // varname
+	var arg3 = args[3] // value
+	var arg4 = args[4] // type
+	var arg5 = args[5] // array index (-1 for not array)
+	if (arg5 == undefined)
+		arg5 = "-1"
+	if (object_exists(asset_get_index(arg1)) || arg1 == "global")
+	{
+		if arg1 == "global"
+		{
+			var value = arg3
+			switch arg4
+			{
+				case "asset":
+					value = asset_get_index(value)
+				break;
+					
+				case "string":
+				case "":
+				break;
+		
+				case "real":
+				case "bool":
+					if value == "true"
+						value = 1
+					if value == "false"
+						value = 0
+					if value == "toggle"
+						value = 2
+					value = real(value)
+				break;
+			}
+			if arg5 != "-1"
+			{
+				var myglobal = variable_global_get(arg2)
+				if (arg4 == "bool" && value == 2) {
+					myglobal[arg5] = !myglobal[arg5]
+				} else {
+					myglobal[arg5] = value
+				}
+				variable_global_set(arg2, myglobal[arg5])
+			}
+			else {
+				if (arg4 == "bool" && value == 2) {
+					variable_global_set(arg2, !variable_global_get(arg2))
+				} else {
+					variable_global_set(arg2, value)
+				}
+			}
+		}
+		else
+		{
+			with(asset_get_index(arg1))
+			{
+				var value = arg3
+				switch arg4
+				{
+					case "asset":
+						value = asset_get_index(value)
+					break;
+					
+					case "string":
+					case "":
+					break;
+			
+					case "real":
+					case "bool":
+						if value == "true"
+							value = 1
+						if value == "false"
+							value = 0
+						if value == "toggle"
+							value = 2
+						value = real(value)
+					break;
+				}
+				if arg5 != "-1"
+				{
+					var myvar = variable_global_get(arg2)
+					if (arg4 == "bool" && value == 2) {
+						myvar[arg5] = !myglobal[arg5]
+					} else {
+						myvar[arg5] = value
+					}
+					variable_instance_set(id, arg2, myvar[arg5])
+				}
+				else {
+					if (arg4 == "bool" && value == 2) {
+						variable_instance_set(id, arg2, !variable_instance_get(id, arg2))
+					} else {
+						variable_instance_set(id, arg2, value)
+					}
+				}
+			}
+		}
+	}
+}
+function meta_setvar() 
+{
+	return {
+		description: "Sets a global/object variable",
+		arguments: ["object", "variable", "value", "type"],
+		suggestions: [
+			function() {
+				var _objs = ["global", "obj_player"]
+				for (var i = 0; i < instance_count; i ++;)
+				{
+				    with (instance_id[i])
+						if (object_get_name(object_index) != "obj_player" && !scr_array_contains(_objs, object_get_name(object_index)))
+							array_push(_objs, object_get_name(object_index))
+				}
+				return _objs
+			},
+			[],
+			["0", "1", "true", "false"],
+			["string", "real", "bool", "asset"],
+			["-1"]
+		],
+		argumentDescriptions: [
+			"Name of the object or 'global'",
+			"Name of the variable",
+			"Value to set the variable to",
+			"The type of the value. String for text, real for numbers, bool for true or false, asset for sprites, objects, rooms etc"
+		]
+	}
+}
+// pixelfox here, i added setvar since i'm replacing the character change f5 key for the shell, so you can still use this to change your character
+
+function sh_gml(args) {
+	var _code = get_string("Input code:", "")
+	return live_execute_string(_code);
+}
+function meta_gml() {
+	return {
+		description: "Executes a snippet of GML code",
+		arguments: ["code"],
+		suggestions: [],
+		argumentDescriptions: ["Code to run"]
+	}
+}
+// pixelfox here, i added this because it takes literally 5 seconds and it's a great comman

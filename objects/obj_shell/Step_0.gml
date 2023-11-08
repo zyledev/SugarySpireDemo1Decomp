@@ -1,326 +1,305 @@
-/*var _exception;
-if (!isOpen)
-{
-    if openModifiers.openModifiers.keyComboPressed(openKey, self)
-        self.open()
+// feather disable all
+// feather ignore all
+if (saveHistory) {
+	if (!loadedSavedHistory) {
+		self._load_history();
+		loadedSavedHistory = true;
+	} else if (!loadedHistoryScrolled && isOpen) {
+		targetScrollPosition = maxScrollPosition;
+		scrollPosition = maxScrollPosition;
+		loadedHistoryScrolled = true;
+	}
 }
-else
-{
-    var prevConsoleString = consoleString
-    if (metaDeleted && keyboard_check_released(vk_backspace))
-        metaDeleted = 0
-    if (metaMovedLeft && keyboard_check_released(vk_left))
-        metaMovedLeft = 0
-    if (metaMovedRight && keyboard_check_released(vk_right))
-        metaMovedRight = 0
-    if keyboard_check_pressed(vk_escape)
-    {
-        if isAutocompleteOpen
-            self.self.close_autocomplete()
-        else
-            self.self.close()
-    }
-    else if [metaKey].[metaKey].keyComboPressed(65, self)
-    {
-        cursorPos = 1
-        targetScrollPosition = maxScrollPosition
-    }
-    else if [metaKey].[metaKey].keyComboPressed(69, self)
-    {
-        cursorPos = (string_length(consoleString) + 1)
-        targetScrollPosition = maxScrollPosition
-    }
-    else if [metaKey].[metaKey].keyComboPressed(75, self)
-    {
-        var leftSide = string_copy(consoleString, 0, (cursorPos - 1))
-        var rightSide = string_copy(consoleString, cursorPos, ((string_length(consoleString) - cursorPos) + 1))
-        killedString = rightSide
-        consoleString = leftSide
-        cursorPos = (string_length(consoleString) + 1)
-        targetScrollPosition = maxScrollPosition
-    }
-    else if [metaKey].[metaKey].keyComboPressed(89, self)
-    {
-        consoleString += killedString
-        killedString = ""
-        cursorPos = (string_length(consoleString) + 1)
-        targetScrollPosition = maxScrollPosition
-    }
-    else if ([metaKey].[metaKey].keyComboPressed(8, self) || (metaKey == 17 && ord(keyboard_string) == 127))
-    {
-        var precedingSpaceIndex = 1
-        var i = (cursorPos - 2)
-        while (i > 1)
-        {
-            if (string_char_at(consoleString, i) == " ")
-            {
-                precedingSpaceIndex = i
-                break
-            }
-            else
-            {
-                i--
-                continue
-            }
-        }
-        consoleString = string_delete(consoleString, precedingSpaceIndex, (cursorPos - precedingSpaceIndex))
-        cursorPos = precedingSpaceIndex
-        targetScrollPosition = maxScrollPosition
-        keyboard_string = ""
-        metaDeleted = 1
-    }
-    else if [metaKey].[metaKey].keyComboPressed(37, self)
-    {
-        precedingSpaceIndex = 1
-        i = (cursorPos - 2)
-        while (i > 1)
-        {
-            if (string_char_at(consoleString, i) == " ")
-            {
-                precedingSpaceIndex = i
-                break
-            }
-            else
-            {
-                i--
-                continue
-            }
-        }
-        cursorPos = precedingSpaceIndex
-        targetScrollPosition = maxScrollPosition
-        metaMovedLeft = 1
-    }
-    else if [metaKey].[metaKey].keyComboPressed(39, self)
-    {
-        var nextSpaceIndex = (string_length(consoleString) + 1)
-        i = (cursorPos + 2)
-        while (i <= (string_length(consoleString) + 1))
-        {
-            if (string_char_at(consoleString, i) == " ")
-            {
-                nextSpaceIndex = i
-                break
-            }
-            else
-            {
-                i++
-                continue
-            }
-        }
-        cursorPos = nextSpaceIndex
-        targetScrollPosition = maxScrollPosition
-        metaMovedRight = 1
-    }
-    else if obj_deeznut.(obj_deeznut).keyboardCheckDelay(self)
-    {
-        if (!metaDeleted)
-        {
-            consoleString = string_delete(consoleString, (cursorPos - 1), 1)
-            cursorPos = max(1, (cursorPos - 1))
-            targetScrollPosition = maxScrollPosition
-        }
-    }
-    else if obj_file1.(obj_file1).keyboardCheckDelay(self)
-    {
-        consoleString = string_delete(consoleString, cursorPos, 1)
-        targetScrollPosition = maxScrollPosition
-    }
-    else if obj_bombexplosionharmless.(obj_bombexplosionharmless).keyboardCheckDelay(self)
-    {
-        if (!metaMovedLeft)
-        {
-            cursorPos = max(1, (cursorPos - 1))
-            targetScrollPosition = maxScrollPosition
-        }
-    }
-    else if rousrDissonance.(rousrDissonance).keyboardCheckDelay(self)
-    {
-        if (!metaMovedRight)
-        {
-            if (cursorPos == (string_length(consoleString) + 1) && array_length(filteredSuggestions) != 0)
-            {
-                var suggestion = filteredSuggestions[suggestionIndex]
-                var consoleWords = self.string_split(consoleString, " ")
-                var currentWordLength = string_length(consoleWords[(array_length(consoleWords) - 1)])
-                consoleString += string_copy(suggestion, (currentWordLength + 1), (string_length(suggestion) - currentWordLength))
-                cursorPos = (string_length(consoleString) + 1)
-            }
-            else
-                cursorPos = min((string_length(consoleString) + 1), (cursorPos + 1))
-            targetScrollPosition = maxScrollPosition
-        }
-    }
-    else if historyUpModifiers.historyUpModifiers.keyComboPressed(historyUpKey, self)
-    {
-        if (historyPos == array_length(history))
-            savedConsoleString = consoleString
-        historyPos = max(0, (historyPos - 1))
-        if (array_length(history) != 0)
-        {
-            consoleString = array_get(history, historyPos)
-            cursorPos = (string_length(consoleString) + 1)
-        }
-        targetScrollPosition = maxScrollPosition
-    }
-    else if historyDownModifiers.historyDownModifiers.keyComboPressed(historyDownKey, self)
-    {
-        if (historyPos < array_length(history))
-        {
-            historyPos = min(array_length(history), (historyPos + 1))
-            if (historyPos == array_length(history))
-                consoleString = savedConsoleString
-            else
-                consoleString = array_get(history, historyPos)
-            cursorPos = (string_length(consoleString) + 1)
-        }
-        targetScrollPosition = maxScrollPosition
-    }
-    else if keyboard_check_pressed(vk_return)
-    {
-        if isAutocompleteOpen
-            self.self.confirmCurrentSuggestion()
-        else
-        {
-            var args = consoleString.consoleString.string_split(" ", self)
-            if (array_length(args) > 0)
-            {
-                var script = variable_global_get(("sh_" + args[0]))
-                if (script != undefined)
-                {
-                    var response = script_execute(asset_get_index(script_get_name(script)), args)
-                    array_push(history, consoleString)
-                    if (response != "")
-                        array_push(output, (">" + consoleString))
-                    if (response != 0)
-                        array_push(output, response)
-                    historyPos = array_length(history)
-                    consoleString = ""
-                    savedConsoleString = ""
-                    cursorPos = 1
-                }
-                else
-                {
-                    if scr_fartcommand(consoleString)
-                    {
-                        var d3_shellquip = "..."
-                        if (global.fartcounter <= 3)
-                            d3_shellquip = "..."
-                        else if (global.fartcounter == 4)
-                            d3_shellquip = "...."
-                        else if (global.fartcounter == 5)
-                            d3_shellquip = "....."
-                        else if (global.fartcounter == 6)
-                            d3_shellquip = ".."
-                        else if (global.fartcounter >= 7 && global.fartcounter < 10)
-                            d3_shellquip = choose("...", "...?", "...!", "...!?")
-                        else
-                            d3_shellquip = choose("....", ".....", "..", "Don't you have anything else to do?", "Please Stop.", "...!", "...?", "...!?", "Hey, that smells!", (("You've been saying that for " + string((global.fartcounter + 1))) + " times by now, Cut it out!"), "Stop that!")
-                        array_push(output, (">" + consoleString))
-                        array_push(output, d3_shellquip)
-                        array_push(history, consoleString)
-                        audio_sound_gain(audio_play_sound(sfx_fart, 1, false), (1 * global.soundeffectsvolume), 0)
-                        global.fartcounter += 1
-                    }
-                    else
-                    {
-                        array_push(output, (">" + consoleString))
-                        array_push(output, ("No such command: " + consoleString))
-                        array_push(history, consoleString)
-                    }
-                    historyPos = array_length(history)
-                    consoleString = ""
-                    savedConsoleString = ""
-                    cursorPos = 1
-                }
-            }
-            else
-            {
-                array_push(output, ">")
-                consoleString = ""
-                savedConsoleString = ""
-                cursorPos = 1
-            }
-        }
-        commandSubmitted = 1
-    }
-    else if cycleSuggestionsModifiers.cycleSuggestionsModifiers.keyComboPressed(cycleSuggestionsKey, self)
-    {
-        if (array_length(filteredSuggestions) != 0)
-        {
-            var uncompleted = consoleString
-            consoleString = self.self.findCommonPrefix()
-            cursorPos = (string_length(consoleString) + 1)
-            if (uncompleted == consoleString)
-            {
-                suggestionIndex = ((suggestionIndex + 1) % array_length(filteredSuggestions))
-                if isAutocompleteOpen
-                    self.self.calculate_scroll_from_suggestion_index()
-            }
-        }
-    }
-    else if cycleSuggestionsReverseModifiers.cycleSuggestionsReverseModifiers.keyComboPressed(cycleSuggestionsReverseKey, self)
-    {
-        suggestionIndex = (((suggestionIndex + array_length(filteredSuggestions)) - 1) % array_length(filteredSuggestions))
-        if isAutocompleteOpen
-            self.self.calculate_scroll_from_suggestion_index()
-    }
-    else if keyboard_check_pressed(vk_insert)
-        insertMode = (!insertMode)
-    else if (keyboard_string != "")
-    {
-        var t = keyboard_string
-        if (!insertMode)
-            consoleString = string_delete(consoleString, cursorPos, string_length(t))
-        consoleString = string_insert(t, consoleString, cursorPos)
-        cursorPos += string_length(t)
-        keyboard_string = ""
-        targetScrollPosition = maxScrollPosition
-    }
-    if isAutocompleteOpen
-    {
-        var x1 = autocompleteOriginX
-        var y1 = autocompleteOriginY
-        var x2 = ((((x1 + autocompleteMaxWidth) + font_get_size(consoleFont)) + (autocompletePadding * 2)) - scrollbarWidth)
-        var y2 = ((y1 + (string_height(prompt) * min(array_length(filteredSuggestions), autocompleteMaxLines))) + autocompletePadding)
-        if point_in_rectangle(device_mouse_x_to_gui(0), device_mouse_y_to_gui(0), x1, y1, x2, y2)
-        {
-            if mouse_wheel_down()
-            {
-                autocompleteScrollPosition++
-                autocompleteScrollPosition = clamp((array_length(filteredSuggestions) - autocompleteMaxLines), 0, autocompleteScrollPosition)
-            }
-            if mouse_wheel_up()
-            {
-                autocompleteScrollPosition--
-                autocompleteScrollPosition = max(autocompleteScrollPosition, 0)
-            }
-        }
-        else if point_in_rectangle(device_mouse_x_to_gui(0), device_mouse_y_to_gui(0), shellOriginX, shellOriginY, (shellOriginX + width), (shellOriginY + height))
-        {
-            if mouse_wheel_down()
-                targetScrollPosition += scrollSpeed
-            if mouse_wheel_up()
-                targetScrollPosition -= scrollSpeed
-        }
-    }
-    else if point_in_rectangle(device_mouse_x_to_gui(0), device_mouse_y_to_gui(0), shellOriginX, shellOriginY, (shellOriginX + width), (shellOriginY + height))
-    {
-        if mouse_wheel_down()
-            targetScrollPosition += scrollSpeed
-        if mouse_wheel_up()
-            targetScrollPosition -= scrollSpeed
-    }
-    var lerpValue = (scrollSmoothness == 0 ? 1 : self.remap(scrollSmoothness, 1, 0, 0.08, 0.4))
-    scrollPosition = lerp(scrollPosition, targetScrollPosition, lerpValue)
-    scrollPosition = clamp(scrollPosition, 0, maxScrollPosition)
-    if (scrollPosition == 0 || scrollPosition == maxScrollPosition)
-        targetScrollPosition = clamp(targetScrollPosition, 0, maxScrollPosition)
-    if (consoleString != prevConsoleString)
-    {
-        self.self.updateFilteredSuggestions()
-        autocompleteScrollPosition = 0
-    }
-    if (self.shell_properties_hash() != shellPropertiesHash)
-        self.recalculate_shell_properties()
+
+if (!isOpen) {
+	if (self._key_combo_pressed(openModifiers, openKey)) {
+		self.open();
+	}
+} else {
+	var prevConsoleString = consoleString;
+	
+	if (metaDeleted && keyboard_check_released(vk_backspace)) {
+		metaDeleted = false;
+	}
+	if (metaMovedLeft && keyboard_check_released(vk_left)) {
+		metaMovedLeft = false;
+	}
+	if (metaMovedRight && keyboard_check_released(vk_right)) {
+		metaMovedRight = false;
+	}
+	
+	if (keyboard_check_pressed(vk_escape)) {
+		if (isAutocompleteOpen) {
+			self._close_autocomplete();
+		} else {
+			self.close()
+		}
+	} else if (self._key_combo_pressed([metaKey], ord("A")) || keyboard_check_pressed(vk_home)) {
+		// Jump to beginning of line
+		cursorPos = 1;
+		targetScrollPosition = maxScrollPosition;
+	} else if (self._key_combo_pressed([metaKey], ord("E")) || keyboard_check_pressed(vk_end)) {
+		// Jump to end of line
+		cursorPos = string_length(consoleString) + 1;
+		targetScrollPosition = maxScrollPosition;
+	} else if (self._key_combo_pressed([metaKey], ord("K"))) {
+		// bash-style "kill" (aka delete all characters following cursor)
+		var leftSide = string_copy(consoleString, 0, cursorPos - 1);
+		var rightSide = string_copy(consoleString, cursorPos, string_length(consoleString) - cursorPos + 1);
+		killedString = rightSide;
+		consoleString = leftSide;
+		cursorPos = string_length(consoleString) + 1;
+		targetScrollPosition = maxScrollPosition;
+	} else if (self._key_combo_pressed([metaKey], ord("Y"))) {
+		// bash-style "yank" (aka append the "killed" string at the prompt)
+		consoleString += killedString;
+		killedString = "";
+		cursorPos = string_length(consoleString) + 1;
+		targetScrollPosition = maxScrollPosition;
+	} else if (self._key_combo_pressed([metaKey], ord("C"))) {
+		// GNU-style "sigint" (aka abort the current message)
+		array_push(output, ">" + consoleString + "^C");
+		consoleString = "";
+		cursorPos = 1;
+		targetScrollPosition = maxScrollPosition;
+	} else if (self._key_combo_pressed([metaKey], vk_backspace) || (metaKey == vk_control && ord(keyboard_string) == 127)) {
+		// delete characters from the cursor position to the preceding space or start of the line
+		var precedingSpaceIndex = 1;
+		// don't want to check for space at or before the cursor position, so start 2 back
+		for (var i = cursorPos - 2; i > 1; i--) {
+			if (string_char_at(consoleString, i) == " ") {
+				precedingSpaceIndex = i;
+				break;
+			}
+		}
+		consoleString = string_delete(consoleString, precedingSpaceIndex, cursorPos - precedingSpaceIndex);
+		cursorPos = precedingSpaceIndex;
+		targetScrollPosition = maxScrollPosition;
+		keyboard_string = "";
+		metaDeleted = true;
+	} else if (self._key_combo_pressed([metaKey], vk_left)) {
+		// jump left to the preceding word
+		var precedingSpaceIndex = 1;
+		// don't want to check for space at or before the cursor position, so start 2 back
+		for (var i = cursorPos - 2; i > 1; i--) {
+			if (string_char_at(consoleString, i) == " ") {
+				precedingSpaceIndex = i;
+				break;
+			}
+		}
+		cursorPos = precedingSpaceIndex;
+		targetScrollPosition = maxScrollPosition;
+		metaMovedLeft = true;
+	} else if (self._key_combo_pressed([metaKey], vk_right)) {
+		var nextSpaceIndex = string_length(consoleString) + 1;
+		// jump right to the following word
+		for (var i = cursorPos + 2; i <= string_length(consoleString) + 1; i++) {
+			if (string_char_at(consoleString, i) == " ") {
+				nextSpaceIndex = i;
+				break;
+			}
+		}
+		cursorPos = nextSpaceIndex;
+		targetScrollPosition = maxScrollPosition;
+		metaMovedRight = true;
+	} else if (self._keyboard_check_delay(vk_backspace)) {
+		if (!metaDeleted) {
+			consoleString = string_delete(consoleString, cursorPos - 1, 1);
+			cursorPos = max(1, cursorPos - 1);
+			targetScrollPosition = maxScrollPosition;
+		}
+	} else if (self._keyboard_check_delay(vk_delete)) {
+		consoleString = string_delete(consoleString, cursorPos, 1);
+		targetScrollPosition = maxScrollPosition;
+	} else if (self._keyboard_check_delay(vk_left)) { 
+		if (!metaMovedLeft) {
+			cursorPos = max(1, cursorPos - 1);
+			targetScrollPosition = maxScrollPosition;
+		}
+	} else if (self._keyboard_check_delay(vk_right)) {
+		if (!metaMovedRight) {
+			if (cursorPos == string_length(consoleString) + 1 &&
+				array_length(filteredSuggestions) != 0) {
+				var suggestion = filteredSuggestions[suggestionIndex];
+				var consoleWords = self._input_string_split(consoleString);
+				var currentWordLength = string_length(consoleWords[array_length(consoleWords) - 1]);
+				consoleString += string_copy(suggestion, currentWordLength + 1, string_length(suggestion) - currentWordLength);
+				cursorPos = string_length(consoleString) + 1;
+			} else {
+				cursorPos = min(string_length(consoleString) + 1, cursorPos + 1);
+			}
+			targetScrollPosition = maxScrollPosition;
+		}
+	} else if (self._key_combo_pressed(historyUpModifiers, historyUpKey) && !isAutocompleteOpen) {
+		if (historyPos == array_length(history)) {
+			savedConsoleString = consoleString;
+		}
+		historyPos = max(0, historyPos - 1);
+		if (array_length(history) != 0) {
+			consoleString = array_get(history, historyPos);
+			cursorPos = string_length(consoleString) + 1;
+		}
+		targetScrollPosition = maxScrollPosition;
+	} else if (self._key_combo_pressed(historyDownModifiers, historyDownKey) && !isAutocompleteOpen) {
+		if (historyPos < array_length(history)) {
+			historyPos = min(array_length(history), historyPos + 1);
+			if (historyPos == array_length(history)) {
+				consoleString = savedConsoleString;
+			} else {
+				consoleString = array_get(history, historyPos);
+			}
+			cursorPos = string_length(consoleString) + 1;
+		}
+		targetScrollPosition = maxScrollPosition;
+	} else if (keyboard_check_pressed(vk_enter)) {
+		if (string_trim(consoleString) != "") {
+			if (isAutocompleteOpen) {
+				self._confirm_current_suggestion();
+			} else {
+				var args = self._input_string_split(consoleString);
+				if (array_length(args) > 0) {
+					var metadata = functionData[$ args[0]];
+					if (!is_undefined(metadata)) {
+						var deferred = false;
+						if (variable_struct_exists(metadata, "deferred")) {
+							deferred = metadata.deferred;
+						}
+						if (deferred) {
+							ds_queue_enqueue(deferredQueue, args);
+							array_push(history, consoleString);
+							array_push(output, ">" + consoleString);
+							array_push(output, "Execution deferred until shell is closed.");
+							self._update_positions();
+						} else {
+							_execute_script(args);
+						}
+					} else {
+						_execute_script(args);
+					}
+				} else {
+					array_push(output, ">");
+					consoleString = "";
+					savedConsoleString = "";
+					cursorPos = 1;
+				}
+			}
+		} else {
+			array_push(output, ">");
+			consoleString = "";
+			savedConsoleString = "";
+			cursorPos = 1;
+		}
+		commandSubmitted = true;
+	} else if (self._key_combo_pressed(cycleSuggestionsModifiers, cycleSuggestionsKey) || keyboard_check_pressed(vk_down)) {
+		if (array_length(filteredSuggestions) != 0) {
+			// Auto-complete up to the common prefix of our suggestions
+			var uncompleted = consoleString;
+			consoleString = self._find_common_prefix();
+			cursorPos = string_length(consoleString) + 1;
+			// If we're already autocompleted as far as we can go, rotate through suggestions
+			if (uncompleted == consoleString) {
+				suggestionIndex = (suggestionIndex + 1) % array_length(filteredSuggestions);
+				if (isAutocompleteOpen) {
+					self._calculate_scroll_from_suggestion_index()
+				}
+			}
+		}
+	} else if (self._key_combo_pressed(cycleSuggestionsReverseModifiers, cycleSuggestionsReverseKey) || keyboard_check_pressed(vk_up)) {
+		if (array_length(filteredSuggestions) != 0) {
+			suggestionIndex = (suggestionIndex + array_length(filteredSuggestions) - 1) % array_length(filteredSuggestions);
+			if (isAutocompleteOpen) {
+				self._calculate_scroll_from_suggestion_index()
+			}
+		}
+	} else if (keyboard_check_pressed(vk_insert)) {
+		insertMode = !insertMode;
+	} else if (keyboard_string != "") {
+		var t = keyboard_string;
+		if (!insertMode) { consoleString = string_delete(consoleString, cursorPos, string_length(t)); }
+		consoleString = string_insert(t, consoleString, cursorPos);
+		cursorPos += string_length(t);
+		keyboard_string = "";
+		targetScrollPosition = maxScrollPosition;
+	}
+	
+	// Handle scrolling
+	if (isAutocompleteOpen) {
+		var x1 = autocompleteOriginX;
+		var y1 = autocompleteOriginY;
+		var x2 = x1 + autocompleteMaxWidth + font_get_size(consoleFont) + (autocompletePadding * 2) - scrollbarWidth;
+		var y2 = y1 + (string_height(prompt) * min(array_length(filteredSuggestions), autocompleteMaxLines)) + autocompletePadding;
+		if (point_in_rectangle(device_mouse_x_to_gui(0), device_mouse_y_to_gui(0), x1, y1, x2, y2)) {
+			if (mouse_wheel_down()) {
+				autocompleteScrollPosition++;
+				autocompleteScrollPosition = clamp(array_length(filteredSuggestions) - autocompleteMaxLines, 0, autocompleteScrollPosition);
+			}
+			if (mouse_wheel_up()) {
+				autocompleteScrollPosition--;
+				autocompleteScrollPosition = max(autocompleteScrollPosition, 0);
+			}
+		} else if (point_in_rectangle(device_mouse_x_to_gui(0), device_mouse_y_to_gui(0), shellOriginX, shellOriginY, shellOriginX + width, shellOriginY + height)) {
+			if (mouse_wheel_down()) {
+				targetScrollPosition = targetScrollPosition + scrollSpeed;
+			}
+			if (mouse_wheel_up()) {
+				targetScrollPosition = targetScrollPosition - scrollSpeed;
+			}
+		}
+	} else {
+		if (point_in_rectangle(device_mouse_x_to_gui(0), device_mouse_y_to_gui(0), shellOriginX, shellOriginY, shellOriginX + width, shellOriginY + height)) {
+			if (mouse_wheel_down()) {
+				targetScrollPosition = targetScrollPosition + scrollSpeed;
+			}
+			if (mouse_wheel_up()) {
+				targetScrollPosition = targetScrollPosition - scrollSpeed;
+			}
+		}
+	}
+	
+	// Updating scrolling
+	var lerpValue = (scrollSmoothness == 0) ? 1 : self._remap(scrollSmoothness, 1, 0, 0.08, 0.4);
+	scrollPosition = lerp(scrollPosition, targetScrollPosition, lerpValue);
+	scrollPosition = clamp(scrollPosition, 0, maxScrollPosition)
+	if (scrollPosition == 0 || scrollPosition == maxScrollPosition) {
+		targetScrollPosition = clamp(targetScrollPosition, 0, maxScrollPosition);
+	}
+	
+	if (consoleString != prevConsoleString) {
+		// If the text at the prompt has changed, update the list of possible
+		// autocomplete suggestions
+		self._update_filtered_suggestions();
+		autocompleteScrollPosition = 0;
+	}
+	
+	// Recalculate shell properties if certain variables have changed
+	if (self._shell_properties_hash() != shellPropertiesHash) {
+		self._recalculate_shell_properties();
+	}
 }
-*/
+
+// Handle mouse argument data
+if (!is_undefined(activeMouseArgType)) {
+	if (activeMouseArgType == mouseArgumentType.worldX) {
+		activeMouseArgValue = mouse_x;
+	} else if (activeMouseArgType == mouseArgumentType.worldY) {
+		activeMouseArgValue = mouse_y;
+	} else if (activeMouseArgType == mouseArgumentType.guiX) {
+		activeMouseArgValue = device_mouse_x_to_gui(0);
+	} else if (activeMouseArgType == mouseArgumentType.guiY) {
+		activeMouseArgValue = device_mouse_y_to_gui(0);
+	} else if (activeMouseArgType == mouseArgumentType.instanceId) {
+		var instAtCursor = instance_position(mouse_x, mouse_y, all);
+		if (instAtCursor != noone) {
+			activeMouseArgValue = instAtCursor;
+		} else {
+			activeMouseArgValue = "";
+		}
+	} else if (activeMouseArgType == mouseArgumentType.objectId) {
+		var instAtCursor = instance_position(mouse_x, mouse_y, all);
+		if (instAtCursor != noone) {
+			activeMouseArgValue = instAtCursor.object_index;
+		} else {
+			activeMouseArgValue = "";
+		}
+	}
+}

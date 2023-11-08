@@ -100,4 +100,11 @@ if (global.panic == 1 && global.screentilt == 1)
         angle -= 0.025;
 }
 if (global.panicbg == 1 && global.panic == 1)
-    global.wave = clamp(clamp((global.wave + (60 / room_speed)), 0, (global.maxwave - (((global.minutes * 60) + global.seconds) * 60))), 0, global.maxwave)
+    global.wave = clamp(clamp((global.wave + (60 / room_speed)), 0, (global.maxwave - (((global.minutes * 60) + global.seconds) * 60))), 0, global.maxwave);
+
+var camRegion = instance_place(obj_player.x, obj_player.y, obj_cameraRegion);
+if camRegion != -4
+{
+	camera_set_view_size(view_camera[0], camRegion.camWidth, camRegion.camHeight);
+	camera_set_view_angle(view_camera[0], camRegion.camAngle);
+}
