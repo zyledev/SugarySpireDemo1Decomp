@@ -1,8 +1,8 @@
 scr_tvsprites()
-timer++
 if(sprite_index != spr_tvoff)
 {
-	siny += sin(timer * 0.07) * 0.2
+	
+	siny = round(Wave(3, -3, 3, 0))
 }
 else
 {
