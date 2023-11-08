@@ -48,7 +48,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.8.0.98",
+    "IDEVersion": "2023.8.2.108",
   },
   "resources": [
     {"id":{"name":"spr_player_machpunch2","path":"sprites/spr_player_machpunch2/spr_player_machpunch2.yy",},},
@@ -622,6 +622,7 @@
     {"id":{"name":"spr_grabbiehand_release","path":"sprites/spr_grabbiehand_release/spr_grabbiehand_release.yy",},},
     {"id":{"name":"spr_harryalive","path":"sprites/spr_harryalive/spr_harryalive.yy",},},
     {"id":{"name":"spr_gumbob_walk","path":"sprites/spr_gumbob_walk/spr_gumbob_walk.yy",},},
+    {"id":{"name":"scr_mathlibs","path":"scripts/scr_mathlibs/scr_mathlibs.yy",},},
     {"id":{"name":"spr_pizzano_pogo_land","path":"sprites/spr_pizzano_pogo_land/spr_pizzano_pogo_land.yy",},},
     {"id":{"name":"spr_candle_lit","path":"sprites/spr_candle_lit/spr_candle_lit.yy",},},
     {"id":{"name":"spr_grabbiehand_fall","path":"sprites/spr_grabbiehand_fall/spr_grabbiehand_fall.yy",},},

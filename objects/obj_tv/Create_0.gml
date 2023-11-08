@@ -24,6 +24,7 @@ global.brank = 0
 global.crank = 0
 character = "PIZZELLE"
 tvcount = 500
+siny = 0
 combofade = 0
 invsprite = spr_invempty
 scr_pal_swap_init_system(shd_pal_swapper)

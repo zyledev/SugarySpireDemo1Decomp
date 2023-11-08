@@ -1,4 +1,16 @@
 scr_tvsprites()
+if(sprite_index != spr_tvoff)
+{
+	
+	siny = round(Wave(3, -3, 3, 0))
+}
+else
+{
+	if(siny != 0)
+	{
+		siny = approach(siny, 0, 0.2)
+	}
+}
 if (room == steamy_1)
 {
     global.srank = 8000

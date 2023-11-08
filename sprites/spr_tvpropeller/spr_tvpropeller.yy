@@ -90,7 +90,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"6049e2d7-c2b6-4e40-b178-227f0bb66614","path":"sprites/spr_tvpropeller/spr_tvpropeller.yy",},},},"Disabled":false,"id":"e62c43dd-0ebe-4d2d-b378-394b750b2d0f","IsCreationKey":false,"Key":5.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 139,
     "yorigin": 134,

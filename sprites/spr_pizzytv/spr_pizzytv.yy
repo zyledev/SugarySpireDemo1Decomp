@@ -84,7 +84,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"80c8759e-de69-4478-b344-06f6ea0ae8b9","path":"sprites/spr_pizzytv/spr_pizzytv.yy",},},},"Disabled":false,"id":"88823eae-292b-4dec-8992-6a586b8d47d4","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 139,
     "yorigin": 134,

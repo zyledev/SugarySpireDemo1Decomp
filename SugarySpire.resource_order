@@ -584,6 +584,7 @@
     {"name":"spr_grabbiehand_release","order":558,"path":"sprites/spr_grabbiehand_release/spr_grabbiehand_release.yy",},
     {"name":"spr_harryalive","order":559,"path":"sprites/spr_harryalive/spr_harryalive.yy",},
     {"name":"spr_gumbob_walk","order":560,"path":"sprites/spr_gumbob_walk/spr_gumbob_walk.yy",},
+    {"name":"scr_mathlibs","order":269,"path":"scripts/scr_mathlibs/scr_mathlibs.yy",},
     {"name":"spr_pizzano_pogo_land","order":561,"path":"sprites/spr_pizzano_pogo_land/spr_pizzano_pogo_land.yy",},
     {"name":"spr_candle_lit","order":562,"path":"sprites/spr_candle_lit/spr_candle_lit.yy",},
     {"name":"spr_grabbiehand_fall","order":563,"path":"sprites/spr_grabbiehand_fall/spr_grabbiehand_fall.yy",},
