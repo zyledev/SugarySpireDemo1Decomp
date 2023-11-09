@@ -17,9 +17,9 @@ if (ds_list_find_index(global.saveroom, id) == -1)
     if (audio_is_playing(sound_destroyblock1) || audio_is_playing(sfx_breakblock2))
     {
         audio_stop_sound(sound_destroyblock1)
-        audio_stop_sound(sfx_breakblock2)
+        audio_stop_sound(sound_destroyblock2)
     }
-    scr_soundeffect(sound_destroyblock1, sfx_breakblock2)
+    scr_soundeffect(sound_destroyblock1, sound_destroyblock2)
     ds_list_add(global.saveroom, id)
     var lay_id = layer_get_id("Tiles_1")
     var map_id = layer_tilemap_get_id(lay_id)
