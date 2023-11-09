@@ -249,14 +249,14 @@ function scr_player_normal() //gml_Script_scr_player_normal
         image_speed = 0.35
     if (character == "P" && key_slap2 && (!key_down) && suplexmove == 0 && shotgunAnim == 0 && global.cane != 1 && obj_player.character != "G" && obj_player.sprite_index != spr_mach1 && sprite_index != spr_airdash1 && sprite_index != spr_airdash2 && (!key_attack))
     {
-        scr_sound(sound_suplex1)
-        instance_create(x, y, obj_slaphitbox)
-        suplexmove = 1
-        vsp = 0
-        instance_create(x, y, obj_jumpdust)
-        image_index = 0
-        sprite_index = spr_suplexdash
-        state = 15
+        scr_sound(sound_suplex1);
+        instance_create(x, y, obj_slaphitbox);
+        suplexmove = 1;
+        vsp = 0;
+        instance_create(x, y, obj_jumpdust);
+        image_index = 0;
+        sprite_index = spr_suplexdash;
+        state = 15;
     }
     if key_taunt2
     {

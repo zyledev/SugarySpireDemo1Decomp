@@ -1,6 +1,6 @@
 function scr_collide_destructibles() //gml_Script_scr_collide_destructibles
 {
-    if (state == 63 || state == 83 || state == 30 || state == 2 || state == 17 || state == 61 || state == 101 || state == 105 || state == 108 || state == 109 || state == 999 || state == (71 << 0) || state == (54 << 0))
+    if (state == 63 || state == 83 || state == 30 || state == 2 || state == 17 || state == 61 || state == 101 || state == 105 || state == 108 || state == 109 || state == 999 || state == (71 << 0) || state == (54 << 0) || state == (120 << 0))
     {
         if place_meeting((x + hsp), y, obj_destructibles)
         {
