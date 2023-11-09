@@ -15,3 +15,4 @@ global.minutes = 0
 global.fill = 0
 global.option_fullscreen = 0
 global.option_resolution = 0
+global.switchactivated = false

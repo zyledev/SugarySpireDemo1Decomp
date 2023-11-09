@@ -1,3 +1,4 @@
+image_speed = 0.05
 for (i = 0; i < 100; i += 1)
     global.CollectablesArray[i] = 0
 global.saveroom = ds_list_create()
