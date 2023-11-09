@@ -49,7 +49,7 @@ function scr_getinput()
     key_start = (keyboard_check(global.key_start) || gamepad_button_check(_dvc, global.key_startC))
     key_start2 = (keyboard_check_pressed(global.key_start) || gamepad_button_check_pressed(_dvc, global.key_startC))
     key_escape = (keyboard_check_pressed(vk_escape) || gamepad_button_check(_dvc, gp_select))
-    if (gamepad_axis_value(_dvc, gp_axislh) > 0.5 || gamepad_axis_value(_dvc, gp_axislh) < -0.5 || gamepad_axis_value(_dvc, gp_axislv) > 0.5 || gamepad_axis_value(_dvc, gp_axislv) < -0.5);
+    if (gamepad_axis_value(_dvc, gp_axislh) > 0.5 || gamepad_axis_value(_dvc, gp_axislh) < -0.5 || gamepad_axis_value(_dvc, gp_axislv) > 0.5 || gamepad_axis_value(_dvc, gp_axislv) < -0.5)
         stickpressed = 1;
     else
         stickpressed = 0;
