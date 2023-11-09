@@ -6,7 +6,7 @@ if (place_meeting(x, (y + 1), obj_player) || place_meeting(x, (y - 1), obj_playe
         instance_destroy();
     if (place_meeting(x, (y + 40), obj_player) && obj_player.state == 56)
         instance_destroy();
-    if (place_meeting(x, (y - 1), obj_player) && obj_player.state == 70 && obj_player.metal > 10)
+    if (place_meeting(x, (y - 1), obj_player) && (obj_player.state == 70 || obj_player.state == 67) && obj_player.metal > 10)
         instance_destroy();
     if (place_meeting((x + obj_player.hsp), y, obj_player) && obj_player.sprite_index == spr_null)
         instance_destroy();

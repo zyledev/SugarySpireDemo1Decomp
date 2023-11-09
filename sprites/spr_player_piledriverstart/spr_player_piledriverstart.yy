@@ -82,7 +82,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d3f273b3-6571-49b5-9a46-e58a94678f53","path":"sprites/spr_player_piledriverstart/spr_player_piledriverstart.yy",},},},"Disabled":false,"id":"4c333bf2-4249-4ba4-b4f3-21baf705b080","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 50,
     "yorigin": 50,
