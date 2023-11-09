@@ -22,7 +22,7 @@ function scr_getinput()
     key_start2 = 0;
     key_escape = 0;
     stickpressed = 0;
-    if instance_exists(obj_shell) && obj_shell.isOpen
+    if instance_exists(obj_shell) && variable_instance_exists(obj_shell, "isOpen") && obj_shell.isOpen
         return;
     if keyboard_check_pressed(vk_f1)
         scr_resetinput();
