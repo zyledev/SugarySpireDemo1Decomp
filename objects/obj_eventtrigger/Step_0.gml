@@ -1,8 +1,8 @@
-if (condition != -4 && self.condition())
+if (condition != -4 && condition())
 {
     if (activated == 0 || flags.do_once == 0)
     {
-        self.output()
+        output()
         if (flags.do_save == 1 && ds_list_find_index(flags.saveroom, id) == -1)
             ds_list_add(flags.saveroom, id)
         activated = 1
@@ -12,7 +12,7 @@ else if (reverse_output != -4 && condition != -4 && (!self.condition()))
 {
     if (activated == 1 || flags.do_once == 0)
     {
-        self.reverse_output()
+        reverse_output()
         activated = 0
     }
 }

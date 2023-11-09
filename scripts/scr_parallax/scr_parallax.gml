@@ -12,7 +12,7 @@ function parallax_layer(argument0) //gml_Script_parallax_layer
             if (global.ParallaxArray[i].layerName == layer_get_name(argument0))
             {
                 var _function = global.ParallaxArray[i].functionID
-                return self._function();
+                return _function();
             }
         }
     }
