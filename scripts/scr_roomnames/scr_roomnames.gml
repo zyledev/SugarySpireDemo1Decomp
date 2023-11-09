@@ -5,106 +5,106 @@ function scr_roomnames(argument0) //gml_Script_scr_roomnames
     var room_name = -4
     switch argument0
     {
-        case 81:
+        case realtitlescreen:
             room_name = "Welcome To Sugary Spire!"
             break
-        case 59:
+        case hub_room1:
             room_name = "Enjoy Your Stay"
             break
-        case 42:
+        case entrywaysecret_1:
             room_name = "Gumslime Paradise"
             break
-        case 11:
+        case entrywaysecret_2:
             room_name = "Wet Floor"
             break
-        case 24:
+        case entrywaysecret_3:
             room_name = "Fine China"
             break
-        case 37:
+        case entryway_1:
             room_name = "Operation Crunch Creak Construct"
             break
-        case 0:
+        case entryway_2:
             room_name = "Hard Hat Required"
             break
-        case 41:
+        case entryway_3:
             room_name = "Orange City"
             break
-        case 38:
+        case entryway_4:
             room_name = "Construction Conglomerate"
             break
-        case 33:
+        case entryway_5:
             room_name = "Had A Joke But I'm Still Working On It"
             break
-        case 46:
+        case entryway_6:
             room_name = "Down And Around"
             break
-        case 8:
+        case entryway_7:
             room_name = "Wires And Boxes"
             break
-        case 36:
+        case entryway_8:
             room_name = "City Outskirts"
             break
-        case 34:
+        case entryway_9:
             room_name = "Nailed It"
             break
-        case 49:
+        case entryway_10:
             room_name = "Beary Careful"
             break
-        case 79:
+        case steamy_secret1:
             room_name = "Rocky Road"
             break
-        case 80:
+        case steamy_secret2:
             room_name = "Digging For Cotton"
             break
-        case 23:
+        case steamy_secret3:
             room_name = "Kick Gum And Chew Gum"
             break
-        case 67:
+        case steamy_1:
             room_name = "Welcome to Cottontown!"
             break
-        case 68:
+        case steamy_2:
             room_name = "Scary Monsters Nice Sights"
             break
-        case 69:
+        case steamy_3:
             room_name = "Boiler Room"
             break
-        case 70:
+        case steamy_4:
             room_name = "Cakewalk"
             break
-        case 71:
+        case steamy_5:
             room_name = "Steamy Cotton Candy"
             break
-        case 72:
+        case steamy_6:
             room_name = "Skyhigh"
             break
-        case 73:
+        case steamy_7:
             room_name = "Grand Gateau"
             break
-        case 74:
+        case steamy_8:
             room_name = "A Clockwork Worm"
             break
-        case 76:
+        case steamy_9:
             room_name = "Clocks And Candies"
             break
-        case 77:
+        case steamy_10:
             room_name = "Race Around The Clock"
             break
-        case 13:
+        case steamy_11:
             room_name = "Froghop"
             break
-        case 78:
+        case steamy_12:
             room_name = "Pillars Break Room"
             break
-        case 12:
+        case mines_1:
             room_name = "Sugary Spire Underground"
             break
-        case 40:
+        case mines_2:
             room_name = "Excavation Site"
             break
-        case 45:
+        case mines_3:
             room_name = "Miner Problem"
             break
-        case 20:
+        case mines_4:
             room_name = "Jawbreaker Centre"
             break
         default:
