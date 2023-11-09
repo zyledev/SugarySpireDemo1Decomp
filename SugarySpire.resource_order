@@ -1,5 +1,6 @@
 {
   "FolderOrderSettings": [
+    {"name":"Dissonance","order":2,"path":"folders/Extensions/Dissonance.yy",},
     {"name":"GMLive","order":1,"path":"folders/Extensions/GMLive.yy",},
     {"name":"Compiler","order":1,"path":"folders/Extensions/GMLive/Internal/Compiler.yy",},
     {"name":"Misc","order":2,"path":"folders/Extensions/GMLive/Internal/Misc.yy",},
@@ -14,7 +15,6 @@
     {"name":"Sugarshack Mines","order":3,"path":"folders/Rooms/Levels/Sugarshack Mines.yy",},
     {"name":"Tutorial","order":6,"path":"folders/Rooms/Levels/Tutorial.yy",},
     {"name":"Unused","order":2098,"path":"folders/Rooms/Unused.yy",},
-    {"name":"Dissonance","order":2,"path":"folders/Extensions/Dissonance.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_chargershitbox","order":1,"path":"sprites/spr_chargershitbox/spr_chargershitbox.yy",},

@@ -2,28 +2,29 @@
   "resourceType": "GMTileSet",
   "resourceVersion": "1.0",
   "name": "ts_steamtest",
-  "textureGroupId": {
-    "name": "Tiles",
-    "path": "texturegroups/Tiles"
+  "autoTileSets": [],
+  "macroPageTiles": {
+    "SerialiseHeight": 0,
+    "SerialiseWidth": 0,
+    "TileSerialiseData": [],
+  },
+  "out_columns": 31,
+  "out_tilehborder": 2,
+  "out_tilevborder": 2,
+  "parent": {
+    "name": "Tile Sets",
+    "path": "folders/Tile Sets.yy",
   },
   "spriteId": {
     "name": "tilespr_ts_steamtest",
-    "path": "sprites/tilespr_ts_steamtest/tilespr_ts_steamtest.yy"
+    "path": "sprites/tilespr_ts_steamtest/tilespr_ts_steamtest.yy",
   },
-  "tileWidth": 32,
-  "tileHeight": 32,
-  "tilexoff": 2,
-  "tileyoff": 2,
-  "tilehsep": 4,
-  "tilevsep": 4,
-  "out_tilehborder": 2,
-  "out_tilevborder": 2,
   "spriteNoExport": true,
-  "out_columns": 31,
+  "textureGroupId": {
+    "name": "Tiles",
+    "path": "texturegroups/Tiles",
+  },
   "tile_count": 961,
-  "autoTileSets": [],
-  "tileAnimationFrames": [],
-  "tileAnimationSpeed": 0.0,
   "tileAnimation": {
     "FrameData": [
       0,
@@ -986,17 +987,16 @@
       957,
       958,
       959,
-      960
+      960,
     ],
-    "SerialiseFrameCount": 1
+    "SerialiseFrameCount": 1,
   },
-  "macroPageTiles": {
-    "SerialiseWidth": 0,
-    "SerialiseHeight": 0,
-    "TileSerialiseData": null
-  },
-  "parent": {
-    "name": "Tile Sets",
-    "path": "folders/Tile Sets.yy"
-  }
+  "tileAnimationFrames": [],
+  "tileAnimationSpeed": 0.0,
+  "tileHeight": 32,
+  "tilehsep": 4,
+  "tilevsep": 4,
+  "tileWidth": 32,
+  "tilexoff": 2,
+  "tileyoff": 2,
 }

@@ -2,28 +2,29 @@
   "resourceType": "GMTileSet",
   "resourceVersion": "1.0",
   "name": "tile_clock2",
-  "textureGroupId": {
-    "name": "Tiles",
-    "path": "texturegroups/Tiles"
+  "autoTileSets": [],
+  "macroPageTiles": {
+    "SerialiseHeight": 0,
+    "SerialiseWidth": 0,
+    "TileSerialiseData": [],
+  },
+  "out_columns": 45,
+  "out_tilehborder": 2,
+  "out_tilevborder": 2,
+  "parent": {
+    "name": "Tile Sets",
+    "path": "folders/Tile Sets.yy",
   },
   "spriteId": {
     "name": "tilespr_tile_clock2",
-    "path": "sprites/tilespr_tile_clock2/tilespr_tile_clock2.yy"
+    "path": "sprites/tilespr_tile_clock2/tilespr_tile_clock2.yy",
   },
-  "tileWidth": 32,
-  "tileHeight": 32,
-  "tilexoff": 2,
-  "tileyoff": 2,
-  "tilehsep": 4,
-  "tilevsep": 4,
-  "out_tilehborder": 2,
-  "out_tilevborder": 2,
   "spriteNoExport": true,
-  "out_columns": 45,
-  "tile_count": 2048,
-  "autoTileSets": [],
-  "tileAnimationFrames": [],
-  "tileAnimationSpeed": 0.0,
+  "textureGroupId": {
+    "name": "Tiles",
+    "path": "texturegroups/Tiles",
+  },
+  "tile_count": 2070,
   "tileAnimation": {
     "FrameData": [
       0,
@@ -2073,17 +2074,38 @@
       2044,
       2045,
       2046,
-      2047
+      2047,
+      2048,
+      2049,
+      2050,
+      2051,
+      2052,
+      2053,
+      2054,
+      2055,
+      2056,
+      2057,
+      2058,
+      2059,
+      2060,
+      2061,
+      2062,
+      2063,
+      2064,
+      2065,
+      2066,
+      2067,
+      2068,
+      2069,
     ],
-    "SerialiseFrameCount": 1
+    "SerialiseFrameCount": 1,
   },
-  "macroPageTiles": {
-    "SerialiseWidth": 0,
-    "SerialiseHeight": 0,
-    "TileSerialiseData": null
-  },
-  "parent": {
-    "name": "Tile Sets",
-    "path": "folders/Tile Sets.yy"
-  }
+  "tileAnimationFrames": [],
+  "tileAnimationSpeed": 0.0,
+  "tileHeight": 32,
+  "tilehsep": 4,
+  "tilevsep": 4,
+  "tileWidth": 32,
+  "tilexoff": 2,
+  "tileyoff": 2,
 }
