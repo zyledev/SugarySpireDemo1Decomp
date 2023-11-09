@@ -1,7 +1,5 @@
 // feather disable all
 // feather ignore all
-openKey = vk_f5;
-openModifiers = [];
 
 isOpen = false;
 isAutocompleteOpen = false;

@@ -78,7 +78,7 @@ function scr_playerreset() //gml_Script_scr_playerreset
         input_buffer_jump = 8
         input_buffer_secondjump = 8
         input_buffer_highjump = 8
-        targetRoom = 0
+        targetRoom = 0;
         flash = 0
         global.key_inv = 0
         global.keyget = 0

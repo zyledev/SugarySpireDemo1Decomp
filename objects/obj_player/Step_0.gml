@@ -1,12 +1,12 @@
-scr_getinput()
-scr_characterspr()
-scr_playerstate()
+scr_getinput();
+scr_characterspr();
+scr_playerstate();
 with (obj_player)
 {
     if (room == realtitlescreen || room == scootercutsceneidk)
-        state = (1 << 0)
+        state = (1 << 0);
     if grounded
-        groundedcot = 1
+        groundedcot = 1;
     if (state != 48 && y > (room_height * 1.1) && room != outer_room2)
     {
         x = roomstartx

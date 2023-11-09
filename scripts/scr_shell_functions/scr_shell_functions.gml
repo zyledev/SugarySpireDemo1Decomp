@@ -1,3 +1,5 @@
+/* these are for the old rt shell i believe.
+
 function scr_shell_openconsole() //gml_Script_scr_shell_openconsole
 {
     global.shellactivate = 1

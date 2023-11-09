@@ -1,1 +1,1 @@
-rousrDissonance_event_async_social()
+rousrDissonance_event_async_social();

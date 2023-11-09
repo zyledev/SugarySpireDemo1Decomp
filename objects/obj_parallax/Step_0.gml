@@ -16,25 +16,25 @@ for (var i = 0; i < array_length(layers); i++)
         }
     }
 }
-var _cam_x = camera_get_view_x(view_camera[0])
-var _cam_y = camera_get_view_y(view_camera[0])
-layer_x("Backgrounds_1", (_cam_x * 0.25))
-layer_y("Backgrounds_1", (_cam_y * 0.25))
-layer_x("Backgrounds_2", (_cam_x * 0.15))
-layer_y("Backgrounds_2", (_cam_y * 0.15))
-layer_x("Backgrounds_3", (_cam_x * 0.05))
-layer_y("Backgrounds_3", (_cam_y * 0.05))
-layer_x("Backgrounds_Ground1", (_cam_x * 0.25))
-layer_x("Backgrounds_Ground2", (_cam_x * 0.25))
-layer_x("Backgrounds_still", _cam_x)
-layer_y("Backgrounds_still", _cam_y)
-layer_x("Backgrounds_stillh", (_cam_x * 0.25))
-layer_y("Backgrounds_stillh", _cam_y)
-layer_x("Backgrounds_stilld", layer_get_x("Backgrounds_stilld"))
-layer_y("Backgrounds_stilld", layer_get_y("Backgrounds_stilld"))
-scroll1 += layer_get_hspeed("Backgrounds_cloud")
-layer_x("Backgrounds_cloud", (_cam_x + scroll1))
-layer_x("Backgrounds_moon", (_cam_x * 0.99))
-var bgs1 = layer_background_get_sprite(layer_background_get_id(layer_get_id("Backgrounds_still1")))
-var _value = (_cam_y - clamp((_cam_y * (0.15 * (540 / room_height))), 0, (sprite_get_height(bgs1) - 540)))
-layer_y("Backgrounds_still1", _value)
+var _cam_x = camera_get_view_x(view_camera[0]);
+var _cam_y = camera_get_view_y(view_camera[0]);
+layer_x("Backgrounds_1", (_cam_x * 0.25));
+layer_y("Backgrounds_1", (_cam_y * 0.25));
+layer_x("Backgrounds_2", (_cam_x * 0.15));
+layer_y("Backgrounds_2", (_cam_y * 0.15));
+layer_x("Backgrounds_3", (_cam_x * 0.05));
+layer_y("Backgrounds_3", (_cam_y * 0.05));
+layer_x("Backgrounds_Ground1", (_cam_x * 0.25));
+layer_x("Backgrounds_Ground2", (_cam_x * 0.25));
+layer_x("Backgrounds_still", _cam_x);
+layer_y("Backgrounds_still", _cam_y);
+layer_x("Backgrounds_stillh", (_cam_x * 0.25));
+layer_y("Backgrounds_stillh", _cam_y);
+layer_x("Backgrounds_stilld", layer_get_x("Backgrounds_stilld"));
+layer_y("Backgrounds_stilld", layer_get_y("Backgrounds_stilld"));
+scroll1 += layer_get_hspeed("Backgrounds_cloud");
+layer_x("Backgrounds_cloud", (_cam_x + scroll1));
+layer_x("Backgrounds_moon", (_cam_x * 0.99));
+var bgs1 = layer_background_get_sprite(layer_background_get_id(layer_get_id("Backgrounds_still1")));
+var _value = (_cam_y - clamp((_cam_y * (0.15 * (540 / room_height))), 0, (sprite_get_height(bgs1) - 540)));
+layer_y("Backgrounds_still1", _value);

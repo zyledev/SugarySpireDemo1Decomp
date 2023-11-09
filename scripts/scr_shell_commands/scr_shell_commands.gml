@@ -1,39 +1,53 @@
-var i = entryway_2
+function scr_array_contains(argument0, argument1) //scr_array_contains
+{
+    var arr = argument0
+    var item = argument1
+    for (var i = 0; i < array_length(argument0); i++)
+    {
+        if (arr[i] == item)
+            return 1;
+    }
+    return 0;
+}
+
+
+
+var i = 0;
 while room_exists(i)
 {
-    global.roomlist[i] = room_get_name(i)
+    global.roomlist[i] = room_get_name(i);
     i++
 }
-function sh_escape(argument0) //gml_Script_sh_escape
+function sh_escape(args) //gml_Script_sh_escape
 {
-    var arg0 = string(argument0[1])
-    var arg1 = argument0[2]
-    var arg2 = argument0[3]
+    var arg0 = string(args[1]);
+    var arg1 = args[2];
+    var arg2 = args[3];
     switch arg0
     {
         case "true":
         case "1":
-            arg0 = 1
+            arg0 = 1;
             break
         case "false":
         case "0":
-            arg0 = 0
+            arg0 = 0;
             break
         default:
-            arg0 = (!global.panic)
+            arg0 = (!global.panic);
             break
     }
 
-    global.panic = arg0
-    global.minutes = real(string_digits(arg1))
-    global.seconds = real(string_digits(arg2))
-    global.wave = 0
-    global.maxwave = (((global.minutes * 60) + global.seconds) * 60)
+    global.panic = arg0;
+    global.minutes = real(string_digits(arg1));
+    global.seconds = real(string_digits(arg2));
+    global.wave = 0;
+    global.maxwave = (((global.minutes * 60) + global.seconds) * 60);
     if (global.panicbg == 1)
-        scr_panicbg_init()
-    obj_camera.alarm[1] = 60
+        scr_panicbg_init();
+    obj_camera.alarm[1] = 60;
     if (!instance_exists(obj_panicchanger))
-        instance_create(x, y, obj_panicchanger)
+        instance_create(x, y, obj_panicchanger);
 }
 
 function meta_escape() //gml_Script_meta_escape
@@ -47,26 +61,26 @@ function meta_escape() //gml_Script_meta_escape
     };
 }
 
-function sh_toggle_collisions(argument0) //gml_Script_sh_toggle_collisions
+function sh_toggle_collisions(args) //gml_Script_sh_toggle_collisions
 {
-    arg1 = argument0[1]
+    var arg1 = args[1];
     switch arg1
     {
         case "true":
         case "1":
-            arg1 = true
+            arg1 = true;
             break
         case "false":
         case "0":
-            arg1 = false
+            arg1 = false;
             break
         default:
-            arg1 = (!global.showcollisions)
+            arg1 = (!global.showcollisions);
             break
     }
 
-    global.showcollisions = arg1
-    toggle_collision_function()
+    global.showcollisions = arg1;
+    toggle_collision_function();
 }
 
 function meta_toggle_collisions() //gml_Script_meta_toggle_collisions
@@ -85,59 +99,59 @@ function toggle_collision_function() //gml_Script_toggle_collision_function
     if (!variable_global_exists("showcollisionarray"))
     {
         i = 0
-        global.showcollisionarray[i++] = 83
-        global.showcollisionarray[i++] = 165
-        global.showcollisionarray[i++] = 193
-        global.showcollisionarray[i++] = 196
-        global.showcollisionarray[i++] = 77
-        global.showcollisionarray[i++] = 13
-        global.showcollisionarray[i++] = 32
-        global.showcollisionarray[i++] = 171
-        global.showcollisionarray[i++] = 53
-        global.showcollisionarray[i++] = 26
-        global.showcollisionarray[i++] = 30
-        global.showcollisionarray[i++] = 1
-        global.showcollisionarray[i++] = 168
-        global.showcollisionarray[i++] = 169
-        global.showcollisionarray[i++] = 170
-        global.showcollisionarray[i++] = 55
-        global.showcollisionarray[i++] = 42
-        global.showcollisionarray[i++] = 29
+        global.showcollisionarray[i++] = 83;
+        global.showcollisionarray[i++] = 165;
+        global.showcollisionarray[i++] = 193;
+        global.showcollisionarray[i++] = 196;
+        global.showcollisionarray[i++] = 77;
+        global.showcollisionarray[i++] = 13;
+        global.showcollisionarray[i++] = 32;
+        global.showcollisionarray[i++] = 171;
+        global.showcollisionarray[i++] = 53;
+        global.showcollisionarray[i++] = 26;
+        global.showcollisionarray[i++] = 30;
+        global.showcollisionarray[i++] = 1;
+        global.showcollisionarray[i++] = 168;
+        global.showcollisionarray[i++] = 169;
+        global.showcollisionarray[i++] = 170;
+        global.showcollisionarray[i++] = 55;
+        global.showcollisionarray[i++] = 42;
+        global.showcollisionarray[i++] = 29;
     }
-    var array = global.showcollisionarray
-    var length = array_length(array)
-    for (i = (length - 1); i >= 0; i--)
+    var array = global.showcollisionarray;
+    var length = array_length(array);
+    for (var i = (length - 1); i >= 0; i--)
     {
         with (array[i])
         {
             if (object_index == array[i])
             {
-                visible = global.showcollisions
-                image_alpha = 0.6
+                visible = global.showcollisions;
+                image_alpha = 0.6;
             }
         }
     }
 }
 
-function sh_toggle_debugmode(argument0) //gml_Script_sh_toggle_debugmode
+function sh_toggle_debugmode(args) //gml_Script_sh_toggle_debugmode
 {
-    arg1 = argument0[1]
+    var arg1 = args[1];
     switch arg1
     {
         case "true":
         case "1":
-            arg1 = 1
+            arg1 = 1;
             break
         case "false":
         case "0":
-            arg1 = 0
+            arg1 = 0;
             break
         default:
-            arg1 = (!global.debugmode)
+            arg1 = (!global.debugmode);
             break
     }
 
-    global.debugmode = arg1
+    global.debugmode = arg1;
 }
 
 function meta_toggle_debugmode() //gml_Script_meta_toggle_debugmode
@@ -151,17 +165,17 @@ function meta_toggle_debugmode() //gml_Script_meta_toggle_debugmode
     };
 }
 
-function sh_room_goto(argument0) //gml_Script_sh_room_goto
+function sh_room_goto(args) //gml_Script_sh_room_goto
 {
-    arg1 = asset_get_index(argument0[1])
-    arg2 = argument0[2]
-    if (asset_get_type(argument0[1]) != 3)
-        return ("Can't find room " + string(argument0[1]));
-    if (asset_get_type(argument0[1]) == 3)
+    var arg1 = asset_get_index(args[1]);
+    var arg2 = args[2];
+    if (asset_get_type(args[1]) != 3)
+        return ("Can't find room " + string(args[1]));;
+    if (asset_get_type(args[1]) == 3)
     {
-        obj_player.targetRoom = arg1
-        obj_player.targetDoor = arg2
-        instance_create(0, 0, obj_fadeout)
+        obj_player.targetRoom = arg1;
+        obj_player.targetDoor = arg2;
+        instance_create(0, 0, obj_fadeout);
     }
 }
 
@@ -176,9 +190,9 @@ function meta_room_goto() //gml_Script_meta_room_goto
     };
 }
 
-function sh_instance_create(argument0) //gml_Script_sh_instance_create
+function sh_instance_create(args) //gml_Script_sh_instance_create
 {
-    instance_create(argument0[1], argument0[2], asset_get_index(argument0[3]))
+    instance_create(args[1], args[2], asset_get_index(args[3]));
 }
 
 function meta_instance_create() //gml_Script_meta_instance_create
@@ -187,29 +201,29 @@ function meta_instance_create() //gml_Script_meta_instance_create
     {
         description: "create an object",
         arguments: ["<x>", "<y>", "<object>"],
-        suggestions: [[], [], []],
+        suggestions: [[mouseArgumentType.worldX], [mouseArgumentType.worldY], []],
         argumentDescriptions: ["the X coordinate to create the object at", "the Y coordinate to create the object at", "the object to create"]
-    };
+   };
 }
 
 function sh_setvar(args) 
 {
-	var arg1 = args[1] // object
-	var arg2 = args[2] // varname
-	var arg3 = args[3] // value
-	var arg4 = args[4] // type
-	var arg5 = args[5] // array index (-1 for not array)
+	var arg1 = args[1]; // object
+	var arg2 = args[2]; // varname
+	var arg3 = args[3]; // value
+	var arg4 = args[4]; // type
+	var arg5 = args[5]; // array index (-1 for not array)
 	if (arg5 == undefined)
-		arg5 = "-1"
+		arg5 = "-1";
 	if (object_exists(asset_get_index(arg1)) || arg1 == "global")
 	{
 		if arg1 == "global"
 		{
-			var value = arg3
+			var value = arg3;
 			switch arg4
 			{
 				case "asset":
-					value = asset_get_index(value)
+					value = asset_get_index(value);
 				break;
 					
 				case "string":
@@ -219,29 +233,28 @@ function sh_setvar(args)
 				case "real":
 				case "bool":
 					if value == "true"
-						value = 1
+						value = 1;
 					if value == "false"
-						value = 0
-					if value == "toggle"
-						value = 2
-					value = real(value)
+						value = 0;
+					value = real(value);
 				break;
 			}
 			if arg5 != "-1"
 			{
-				var myglobal = variable_global_get(arg2)
+				var myglobal = variable_global_get(arg2);
 				if (arg4 == "bool" && value == 2) {
-					myglobal[arg5] = !myglobal[arg5]
+					myglobal[arg5] = !myglobal[arg5];
 				} else {
-					myglobal[arg5] = value
+					myglobal[arg5] = value;
 				}
-				variable_global_set(arg2, myglobal[arg5])
+				// pixelfox here. who the fuck mangled my code beyond comprehension
+				variable_global_set(arg2, myglobal[arg5]);
 			}
 			else {
 				if (arg4 == "bool" && value == 2) {
-					variable_global_set(arg2, !variable_global_get(arg2))
+					variable_global_set(arg2, !variable_global_get(arg2));
 				} else {
-					variable_global_set(arg2, value)
+					variable_global_set(arg2, value);
 				}
 			}
 		}
@@ -249,11 +262,11 @@ function sh_setvar(args)
 		{
 			with(asset_get_index(arg1))
 			{
-				var value = arg3
+				var value = arg3;
 				switch arg4
 				{
 					case "asset":
-						value = asset_get_index(value)
+						value = asset_get_index(value);
 					break;
 					
 					case "string":
@@ -263,29 +276,29 @@ function sh_setvar(args)
 					case "real":
 					case "bool":
 						if value == "true"
-							value = 1
+							value = 1;
 						if value == "false"
-							value = 0
+							value = 0;
 						if value == "toggle"
-							value = 2
-						value = real(value)
+							value = 2;
+						value = real(value);
 					break;
 				}
 				if arg5 != "-1"
 				{
 					var myvar = variable_global_get(arg2)
 					if (arg4 == "bool" && value == 2) {
-						myvar[arg5] = !myglobal[arg5]
+						myvar[arg5] = !myglobal[arg5];
 					} else {
-						myvar[arg5] = value
+						myvar[arg5] = value;
 					}
-					variable_instance_set(id, arg2, myvar[arg5])
+					variable_instance_set(id, arg2, myvar[arg5]);
 				}
 				else {
 					if (arg4 == "bool" && value == 2) {
-						variable_instance_set(id, arg2, !variable_instance_get(id, arg2))
+						variable_instance_set(id, arg2, !variable_instance_get(id, arg2));
 					} else {
-						variable_instance_set(id, arg2, value)
+						variable_instance_set(id, arg2, value);
 					}
 				}
 			}
@@ -304,9 +317,9 @@ function meta_setvar()
 				{
 				    with (instance_id[i])
 						if (object_get_name(object_index) != "obj_player" && !scr_array_contains(_objs, object_get_name(object_index)))
-							array_push(_objs, object_get_name(object_index))
+							array_push(_objs, object_get_name(object_index));
 				}
-				return _objs
+				return _objs;
 			},
 			[],
 			["0", "1", "true", "false"],
@@ -324,7 +337,7 @@ function meta_setvar()
 // pixelfox here, i added setvar since i'm replacing the character change f5 key for the shell, so you can still use this to change your character
 
 function sh_gml(args) {
-	var _code = get_string("Input code:", "")
+	var _code = get_string("Input code:", "");
 	return live_execute_string(_code);
 }
 function meta_gml() {

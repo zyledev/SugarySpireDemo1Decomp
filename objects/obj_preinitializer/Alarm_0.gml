@@ -1,1 +1,1 @@
-room_goto(realtitlescreen)
+room_goto(rm_initializer)

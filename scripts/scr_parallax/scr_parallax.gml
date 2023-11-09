@@ -1,6 +1,6 @@
-var return_value;
 function parallax_layer(argument0) //gml_Script_parallax_layer
 {
+	var return_value;
     if (argument0 == undefined)
         argument0 = -4
     return_value[0] = 0
@@ -22,9 +22,9 @@ function parallax_layer(argument0) //gml_Script_parallax_layer
 function add_parallax_function(argument0, argument1, argument2) //gml_Script_add_parallax_function
 {
     if (argument2 == undefined)
-        argument2 = 0
-    var array_pos = 0
-    for (i = 0; i < array_length(global.ParallaxArray); i++)
+        argument2 = 0;
+    var array_pos = 0;
+    for (var i = 0; i < array_length(global.ParallaxArray); i++)
     {
         if (global.ParallaxArray[i].layerName == argument0)
         {
