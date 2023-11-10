@@ -3,7 +3,7 @@ with (obj_player)
     if (state != 100 && state != (110 << 0) && state != 71 && state != 111 && state != 112)
     {
         state = 100
-        instance_create(x, y, obj_poofeffectcotton)
+        //instance_create(x, y, obj_poofeffectcotton)
         sprite_index = spr_cottonidle
     }
 }
