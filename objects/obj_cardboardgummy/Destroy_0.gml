@@ -1,8 +1,6 @@
-if (!(ds_list_find_index(global.saveroom, id)))
-{
+//if (!(ds_list_find_index(global.saveroom, id)))
+//{
     instance_create(x, y, obj_fakeharrydead);
-
-
     //global.panic = 1;
     //obj_camera.alarm[1] = 60;
     //var time_array = scr_escapetimes();
@@ -13,5 +11,5 @@ if (!(ds_list_find_index(global.saveroom, id)))
     //if (global.panicbg == 1)
     //    scr_panicbg_init();
     //instance_create(x, y, obj_panicchanger);
-    ds_list_add(global.saveroom, id);
-}
+    //ds_list_add(global.saveroom, id);
+//}
