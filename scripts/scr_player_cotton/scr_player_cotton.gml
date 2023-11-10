@@ -6,7 +6,7 @@ function scr_player_cotton() //gml_Script_scr_player_cotton
         dir = xscale
         movespeed = 0
     }
-    if (sprite_index != spr_cotton_slam && sprite_index != spr_cotton_slam2 && sprite_index != spr_cotton_slam3)
+    if (sprite_index != spr_cotton_slam)
         move = (key_left + key_right)
     if (sprite_index != spr_cotton_attack)
     {
@@ -87,19 +87,19 @@ function scr_player_cotton() //gml_Script_scr_player_cotton
         image_index = 5
     if (sprite_index != spr_cotton_slam && framestopped == 1)
         framestopped = 0
-    if (sprite_index == spr_cotton_slam2 && floor(image_index) == (image_number - 1))
+    if (sprite_index == spr_cotton_slam && floor(image_index) == (image_number - 1))
     {
         image_index = 0
         sprite_index = spr_cottonidle
         grav = 0.025
     }
-    if (sprite_index == spr_cotton_slam3 && floor(image_index) == (image_number - 1))
+    if (sprite_index == spr_cotton_slam && floor(image_index) == (image_number - 1))
     {
         image_index = 0
         sprite_index = spr_cottonidle
         grav = 0.025
     }
-    if (sprite_index == spr_cotton_slam2 || sprite_index == spr_cotton_slam3)
+    if (sprite_index == spr_cotton_slam)
         grav = 0.5
     if (sprite_index == spr_cotton_slam)
         grav = 0.2
@@ -126,7 +126,7 @@ function scr_player_cotton() //gml_Script_scr_player_cotton
     }
     if (sprite_index == spr_cotton_land && floor(image_index) == (image_number - 1))
         sprite_index = spr_cottonidle
-    if (key_down2 && (!grounded) && drill == 1 && sprite_index != spr_cotton_slam && sprite_index != spr_cotton_slam2 && sprite_index != spr_cotton_slam3)
+    if (key_down2 && (!grounded) && drill == 1 && sprite_index != spr_cotton_slam && sprite_index != spr_cotton_slam && sprite_index != spr_cotton_slam)
     {
         vsp = 9
         state = 110
@@ -144,7 +144,7 @@ function scr_player_cotton() //gml_Script_scr_player_cotton
         with (instance_create(x, y, obj_afterimageoutward))
             vspeed = -7
     }
-    if ((!grounded) && sprite_index != spr_cotton_jump && sprite_index != spr_cotton_attack && sprite_index != spr_cotton_doublejump && sprite_index != spr_cotton_doublefall && sprite_index != spr_cotton_drill && sprite_index != spr_cotton_slam && sprite_index != spr_cotton_slam2 && sprite_index != spr_cotton_slam3)
+    if ((!grounded) && sprite_index != spr_cotton_jump && sprite_index != spr_cotton_attack && sprite_index != spr_cotton_doublejump && sprite_index != spr_cotton_doublefall && sprite_index != spr_cotton_drill && sprite_index != spr_cotton_slam)
         sprite_index = spr_cotton_fall
     if (grounded && drill == 0)
         drill = 1
@@ -155,24 +155,24 @@ function scr_player_cotton() //gml_Script_scr_player_cotton
         move = 0
         dir = 0
     }
-    if (sprite_index == spr_cotton_slam2)
+    if (sprite_index == spr_cotton_slam)
     {
         movespeed = 0
         hsp = 0
         move = 0
         dir = 0
     }
-    if (sprite_index == spr_cotton_slam3)
+    if (sprite_index == spr_cotton_slam)
     {
         movespeed = 0
         hsp = 0
         move = 0
         dir = 0
     }
-    if (sprite_index == spr_cotton_slam && grounded && sprite_index != spr_cotton_slam2)
+    if (sprite_index == spr_cotton_slam && grounded)
     {
         image_index = 0
-        sprite_index = spr_cotton_slam2
+        sprite_index = spr_cotton_slam
         movespeed = -4
     }
     if (sprite_index == spr_cotton_slam && (!(place_meeting(x, (y + 1), obj_solid))) && place_meeting(x, (y - 1), obj_solid))

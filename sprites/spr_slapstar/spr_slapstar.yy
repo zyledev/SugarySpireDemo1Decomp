@@ -84,7 +84,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f9ce57f1-641e-483e-bc36-ca68011828e0","path":"sprites/spr_slapstar/spr_slapstar.yy",},},},"Disabled":false,"id":"f61cd711-f982-48cf-a94e-a4dfc44dbc45","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 20,
     "yorigin": 20,

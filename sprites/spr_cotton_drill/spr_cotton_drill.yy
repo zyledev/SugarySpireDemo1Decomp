@@ -86,7 +86,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"63262667-7db3-4cf6-b755-81ed4f7f85f9","path":"sprites/spr_cotton_drill/spr_cotton_drill.yy",},},},"Disabled":false,"id":"533343f5-2205-40aa-a9cc-5d412ac70fa2","IsCreationKey":false,"Key":3.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 50,
     "yorigin": 62,

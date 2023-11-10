@@ -28,7 +28,7 @@ function scr_player_cottonroll() //gml_Script_scr_player_cottonroll
         if (sprite_index == spr_cotton_maxrun && grounded)
         {
             state = 100
-            sprite_index = spr_cotton_slam3
+            sprite_index = spr_cotton_slam
             vsp = -4
             image_index = 0
             movespeed = 0
