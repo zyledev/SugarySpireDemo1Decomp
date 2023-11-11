@@ -1,4 +1,4 @@
-function scr_player_cottonroll() //scr_player_cottonroll
+function scr_player_cottonroll() //gml_Script_scr_player_cottonroll
 {
     image_speed = 0.35
     if (dir != xscale)
@@ -73,4 +73,3 @@ function scr_player_cottonroll() //scr_player_cottonroll
             vspeed = -7
     }
 }
-
