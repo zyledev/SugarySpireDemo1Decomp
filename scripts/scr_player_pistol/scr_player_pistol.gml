@@ -1,4 +1,4 @@
-function scr_player_pistol() //gml_Script_scr_player_pistol
+function scr_player_pistol() //scr_player_pistol
 {
     mach2 = 0
     move = (key_left + key_right)

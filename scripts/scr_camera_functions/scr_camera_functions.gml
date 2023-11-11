@@ -1,4 +1,4 @@
-function point_in_camera(argument0, argument1, argument2) //gml_Script_point_in_camera
+function point_in_camera(argument0, argument1, argument2) //point_in_camera
 {
     if (argument2 == undefined)
         argument2 = view_camera[0]
@@ -9,7 +9,7 @@ function point_in_camera(argument0, argument1, argument2) //gml_Script_point_in_
     return point_in_rectangle(argument0, argument1, cam_x, cam_y, (cam_x + cam_w), (cam_y + cam_h));
 }
 
-function camera_shake(argument0, argument1) //gml_Script_camera_shake
+function camera_shake(argument0, argument1) //camera_shake
 {
     with (obj_camera)
     {
@@ -18,7 +18,7 @@ function camera_shake(argument0, argument1) //gml_Script_camera_shake
     }
 }
 
-function camera_get_position_struct(argument0) //gml_Script_camera_get_position_struct
+function camera_get_position_struct(argument0) //camera_get_position_struct
 {
     if (argument0 == undefined)
         argument0 = view_camera[0]

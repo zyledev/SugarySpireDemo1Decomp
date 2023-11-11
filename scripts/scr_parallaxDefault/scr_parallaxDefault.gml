@@ -1,4 +1,4 @@
-function scr_default_parallax(argument0) //gml_Script_scr_default_parallax
+function scr_default_parallax(argument0) //scr_default_parallax
 {
     if (argument0 == undefined)
         argument0 = 0;

@@ -1,4 +1,4 @@
-function scr_mach_pizzano() //gml_Script_scr_mach_pizzano
+function scr_mach_pizzano() //scr_mach_pizzano
 {
     move = (key_left + key_right)
     hsp = (xscale * movespeed)

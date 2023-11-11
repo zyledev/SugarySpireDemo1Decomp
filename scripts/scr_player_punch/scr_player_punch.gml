@@ -1,4 +1,4 @@
-function scr_player_punch() //gml_Script_scr_player_punch
+function scr_player_punch() //scr_player_punch
 {
     movespeed = 0
     mach2 = 0

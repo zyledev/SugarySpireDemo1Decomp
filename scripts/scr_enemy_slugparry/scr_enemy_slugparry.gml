@@ -1,4 +1,4 @@
-function scr_enemy_slugparry() //gml_Script_scr_enemy_slugparry
+function scr_enemy_slugparry() //scr_enemy_slugparry
 {
     hsp = (movespeed * image_xscale)
     sprite_index = spr_sluggy_parry

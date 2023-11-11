@@ -1,5 +1,5 @@
 var _temp_local_var_3;
-function scr_collide() //gml_Script_scr_collide
+function scr_collide() //scr_collide
 {
     grounded = 0
     var _temp_local_var_3 = abs(vsp)

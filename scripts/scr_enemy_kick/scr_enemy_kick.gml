@@ -1,4 +1,4 @@
-function scr_enemy_kick() //gml_Script_scr_enemy_kick
+function scr_enemy_kick() //scr_enemy_kick
 {
     movespeed = 0
     hsp = 0

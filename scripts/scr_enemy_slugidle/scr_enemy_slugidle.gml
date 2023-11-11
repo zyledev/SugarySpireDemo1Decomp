@@ -1,4 +1,4 @@
-function scr_enemy_slugidle() //gml_Script_scr_enemy_slugidle
+function scr_enemy_slugidle() //scr_enemy_slugidle
 {
     movespeed = 0
     hsp = 0

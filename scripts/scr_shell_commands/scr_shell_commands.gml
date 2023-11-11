@@ -18,7 +18,7 @@ while room_exists(i)
     global.roomlist[i] = room_get_name(i);
     i++
 }
-function sh_escape(args) //gml_Script_sh_escape
+function sh_escape(args) //sh_escape
 {
     var arg0 = string(args[1]);
     var arg1 = args[2];
@@ -50,7 +50,7 @@ function sh_escape(args) //gml_Script_sh_escape
         instance_create(x, y, obj_panicchanger);
 }
 
-function meta_escape() //gml_Script_meta_escape
+function meta_escape() //meta_escape
 {
     return 
     {
@@ -61,7 +61,7 @@ function meta_escape() //gml_Script_meta_escape
     };
 }
 
-function sh_toggle_collisions(args) //gml_Script_sh_toggle_collisions
+function sh_toggle_collisions(args) //sh_toggle_collisions
 {
     var arg1 = args[1];
     switch arg1
@@ -83,7 +83,7 @@ function sh_toggle_collisions(args) //gml_Script_sh_toggle_collisions
     toggle_collision_function();
 }
 
-function meta_toggle_collisions() //gml_Script_meta_toggle_collisions
+function meta_toggle_collisions() //meta_toggle_collisions
 {
     return 
     {
@@ -94,7 +94,7 @@ function meta_toggle_collisions() //gml_Script_meta_toggle_collisions
     };
 }
 
-function toggle_collision_function() //gml_Script_toggle_collision_function
+function toggle_collision_function() //toggle_collision_function
 {
     if (!variable_global_exists("showcollisionarray"))
     {
@@ -133,7 +133,7 @@ function toggle_collision_function() //gml_Script_toggle_collision_function
     }
 }
 
-function sh_toggle_debugmode(args) //gml_Script_sh_toggle_debugmode
+function sh_toggle_debugmode(args) //sh_toggle_debugmode
 {
     var arg1 = args[1];
     switch arg1
@@ -154,7 +154,7 @@ function sh_toggle_debugmode(args) //gml_Script_sh_toggle_debugmode
     global.debugmode = arg1;
 }
 
-function meta_toggle_debugmode() //gml_Script_meta_toggle_debugmode
+function meta_toggle_debugmode() //meta_toggle_debugmode
 {
     return 
     {
@@ -165,7 +165,7 @@ function meta_toggle_debugmode() //gml_Script_meta_toggle_debugmode
     };
 }
 
-function sh_room_goto(args) //gml_Script_sh_room_goto
+function sh_room_goto(args) //sh_room_goto
 {
     var arg1 = asset_get_index(args[1]);
     var arg2 = args[2];
@@ -179,7 +179,7 @@ function sh_room_goto(args) //gml_Script_sh_room_goto
     }
 }
 
-function meta_room_goto() //gml_Script_meta_room_goto
+function meta_room_goto() //meta_room_goto
 {
     return 
     {
@@ -190,12 +190,12 @@ function meta_room_goto() //gml_Script_meta_room_goto
     };
 }
 
-function sh_instance_create(args) //gml_Script_sh_instance_create
+function sh_instance_create(args) //sh_instance_create
 {
     instance_create(args[1], args[2], asset_get_index(args[3]));
 }
 
-function meta_instance_create() //gml_Script_meta_instance_create
+function meta_instance_create() //meta_instance_create
 {
     return 
     {

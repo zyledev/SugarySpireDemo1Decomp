@@ -1,4 +1,4 @@
-function scr_player_bombpep() //gml_Script_scr_player_bombpep
+function scr_player_bombpep() //scr_player_bombpep
 {
     if (sprite_index == spr_bombpep_intro || sprite_index == spr_bombpep_end)
         mask_index = spr_crouchmask

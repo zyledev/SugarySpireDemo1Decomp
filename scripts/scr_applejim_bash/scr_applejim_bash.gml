@@ -1,4 +1,4 @@
-function scr_applejim_bash() //gml_Script_scr_applejim_bash
+function scr_applejim_bash() //scr_applejim_bash
 {
     if (grounded || (grounded && (!(place_meeting(x, y, obj_platform)))))
     {

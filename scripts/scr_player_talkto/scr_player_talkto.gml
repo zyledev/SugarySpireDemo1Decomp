@@ -1,4 +1,4 @@
-function scr_player_talkto() //gml_Script_scr_player_talkto
+function scr_player_talkto() //scr_player_talkto
 {
     image_speed = 0.35
     if key_jump2

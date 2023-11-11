@@ -1,4 +1,4 @@
-function scr_player_puddle() //gml_Script_scr_player_puddle
+function scr_player_puddle() //scr_player_puddle
 {
     if ((!grounded) && image_xscale == -1)
         hsp -= 0.2

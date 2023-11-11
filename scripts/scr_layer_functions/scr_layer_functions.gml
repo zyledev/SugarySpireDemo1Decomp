@@ -1,5 +1,5 @@
 var layers;
-function layer_tilemap_get_id_fixed(argument0) //gml_Script_layer_tilemap_get_id_fixed
+function layer_tilemap_get_id_fixed(argument0) //layer_tilemap_get_id_fixed
 {
     if layer_exists(argument0)
     {
@@ -15,7 +15,7 @@ function layer_tilemap_get_id_fixed(argument0) //gml_Script_layer_tilemap_get_id
     return -1;
 }
 
-function layer_background_get_id_fixed(argument0) //gml_Script_layer_background_get_id_fixed
+function layer_background_get_id_fixed(argument0) //layer_background_get_id_fixed
 {
     if layer_exists(argument0)
     {
@@ -32,7 +32,7 @@ function layer_background_get_id_fixed(argument0) //gml_Script_layer_background_
     return -1;
 }
 
-function layer_change_background(argument0, argument1) //gml_Script_layer_change_background
+function layer_change_background(argument0, argument1) //layer_change_background
 {
     if (argument0 != argument1)
     {
@@ -46,7 +46,7 @@ function layer_change_background(argument0, argument1) //gml_Script_layer_change
     }
 }
 
-function get_all_layer_type(argument0) //gml_Script_get_all_layer_type
+function get_all_layer_type(argument0) //get_all_layer_type
 {
     if (argument0 == undefined)
         argument0 = 0

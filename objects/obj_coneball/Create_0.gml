@@ -5,7 +5,7 @@ dis = 800
 mindis = 150
 dir = 0
 timer = 150
-hurtplayer = function() //gml_Script_anon_gml_Object_obj_coneball_Create_0_115_gml_Object_obj_coneball_Create_0
+hurtplayer = function() //anon_gml_Object_obj_coneball_Create_0_115_gml_Object_obj_coneball_Create_0
 {
     with (obj_player)
     {

@@ -1,4 +1,4 @@
-function scr_enemy_cherrywait() //gml_Script_scr_enemy_cherrywait
+function scr_enemy_cherrywait() //scr_enemy_cherrywait
 {
     image_speed = 0.35;
     if (global.panic == 0)

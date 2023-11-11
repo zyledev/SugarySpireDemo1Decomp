@@ -1,4 +1,4 @@
-function scr_player_handstand() //gml_Script_scr_player_handstand
+function scr_player_handstand() //scr_player_handstand
 {
     image_speed = 0.35
     scr_getinput()

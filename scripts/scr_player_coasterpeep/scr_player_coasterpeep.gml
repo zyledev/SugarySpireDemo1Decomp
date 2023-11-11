@@ -1,4 +1,4 @@
-function scr_player_coasterpeep() //gml_Script_scr_player_coasterpeep
+function scr_player_coasterpeep() //scr_player_coasterpeep
 {
     if (dir == 0)
     {

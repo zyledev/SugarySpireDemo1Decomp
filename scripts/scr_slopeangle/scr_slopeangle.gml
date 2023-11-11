@@ -1,4 +1,4 @@
-function scr_slopeangle_player(argument0, argument1) //gml_Script_scr_slopeangle_player
+function scr_slopeangle_player(argument0, argument1) //scr_slopeangle_player
 {
     var array = 0
     var checkside = -1
@@ -37,7 +37,7 @@ function scr_slopeangle_player(argument0, argument1) //gml_Script_scr_slopeangle
     return _angle;
 }
 
-function scr_slopeangle(argument0, argument1) //gml_Script_scr_slopeangle
+function scr_slopeangle(argument0, argument1) //scr_slopeangle
 {
     array = 0
     checkside = -1

@@ -1,4 +1,4 @@
-function scr_solid_player(argument0, argument1, argument2) //gml_Script_scr_solid_player
+function scr_solid_player(argument0, argument1, argument2) //scr_solid_player
 {
     if (argument2 == undefined)
         argument2 = 0

@@ -1,4 +1,4 @@
-function scr_player_minecart() //gml_Script_scr_player_minecart
+function scr_player_minecart() //scr_player_minecart
 {
     if (grounded && sprite_index == spr_player_minecartfall)
     {

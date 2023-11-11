@@ -1,5 +1,5 @@
 var _temp_local_var_3;
-function scr_collide_player() //gml_Script_scr_collide_player
+function scr_collide_player() //scr_collide_player
 {
     grounded = 0
     grinding = 0

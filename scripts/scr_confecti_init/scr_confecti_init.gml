@@ -1,4 +1,4 @@
-function scr_confecti_init() //gml_Script_scr_confecti_init
+function scr_confecti_init() //scr_confecti_init
 {
     ds_list_add(global.FollowerList, id)
     switch object_index

@@ -1,4 +1,4 @@
-function scr_confecti_appear() //gml_Script_scr_confecti_appear
+function scr_confecti_appear() //scr_confecti_appear
 {
     drawxscale = image_xscale
     if (sprite_index != spr_appear)

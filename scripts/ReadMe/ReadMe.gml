@@ -1,4 +1,4 @@
-function ReadMe() //gml_Script_ReadMe
+function ReadMe() //ReadMe
 {
 }
 

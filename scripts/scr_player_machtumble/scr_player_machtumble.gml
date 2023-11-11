@@ -1,4 +1,4 @@
-function scr_player_machtumble() //gml_Script_scr_player_machtumble
+function scr_player_machtumble() //scr_player_machtumble
 {
     if (sprite_index == spr_player_machtumble)
     {

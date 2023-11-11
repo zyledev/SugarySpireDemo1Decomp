@@ -1,5 +1,5 @@
 var time_array;
-function scr_escapetimes(argument0) //gml_Script_scr_escapetimes
+function scr_escapetimes(argument0) //scr_escapetimes
 {
     if (argument0 == undefined)
         argument0 = room

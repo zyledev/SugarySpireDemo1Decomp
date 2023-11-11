@@ -1,4 +1,4 @@
-function scr_player_cheeseball() //gml_Script_scr_player_cheeseball
+function scr_player_cheeseball() //scr_player_cheeseball
 {
     hsp = (xscale * 12)
     if ((!scr_slope()) && instance_place((x + sign(hsp)), y, obj_solid))

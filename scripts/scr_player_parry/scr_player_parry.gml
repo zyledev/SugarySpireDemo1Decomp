@@ -1,4 +1,4 @@
-function scr_player_parry() //gml_Script_scr_player_parry
+function scr_player_parry() //scr_player_parry
 {
     hsp = (movespeed * xscale)
     sprite_index = choose(spr_player_parry1, spr_player_parry2, spr_player_parry3)

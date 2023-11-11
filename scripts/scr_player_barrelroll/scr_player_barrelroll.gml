@@ -1,4 +1,4 @@
-function scr_player_barrelroll() //gml_Script_scr_player_barrelroll
+function scr_player_barrelroll() //scr_player_barrelroll
 {
     mask_index = spr_crouchmask
     hsp = (image_xscale * movespeed)

@@ -1,4 +1,4 @@
-function scr_rocketfist_pizzano() //gml_Script_scr_rocketfist_pizzano
+function scr_rocketfist_pizzano() //scr_rocketfist_pizzano
 {
     if (sprite_index == spr_pizzano_sjumpprepside)
     {

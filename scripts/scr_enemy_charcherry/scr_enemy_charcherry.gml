@@ -1,4 +1,4 @@
-function scr_enemy_charcherry() //gml_Script_scr_enemy_charcherry
+function scr_enemy_charcherry() //scr_enemy_charcherry
 {
     var targetplayer = obj_player
     var playerposition = (x - targetplayer.x)

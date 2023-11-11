@@ -1,4 +1,4 @@
-function scr_enemy_inhaled() //gml_Script_scr_enemy_inhaled
+function scr_enemy_inhaled() //scr_enemy_inhaled
 {
     boundbox = 0
     var angle = point_direction(x, y, obj_player.x, obj_player.y)

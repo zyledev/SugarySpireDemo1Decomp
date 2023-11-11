@@ -1,4 +1,4 @@
-function scr_player_cotton() //gml_Script_scr_player_cotton
+function scr_player_cotton() //scr_player_cotton
 {
     image_speed = 0.35
     if (dir != xscale)

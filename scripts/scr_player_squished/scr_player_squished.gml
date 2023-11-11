@@ -1,4 +1,4 @@
-function scr_player_squished() //gml_Script_scr_player_squished
+function scr_player_squished() //scr_player_squished
 {
     hsp = 0
     vsp = 0

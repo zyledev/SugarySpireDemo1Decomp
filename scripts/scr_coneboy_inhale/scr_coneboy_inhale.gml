@@ -1,4 +1,4 @@
-function scr_coneboy_inhale() //gml_Script_scr_coneboy_inhale
+function scr_coneboy_inhale() //scr_coneboy_inhale
 {
     movespeed = 0
     vsp = 0

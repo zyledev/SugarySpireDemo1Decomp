@@ -1,4 +1,4 @@
-function scr_enemy_scared() //gml_Script_scr_enemy_scared
+function scr_enemy_scared() //scr_enemy_scared
 {
     if (object_index == obj_gumslime)
     {

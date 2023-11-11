@@ -1,4 +1,4 @@
-function scr_player_pal() //gml_Script_scr_player_pal
+function scr_player_pal() //scr_player_pal
 {
     move = (key_left2 + key_right2)
     if (move == 1)

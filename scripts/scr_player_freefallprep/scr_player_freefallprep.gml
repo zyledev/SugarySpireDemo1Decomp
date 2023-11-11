@@ -1,4 +1,4 @@
-function scr_player_freefallprep() //gml_Script_scr_player_freefallprep
+function scr_player_freefallprep() //scr_player_freefallprep
 {
     hsp = 0
     if (((scr_solid((x + 1), y) && move == 1) || (scr_solid((x - 1), y) && move == -1)) && (!(place_meeting((x + sign(hsp)), y, obj_slope))))

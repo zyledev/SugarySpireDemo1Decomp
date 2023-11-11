@@ -1,4 +1,4 @@
-function scr_player_breakdance() //gml_Script_scr_player_breakdance
+function scr_player_breakdance() //scr_player_breakdance
 {
     movespeed = 0
     hsp = 0

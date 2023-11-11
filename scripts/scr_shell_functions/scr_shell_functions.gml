@@ -1,16 +1,16 @@
 /* these are for the old rt shell i believe.
 
-function scr_shell_openconsole() //gml_Script_scr_shell_openconsole
+function scr_shell_openconsole() //scr_shell_openconsole
 {
     global.shellactivate = 1
 }
 
-function scr_shell_closeconsole() //gml_Script_scr_shell_closeconsole
+function scr_shell_closeconsole() //scr_shell_closeconsole
 {
     global.shellactivate = 0
 }
 
-function scr_fartcommand(argument0) //gml_Script_scr_fartcommand
+function scr_fartcommand(argument0) //scr_fartcommand
 {
     if (argument0 == undefined)
         argument0 = "BALLS"
@@ -28,7 +28,7 @@ function scr_fartcommand(argument0) //gml_Script_scr_fartcommand
 
 }
 
-function scr_shell_roomstart() //gml_Script_scr_shell_roomstart
+function scr_shell_roomstart() //scr_shell_roomstart
 {
     toggle_collision_function()
 }

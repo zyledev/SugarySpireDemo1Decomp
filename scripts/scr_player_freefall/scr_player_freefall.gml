@@ -1,4 +1,4 @@
-function scr_player_freefall() //gml_Script_scr_player_freefall
+function scr_player_freefall() //scr_player_freefall
 {
 	metal = 11
     hsp = 0

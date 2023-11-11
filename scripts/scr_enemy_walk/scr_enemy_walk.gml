@@ -1,4 +1,4 @@
-function scr_enemy_walk() //gml_Script_scr_enemy_walk
+function scr_enemy_walk() //scr_enemy_walk
 {
     if (grounded || (grounded && (!(place_meeting(x, y, obj_platform)))) || (!(place_meeting(x, y, obj_cottonplatform))))
     {

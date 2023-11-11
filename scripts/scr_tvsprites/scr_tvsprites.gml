@@ -1,4 +1,4 @@
-function scr_tvsprites() //gml_Script_scr_tvsprites
+function scr_tvsprites() //scr_tvsprites
 {
     if (obj_player.character == "P")
     {

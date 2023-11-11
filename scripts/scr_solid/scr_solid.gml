@@ -1,4 +1,4 @@
-function scr_solid(argument0, argument1, argument2) //gml_Script_scr_solid
+function scr_solid(argument0, argument1, argument2) //scr_solid
 {
     if (argument2 == undefined)
         argument2 = 0

@@ -1,4 +1,4 @@
-function scr_player_shocked() //gml_Script_scr_player_shocked
+function scr_player_shocked() //scr_player_shocked
 {
     if (dir != xscale)
     {

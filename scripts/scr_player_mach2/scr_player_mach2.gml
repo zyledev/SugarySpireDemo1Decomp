@@ -1,4 +1,4 @@
-function scr_player_mach2() //gml_Script_scr_player_mach2
+function scr_player_mach2() //scr_player_mach2
 {
     if (!instance_exists(obj_mach3effect))
         instance_create(x, y, obj_mach3effect)

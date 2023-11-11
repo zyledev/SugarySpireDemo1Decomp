@@ -1,4 +1,4 @@
-function scr_player_charge() //gml_Script_scr_player_charge
+function scr_player_charge() //scr_player_charge
 {
     if (windingAnim < 2000)
         windingAnim++

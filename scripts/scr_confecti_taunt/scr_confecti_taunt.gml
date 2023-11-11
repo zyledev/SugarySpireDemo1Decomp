@@ -1,4 +1,4 @@
-function scr_confecti_taunt() //gml_Script_scr_confecti_taunt
+function scr_confecti_taunt() //scr_confecti_taunt
 {
     sprite_index = spr_taunt
     drawxscale = image_xscale

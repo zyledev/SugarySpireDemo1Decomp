@@ -1,4 +1,4 @@
-function scr_gumbob_propeller() //gml_Script_scr_gumbob_propeller
+function scr_gumbob_propeller() //scr_gumbob_propeller
 {
     if (gumbobpropellerlength > 0)
         gumbobpropellerlength--

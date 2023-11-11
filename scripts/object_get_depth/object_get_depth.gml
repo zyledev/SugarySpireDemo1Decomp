@@ -1,4 +1,4 @@
-function object_get_depth() //gml_Script_object_get_depth
+function object_get_depth() //object_get_depth
 {
 }
 

@@ -1,4 +1,4 @@
-function scr_player_shoulder() //gml_Script_scr_player_shoulder
+function scr_player_shoulder() //scr_player_shoulder
 {
     movespeed = 0
     mach2 = 0

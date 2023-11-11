@@ -1,4 +1,4 @@
-function scr_player_cottondrill() //gml_Script_scr_player_cottondrill
+function scr_player_cottondrill() //scr_player_cottondrill
 {
     image_speed = 0.35
     if (dir != xscale)

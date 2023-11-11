@@ -1,4 +1,4 @@
-function scr_player_fireass() //gml_Script_scr_player_fireass
+function scr_player_fireass() //scr_player_fireass
 {
     image_speed = 0.35
     if place_meeting((x + hsp), y, obj_solid)

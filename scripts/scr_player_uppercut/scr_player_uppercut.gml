@@ -1,4 +1,4 @@
-function scr_player_uppercut() //gml_Script_scr_player_uppercut
+function scr_player_uppercut() //scr_player_uppercut
 {
     if (!instance_exists(obj_mach3effect))
         instance_create(x, y, obj_mach3effect)

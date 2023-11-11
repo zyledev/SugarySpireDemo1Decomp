@@ -1,4 +1,4 @@
-function scr_escapebgs() //gml_Script_scr_escapebgs
+function scr_escapebgs() //scr_escapebgs
 {
     if (global.panic == 1)
     {

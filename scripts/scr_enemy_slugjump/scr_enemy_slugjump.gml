@@ -1,4 +1,4 @@
-function scr_enemy_slugjump() //gml_Script_scr_enemy_slugjump
+function scr_enemy_slugjump() //scr_enemy_slugjump
 {
     movespeed = hsp
     hsp *= image_xscale

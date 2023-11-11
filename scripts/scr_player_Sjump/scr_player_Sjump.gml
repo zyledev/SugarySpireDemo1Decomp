@@ -1,4 +1,4 @@
-function scr_player_Sjump() //gml_Script_scr_player_Sjump
+function scr_player_Sjump() //scr_player_Sjump
 {
     hsp = 0
     mach2 = 0

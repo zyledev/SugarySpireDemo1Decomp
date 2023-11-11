@@ -1,4 +1,4 @@
-function scr_player_bushdisguise() //gml_Script_scr_player_bushdisguise
+function scr_player_bushdisguise() //scr_player_bushdisguise
 {
     if (dir != xscale)
     {

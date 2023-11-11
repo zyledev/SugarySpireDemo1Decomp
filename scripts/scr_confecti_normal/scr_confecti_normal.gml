@@ -1,4 +1,4 @@
-function scr_confecti_normal() //gml_Script_scr_confecti_normal
+function scr_confecti_normal() //scr_confecti_normal
 {
     image_alpha = obj_player.image_alpha
     if (sprite_index != spr_appear)

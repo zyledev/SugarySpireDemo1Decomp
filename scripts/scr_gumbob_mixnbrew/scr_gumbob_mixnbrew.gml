@@ -1,4 +1,4 @@
-function scr_gumbob_mixnbrew() //gml_Script_scr_gumbob_mixnbrew
+function scr_gumbob_mixnbrew() //scr_gumbob_mixnbrew
 {
     if (floor(image_index) == (image_number - 1) && sprite_index == spr_gumbob_brew_pulloutdrink)
         sprite_index = spr_gumbob_brew_shake
