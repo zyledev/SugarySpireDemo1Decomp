@@ -155,7 +155,7 @@ function scr_player_cotton() //gml_Script_scr_player_cotton
         move = 0
         dir = 0
     }
-    if (sprite_index == spr_cotton_slam2)
+    if (sprite_index == spr_cotton_slamend)
     {
         movespeed = 0
         hsp = 0
@@ -169,10 +169,10 @@ function scr_player_cotton() //gml_Script_scr_player_cotton
         move = 0
         dir = 0
     }
-    if (sprite_index == spr_cotton_slamstart && grounded && sprite_index != spr_cotton_slam2)
+    if (sprite_index == spr_cotton_slamstart && grounded && sprite_index != spr_cotton_slamend)
     {
         image_index = 0
-        sprite_index = spr_cotton_slam2
+        sprite_index = spr_cotton_slamend
         movespeed = -4
     }
     if (sprite_index == spr_cotton_slamstart && (!(place_meeting(x, (y + 1), obj_solid))) && place_meeting(x, (y - 1), obj_solid))
