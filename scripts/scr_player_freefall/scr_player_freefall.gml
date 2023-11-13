@@ -1,6 +1,5 @@
 function scr_player_freefall() //scr_player_freefall
 {
-	metal = 11
     hsp = 0
     landAnim = 1
     move = (key_left + key_right)

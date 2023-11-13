@@ -11,7 +11,7 @@ function scr_player_cottondrill() //gml_Script_scr_player_cottondrill
         xscale = move
     hsp = 0
     sprite_index = spr_cotton_drill
-    if scr_solid(x, (y + 1))
+    if (scr_solid(x, (y + 1)))
     {
         state = 100
         sprite_index = spr_cotton_land
