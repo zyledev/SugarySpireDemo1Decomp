@@ -16,6 +16,10 @@ function scr_solid_player(argument0, argument1, argument2) //scr_solid_player
     if place_meeting(x, y, obj_platform)
     {
         platform = instance_place(x, y, obj_platform)
+		if((platform.object_index == obj_cottonplatform || platform.object_index == obj_cottonplatform_tiled) && state == 110)
+		{
+			return false;
+		}
         if (y > old_y)
         {
             var _list = ds_list_create()
