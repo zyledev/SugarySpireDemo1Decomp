@@ -228,6 +228,7 @@
     {"name":"inst_106053","path":"rooms/steamy_5/steamy_5.yy",},
     {"name":"inst_106054","path":"rooms/steamy_5/steamy_5.yy",},
     {"name":"inst_106055","path":"rooms/steamy_5/steamy_5.yy",},
+    {"name":"inst_761F908A","path":"rooms/steamy_5/steamy_5.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -453,6 +454,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_106053","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_destroyable2Escape","path":"objects/obj_destroyable2Escape/obj_destroyable2Escape.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":4576.0,"y":320.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_106054","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_destroyable2_bigEscape","path":"objects/obj_destroyable2_bigEscape/obj_destroyable2_bigEscape.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":4608.0,"y":288.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_106055","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_minipillarwoke","path":"objects/obj_minipillarwoke/obj_minipillarwoke.yy",},"properties":[],"rotation":0.0,"scaleX":4.0,"scaleY":1.0,"x":4256.0,"y":864.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_761F908A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_checkpoint_invis","path":"objects/obj_checkpoint_invis/obj_checkpoint_invis.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":688.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":true,"visible":true,},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Assets_1","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_184EACD9","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_cottonsign","path":"sprites/spr_cottonsign/spr_cottonsign.yy",},"x":1118.0,"y":235.0,},

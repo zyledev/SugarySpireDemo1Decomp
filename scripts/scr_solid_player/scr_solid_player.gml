@@ -16,10 +16,6 @@ function scr_solid_player(argument0, argument1, argument2) //scr_solid_player
     if place_meeting(x, y, obj_platform)
     {
         platform = instance_place(x, y, obj_platform)
-		if((platform.object_index == obj_cottonplatform || platform.object_index == obj_cottonplatform_tiled) && state == 110)
-		{
-			return false;
-		}
         if (y > old_y)
         {
             var _list = ds_list_create()
@@ -30,7 +26,12 @@ function scr_solid_player(argument0, argument1, argument2) //scr_solid_player
                 for (var i = 0; i < _platforms; i++)
                 {
                     platform = ds_list_find_value(_list, i)
+
                     var _can_collide = platform.can_collide(platform)
+					if((platform.object_index == obj_cottonplatform || platform.object_index == obj_cottonplatform_tiled) && (state != (100 << 0) && state != (111 << 0)))
+					{
+						_can_collide = false
+					}
                     if (_can_collide == 1 && place_meeting(x, y, platform) && (!(place_meeting(x, old_y, platform))))
                         collided = 1
                 }

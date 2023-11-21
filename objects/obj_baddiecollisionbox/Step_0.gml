@@ -62,12 +62,15 @@ if (instance_exists(baddieID) && place_meeting(x, y, obj_player) && obj_player.c
             }
             if (instance_exists(other.baddieID) && state == (100 << 0) && sprite_index == spr_cotton_attack)
             {
-                hp = 0
-                thrown = 1
-                hsp = (obj_player.xscale * 20)
-                vsp = -6
-                state = (98 << 0)
-                stunned = 500
+				with(other.baddieID)
+				{
+	                hp = 0
+	                thrown = 1
+	                hsp = (obj_player.xscale * 20)
+	                vsp = -6
+	                state = (98 << 0)
+	                stunned = 500
+				}
             }
             if (instance_exists(other.baddieID) && (!(place_meeting(x, y, other.baddieID))) && obj_player.state != (36 << 0) && obj_player.state != 90 && obj_player.state != 15 && other.baddieID.grounded == 1)
             {

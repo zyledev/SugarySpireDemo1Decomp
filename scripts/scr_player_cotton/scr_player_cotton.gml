@@ -28,7 +28,7 @@ function scr_player_cotton() //gml_Script_scr_player_cotton
         image_index = 0
         sprite_index = spr_cotton_jump
         instance_create(x, y, obj_highjumpcloud2)
-        scr_sound(sound_jump)
+        scr_sound(sfx_cottonjump)
     }
     if (key_slap2 && sprite_index != spr_cotton_attack && groundedcot == 1)
     {
@@ -38,7 +38,7 @@ function scr_player_cotton() //gml_Script_scr_player_cotton
         grounded = 0
         vsp = -4
         grav = 0.2
-        scr_sound(sound_suplex1)
+        scr_sound(sfx_cottonattack)
         groundedcot = 0
     }
     if (sprite_index == spr_cotton_attack)
@@ -108,7 +108,7 @@ function scr_player_cotton() //gml_Script_scr_player_cotton
         image_index = 0
         sprite_index = spr_cotton_land
         instance_create(x, y, obj_landcloud)
-        scr_sound(56)
+        scr_sound(sound_land)
     }
     if (sprite_index == spr_cotton_fall && key_jump)
     {
@@ -122,7 +122,7 @@ function scr_player_cotton() //gml_Script_scr_player_cotton
             image_xscale = other.xscale
             sprite_index = spr_cottonpoof
         }
-        scr_sound(sound_jump)
+        scr_sound(sfx_cottonjump)
     }
     if (sprite_index == spr_cotton_land && floor(image_index) == (image_number - 1))
         sprite_index = spr_cottonidle
@@ -132,7 +132,7 @@ function scr_player_cotton() //gml_Script_scr_player_cotton
         state = 110
         sprite_index = spr_cotton_drill
         image_index = 0
-        scr_sound(sound_suplex1)
+        scr_sound(sfx_cottonattack)
         flash = 1
         drill = 0
         with (instance_create(x, y, obj_afterimageoutward))
