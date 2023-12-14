@@ -1,6 +1,5 @@
 function scr_player_cottonroll() //gml_Script_scr_player_cottonroll
 {
-    image_speed = 0.35
     if (dir != xscale)
     {
         dir = xscale
@@ -15,7 +14,7 @@ function scr_player_cottonroll() //gml_Script_scr_player_cottonroll
     }
     if (sprite_index != spr_cotton_maxrun)
         movespeed += 0.25
-    if (!key_attack)
+    if (key_attack || place_meeting(x + hsp, y, obj_solid))
     {
         state = 100
         sprite_index = spr_cotton_idle

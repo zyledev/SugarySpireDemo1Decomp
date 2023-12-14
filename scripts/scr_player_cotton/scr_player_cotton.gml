@@ -169,6 +169,11 @@ function scr_player_cotton() //gml_Script_scr_player_cotton
         move = 0
         dir = 0
     }
+	if(hsp != 0 && key_down2){
+		sprite_index = spr_cotton_roll
+		image_speed = 0.35
+		state = 111
+	}
     if (sprite_index == spr_cotton_slamstart && grounded && sprite_index != spr_cotton_slamend)
     {
         image_index = 0
