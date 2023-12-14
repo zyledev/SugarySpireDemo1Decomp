@@ -1,5 +1,6 @@
-# SugarySpireDemo1Decomp
-SugarySpireDemo1Decomp
-obligatory finlito readme
-sugarydemo1decom 
-made by quant, helped by contribers
+# Sugary Spire Demo Decomp 
+
+Once again a decomp brought to you by QuantumV using the Quantum's and CST1229's decompiler! have fun!
+
+
+Note: This uses no leaks and is fully based on the public demo and the 2-26 build
