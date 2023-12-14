@@ -528,6 +528,7 @@
     {"name":"bg_hub2","order":505,"path":"sprites/bg_hub2/bg_hub2.yy",},
     {"name":"spr_juicewalk","order":506,"path":"sprites/spr_juicewalk/spr_juicewalk.yy",},
     {"name":"spr_rankD","order":507,"path":"sprites/spr_rankD/spr_rankD.yy",},
+    {"name":"spr_player_cottonslide","order":270,"path":"scripts/spr_player_cottonslide/spr_player_cottonslide.yy",},
     {"name":"spr_onewayblock","order":508,"path":"sprites/spr_onewayblock/spr_onewayblock.yy",},
     {"name":"spr_socket","order":509,"path":"sprites/spr_socket/spr_socket.yy",},
     {"name":"spr_bomb","order":510,"path":"sprites/spr_bomb/spr_bomb.yy",},

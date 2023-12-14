@@ -93,7 +93,7 @@ function scr_player_handstandjump() //scr_player_handstandjump
     }
     if (global.starrmode == 0)
     {
-        if (key_slap2 && (!key_down) && suplexmove == 0 && grounded && sprite_index != spr_player_machtumble)
+        if (key_slap2 && (!key_down) && suplexmove == 0 && sprite_index != spr_player_machtumble)
         {
             sprite_index = spr_player_machtumble;
             image_index = 0;
