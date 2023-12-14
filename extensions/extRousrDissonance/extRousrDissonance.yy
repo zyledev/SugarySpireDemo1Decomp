@@ -13,12 +13,12 @@
   "author": "",
   "classname": "",
   "copyToTargets": -1,
-  "date": "2023-11-05T11:16:50-03:00",
+  "date": "2023-11-05T17:16:50+03:00",
   "description": "",
   "exportToGame": true,
   "extensionVersion": "1.0.0",
   "files": [
-    {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"","constants":[],"copyToTargets":-1,"filename":"rousrDissonance.dll","final":"discord_shutdown","functions":[
+    {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"rousrDissonance.dll","constants":[],"copyToTargets":-1,"filename":"rousrDissonance.dll","final":"discord_shutdown","functions":[
         {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"discord_init","argCount":2,"args":[
             1,
             1,
