@@ -28,7 +28,7 @@ if (global.panic == 1)
             if (global.rank == "e")
                 scr_sound(0)
             audio_stop_sound(mu_escape)
-            ini_open("saveData.ini")
+            ini_open("optionData.ini")
             if (room == molasses_1)
             {
                 if (rank_checker(global.rank) > rank_checker(ini_read_string("Ranks", "molasses", "none")))

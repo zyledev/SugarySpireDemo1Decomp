@@ -21,7 +21,7 @@ if (selecting == -1)
 if (obj_pause.key_jump2 && selecting == -1 && key_select == -1)
 {
     scr_soundeffect(sound_enemythrow)
-    ini_open("saveData.ini")
+    ini_open("optionData.ini")
     ini_write_string("ControlsKeys", "up", global.key_up)
     ini_write_string("ControlsKeys", "right", global.key_right)
     ini_write_string("ControlsKeys", "left", global.key_left)

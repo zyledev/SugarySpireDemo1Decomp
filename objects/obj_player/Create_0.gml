@@ -128,7 +128,7 @@ drill = 1
 bouncespeed = 0
 bounced = 0
 groundedcot = 0
-ini_open("saveData.ini")
+ini_open("optionData.ini")
 global.fullscreen = ini_read_real("Settings", "fullscrn", 0)
 global.smoothcam = ini_read_real("Settings", "smthcam", 1)
 global.screentilt = ini_read_real("Settings", "scrntilt", 1)

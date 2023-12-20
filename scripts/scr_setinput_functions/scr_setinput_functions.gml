@@ -1,6 +1,6 @@
 function scr_initinput()
 {
-    ini_open("saveData.ini")
+    ini_open("optionData.ini")
     global.key_up = ini_read_string("ControlsKeys", "up", vk_up);
     global.key_right = ini_read_string("ControlsKeys", "right", vk_right);
     global.key_left = ini_read_string("ControlsKeys", "left", vk_left);
@@ -28,7 +28,7 @@ function scr_initinput()
 
 function scr_resetinput()
 {
-    ini_open("saveData.ini");
+    ini_open("optionData.ini");
     ini_write_string("ControlsKeys", "up", vk_up);
     ini_write_string("ControlsKeys", "right", vk_right);
     ini_write_string("ControlsKeys", "left", vk_left);
