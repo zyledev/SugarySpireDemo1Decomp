@@ -12,6 +12,10 @@ function scr_tvsprites() //scr_tvsprites
         bombtvspr = spr_pizzytvbomb
         firetvspr = spr_pizzytvfire
         angrytvspr = spr_pizzytvangry
+		mach1spr = spr_pizzytvmach1
+		mach2spr = spr_pizzytvmach2
+		mach3spr = spr_pizzytvmach3
+		mach4spr = spr_pizzytvmach4
     }
     if (obj_player.character == "N")
     {
