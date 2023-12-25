@@ -95,7 +95,7 @@ if (global.panic == 0)
 		case 83:
 			tvcount = 500
 			if obj_player.movespeed >= 12 tvsprite = mach4spr
-			else tvsprit = mach3spr
+			else tvsprite = mach3spr
 		break
 		
         case 66:
