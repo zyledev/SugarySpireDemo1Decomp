@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Backgrounds",
+    "path": "folders/Sprites/Hub/Backgrounds.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -80,7 +80,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"973746b9-10c2-4406-a8ed-b1f8bece4f53","path":"sprites/hubrosette/hubrosette.yy",},},},"Disabled":false,"id":"dbeb0f1d-f9df-430f-8453-2e672edf8516","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 0,
     "yorigin": 0,

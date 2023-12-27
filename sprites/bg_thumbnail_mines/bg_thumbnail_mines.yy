@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Mines",
+    "path": "folders/Sprites/Levels/Mines.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

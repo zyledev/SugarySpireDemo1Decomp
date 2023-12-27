@@ -51,8 +51,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "gumball",
+    "path": "folders/Sprites/Characters/Pizzelle/gumball.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

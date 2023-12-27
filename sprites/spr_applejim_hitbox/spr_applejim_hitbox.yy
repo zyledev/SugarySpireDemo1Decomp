@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Applejim",
+    "path": "folders/Sprites/Enemies/Bosses/Applejim.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

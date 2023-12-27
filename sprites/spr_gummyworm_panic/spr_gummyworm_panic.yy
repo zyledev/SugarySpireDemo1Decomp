@@ -57,8 +57,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "worm",
+    "path": "folders/Sprites/Collectables/Confecti/worm.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
