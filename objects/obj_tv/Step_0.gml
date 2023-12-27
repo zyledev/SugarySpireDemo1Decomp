@@ -83,7 +83,7 @@ if (obj_player.state == 49)
 if (global.panic == 0)
 {
     switch obj_player.state
-    {
+    {	
 		case 62:
 			tvcount = 500
 			tvsprite = mach1spr
@@ -94,7 +94,7 @@ if (global.panic == 0)
 		break
 		case 83:
 			tvcount = 500
-			if obj_player.movespeed >= 12 tvsprite = mach4spr
+			if obj_player.movespeed >= 18 tvsprite = mach4spr
 			else tvsprite = mach3spr
 		break
 		
