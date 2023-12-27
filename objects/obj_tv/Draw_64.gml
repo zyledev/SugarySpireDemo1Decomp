@@ -1,7 +1,7 @@
 if (room != scootercutsceneidk && room != devroom && room != palroom && room != rank_room && room != timesuproom && room != realtitlescreen)
 {
     font = global.collectfont
-    draw_set_font(font)
+    draw_set_font(global.font)
     draw_set_halign(fa_center)
     draw_set_color(c_white)
     scr_pal_swap_set(obj_player.spr_palette, obj_player.paletteselect, 0)

@@ -25,8 +25,7 @@ if (pause == 1)
     scr_pal_swap_set(spr_pal, pal, 0);
     draw_sprite((global.panic ? spr_pizzelle_pause_escape : spr_pizzelle_pause), global.panic, 686, 285);
     shader_reset();
-    font = font_add_sprite_ext(spr_font, "ABCDEFGHIJKLMNOPQRSTUVWXYZ!.1234567890:", 1, 0);
-    draw_set_font(font);
+    draw_set_font(global.font);
     draw_set_halign(fa_center);
     draw_set_color(c_white);
     if (global.playseconds > 10)
