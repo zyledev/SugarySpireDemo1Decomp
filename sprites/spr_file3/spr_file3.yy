@@ -80,8 +80,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Title Screen",
+    "path": "folders/Sprites/UI/Title Screen.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
