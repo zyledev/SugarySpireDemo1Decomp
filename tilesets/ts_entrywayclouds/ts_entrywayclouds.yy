@@ -12,8 +12,8 @@
   "out_tilehborder": 2,
   "out_tilevborder": 2,
   "parent": {
-    "name": "Tile Sets",
-    "path": "folders/Tile Sets.yy",
+    "name": "Entryway",
+    "path": "folders/Tile Sets/Levels/Entryway.yy",
   },
   "spriteId": {
     "name": "tilespr_ts_entrywayclouds",

@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Molasses",
+    "path": "folders/Sprites/Tilesets/Levels/Molasses.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -80,7 +80,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"5866d52d-cfc4-4230-8313-9603699bf792","path":"sprites/spr_molassestiles2OLD/spr_molassestiles2OLD.yy",},},},"Disabled":false,"id":"250eca29-f507-41bb-8a2f-f67c3ea79d99","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 0,
     "yorigin": 0,
