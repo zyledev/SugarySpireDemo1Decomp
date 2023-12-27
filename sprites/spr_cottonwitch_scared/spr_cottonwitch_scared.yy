@@ -53,8 +53,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Cotton Witch",
+    "path": "folders/Sprites/Enemies/Cotton Witch.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "UI",
-    "path": "folders/Sprites/UI.yy",
+    "name": "Pallette Swapper",
+    "path": "folders/Sprites/misc/Pallette Swapper.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

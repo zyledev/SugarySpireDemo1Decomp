@@ -56,8 +56,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Coneball",
+    "path": "folders/Sprites/Level Design/Coneball.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -96,7 +96,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"e62258ef-480f-47ca-876f-c0fbdcb59c5a","path":"sprites/spr_coneballturn/spr_coneballturn.yy",},},},"Disabled":false,"id":"3df225c2-0be6-4c42-b57e-f26b7af06219","IsCreationKey":false,"Key":8.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 100,
     "yorigin": 100,

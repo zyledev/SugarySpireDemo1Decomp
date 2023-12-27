@@ -50,8 +50,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Pizzano",
+    "path": "folders/Sprites/UI/HUD/TV Sprites/Pizzano.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -84,7 +84,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"16af4a0a-5c54-40e1-9448-0f83f07300fd","path":"sprites/spr_pizzanotv/spr_pizzanotv.yy",},},},"Disabled":false,"id":"deee1ebf-9b2b-49c0-aa01-f15324f6bf6c","IsCreationKey":false,"Key":2.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 139,
     "yorigin": 134,

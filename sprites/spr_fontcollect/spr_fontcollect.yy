@@ -57,8 +57,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "UI",
-    "path": "folders/Sprites/UI.yy",
+    "name": "cakehud",
+    "path": "folders/Sprites/UI/HUD/cakehud.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
