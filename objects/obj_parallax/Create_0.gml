@@ -7,6 +7,8 @@ if (instance_number(obj_parallax) > 1)
         return;
     }
 }
+bgx = 0
+bgy = 0
 var i = 5
 repeat (5)
     layers[i--] = -4
