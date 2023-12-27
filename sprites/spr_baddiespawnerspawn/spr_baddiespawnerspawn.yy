@@ -61,8 +61,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Level Design",
+    "path": "folders/Sprites/Level Design.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Entryway",
+    "path": "folders/Sprites/Levels/Entryway.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

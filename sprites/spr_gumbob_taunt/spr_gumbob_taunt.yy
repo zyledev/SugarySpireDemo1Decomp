@@ -51,8 +51,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Gumbob",
+    "path": "folders/Sprites/Characters/Gumbob.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

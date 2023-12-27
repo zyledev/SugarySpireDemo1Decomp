@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "tilespr_ts_wafer",
-  "bbox_bottom": 63,
+  "bbox_bottom": 1407,
   "bbox_left": 0,
-  "bbox_right": 63,
+  "bbox_right": 511,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,20 +13,20 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"93f79e73-f312-4b79-8127-40ef32d7ca02",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"096dbb9e-0de4-478a-9068-809b680d0a88",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 972,
+  "height": 1472,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"ca72c0a3-f1bb-413e-accc-cb8216b373e7","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4e358ed4-7d01-46df-b628-939875abba79","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Entryway",
+    "path": "folders/Sprites/Tilesets/Levels/Entryway.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -54,10 +54,10 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"93f79e73-f312-4b79-8127-40ef32d7ca02","path":"sprites/tilespr_ts_wafer/tilespr_ts_wafer.yy",},},},"Disabled":false,"id":"843eac89-975e-4269-a8ac-cdfd11509b8c","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"096dbb9e-0de4-478a-9068-809b680d0a88","path":"sprites/tilespr_ts_wafer/tilespr_ts_wafer.yy",},},},"Disabled":false,"id":"bc2e376c-8b93-4bbf-ba1b-a255805737cc","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 0,
     "yorigin": 0,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 972,
+  "width": 512,
 }

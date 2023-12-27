@@ -51,8 +51,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "minecart",
+    "path": "folders/Sprites/Characters/Pizzelle/minecart.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

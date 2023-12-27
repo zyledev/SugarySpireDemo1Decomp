@@ -82,8 +82,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "gnome",
+    "path": "folders/Sprites/Level Design/Levels/Mines/gnome.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

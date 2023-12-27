@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "tilespr_tile_cottonplat",
-  "bbox_bottom": 63,
+  "bbox_bottom": 31,
   "bbox_left": 0,
-  "bbox_right": 63,
+  "bbox_right": 383,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,20 +13,20 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"9a735823-c6c9-41da-bb58-490883001614",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"de1844a5-57f0-452d-b0e9-264b590385a9",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 144,
+  "height": 32,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"619843ba-fc40-4bbe-960a-6fae1dcc92e3","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"38c47340-b1f1-41ee-9762-a180161c1697","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Cottontown",
+    "path": "folders/Sprites/Tilesets/Levels/Cottontown.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -54,10 +54,10 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"9a735823-c6c9-41da-bb58-490883001614","path":"sprites/tilespr_tile_cottonplat/tilespr_tile_cottonplat.yy",},},},"Disabled":false,"id":"e75e0fa8-841d-46bb-9309-61f4cec0f15e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"de1844a5-57f0-452d-b0e9-264b590385a9","path":"sprites/tilespr_tile_cottonplat/tilespr_tile_cottonplat.yy",},},},"Disabled":false,"id":"4b83e140-7c8f-4766-97bd-740c369d5c8d","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 0,
     "yorigin": 0,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 108,
+  "width": 384,
 }

@@ -64,8 +64,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "bomb",
+    "path": "folders/Sprites/Level Design/bomb.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

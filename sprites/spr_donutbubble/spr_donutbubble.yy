@@ -61,8 +61,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Level-Specific",
+    "path": "folders/Sprites/Levels/Mines/Level-Specific.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

@@ -55,8 +55,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "cotton",
+    "path": "folders/Sprites/Characters/Pizzelle/cotton.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

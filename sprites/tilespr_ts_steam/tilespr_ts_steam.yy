@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "tilespr_ts_steam",
-  "bbox_bottom": 63,
+  "bbox_bottom": 1279,
   "bbox_left": 0,
-  "bbox_right": 63,
+  "bbox_right": 1759,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,20 +13,20 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"95877a02-841a-4a7e-ae50-cfb751c8e80b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2fab927e-e25b-476b-ad8f-416e4cab7507",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 1692,
+  "height": 1312,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"39b26210-c6b9-4723-a2ca-5b58016a3a20","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d6eb7d9d-d48d-495f-9288-c6635ccfb7eb","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Cottontown",
+    "path": "folders/Sprites/Tilesets/Levels/Cottontown.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -54,10 +54,10 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"95877a02-841a-4a7e-ae50-cfb751c8e80b","path":"sprites/tilespr_ts_steam/tilespr_ts_steam.yy",},},},"Disabled":false,"id":"c71f023b-15d6-4896-9c71-749ffc8778d3","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"2fab927e-e25b-476b-ad8f-416e4cab7507","path":"sprites/tilespr_ts_steam/tilespr_ts_steam.yy",},},},"Disabled":false,"id":"d3a49a41-b774-4c06-a1b1-9ef96015aba0","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 0,
     "yorigin": 0,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 1692,
+  "width": 1760,
 }

@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "caramel",
+    "path": "folders/Sprites/Level Design/Levels/Molasses/Level-Specific/caramel.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

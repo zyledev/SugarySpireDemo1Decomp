@@ -54,8 +54,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Pizzelle",
+    "path": "folders/Sprites/Characters/Pizzelle.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -92,7 +92,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"bba1d294-ae0d-4aaf-a3ed-5d337df2b6f6","path":"sprites/spr_player_jump/spr_player_jump.yy",},},},"Disabled":false,"id":"dda3cfdd-6ad3-48ff-8b6d-f6326c455cb6","IsCreationKey":false,"Key":6.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 50,
     "yorigin": 50,

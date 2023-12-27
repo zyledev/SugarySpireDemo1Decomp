@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "tilespr_ts_minecartrails",
-  "bbox_bottom": 63,
+  "bbox_bottom": 127,
   "bbox_left": 0,
-  "bbox_right": 63,
+  "bbox_right": 223,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,20 +13,20 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2b29d1ce-e43a-4fbf-9a00-52634bb8a439",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"36d0406c-fd39-47e5-a908-c9b8e6aa7a2d",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 216,
+  "height": 128,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"0b7f22e8-268f-4535-85ac-9ecc36b5f5a1","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"dcf30bcc-ed81-4286-9bd0-89f4fe3dc3eb","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Mines",
+    "path": "folders/Sprites/Tilesets/Levels/Mines.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -54,10 +54,10 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"2b29d1ce-e43a-4fbf-9a00-52634bb8a439","path":"sprites/tilespr_ts_minecartrails/tilespr_ts_minecartrails.yy",},},},"Disabled":false,"id":"9620bdbc-ceb9-424f-b80c-2f3f201664bb","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"36d0406c-fd39-47e5-a908-c9b8e6aa7a2d","path":"sprites/tilespr_ts_minecartrails/tilespr_ts_minecartrails.yy",},},},"Disabled":false,"id":"e11045df-efa1-432f-aa06-88501b3c212b","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 0,
     "yorigin": 0,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 216,
+  "width": 288,
 }

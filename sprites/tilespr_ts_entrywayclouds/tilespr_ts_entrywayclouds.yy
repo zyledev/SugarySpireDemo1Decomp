@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Entryway",
+    "path": "folders/Sprites/Tilesets/Levels/Entryway.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -57,7 +57,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b2e3fc7a-28f7-49b6-ae6b-835b2ed6613e","path":"sprites/tilespr_ts_entrywayclouds/tilespr_ts_entrywayclouds.yy",},},},"Disabled":false,"id":"697d9def-78c0-41d3-bdf5-6d59c7a76f0f","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 0,
     "yorigin": 0,

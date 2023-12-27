@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "Cottontown",
+    "path": "folders/Sprites/Tilesets/Levels/Cottontown.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -57,7 +57,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"f07efac7-9193-40b9-aecc-7da811584c5d","path":"sprites/tilespr_ts_steamtest/tilespr_ts_steamtest.yy",},},},"Disabled":false,"id":"64b922f5-3088-40d4-ba1e-14b0dc593587","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": {"x":0.0,"y":0.0,},
+    "visibleRange": null,
     "volume": 1.0,
     "xorigin": 0,
     "yorigin": 0,

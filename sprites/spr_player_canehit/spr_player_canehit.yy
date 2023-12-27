@@ -60,8 +60,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Sprites",
-    "path": "folders/Sprites.yy",
+    "name": "cane",
+    "path": "folders/Sprites/Characters/Pizzelle/cane.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
