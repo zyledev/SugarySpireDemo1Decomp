@@ -55,8 +55,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "geyser",
-    "path": "folders/Sprites/Level Design/Levels/Molasses/Level-Specific/geyser.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

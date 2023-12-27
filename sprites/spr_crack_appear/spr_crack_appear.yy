@@ -64,8 +64,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Cracker",
-    "path": "folders/Sprites/Collectables/Confecti/Cracker.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

@@ -57,8 +57,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Rank",
-    "path": "folders/Sprites/Characters/Pizzelle/Rank.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

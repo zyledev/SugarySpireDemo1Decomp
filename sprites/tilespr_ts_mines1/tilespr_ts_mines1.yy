@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "tilespr_ts_mines1",
-  "bbox_bottom": 2020,
+  "bbox_bottom": 63,
   "bbox_left": 0,
-  "bbox_right": 1023,
+  "bbox_right": 63,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,20 +13,20 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5b23d8cb-71bc-4ed0-8c46-d292d2700384",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cd28e63f-ee3b-4d4d-9266-74c6492c3f93",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 2080,
+  "height": 1656,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"8a9fae16-72fe-49ce-a3ca-8d2608366f7e","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"4b96bbbe-fa0e-4a72-bdfa-6ec491a1b1fe","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Mines",
-    "path": "folders/Sprites/Tilesets/Levels/Mines.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -54,10 +54,10 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"5b23d8cb-71bc-4ed0-8c46-d292d2700384","path":"sprites/tilespr_ts_mines1/tilespr_ts_mines1.yy",},},},"Disabled":false,"id":"21c2d91b-2172-4fa6-9fb4-2f435b4f5742","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"cd28e63f-ee3b-4d4d-9266-74c6492c3f93","path":"sprites/tilespr_ts_mines1/tilespr_ts_mines1.yy",},},},"Disabled":false,"id":"dbf07365-05d8-43b0-869a-09c3977bd191","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": null,
+    "visibleRange": {"x":0.0,"y":0.0,},
     "volume": 1.0,
     "xorigin": 0,
     "yorigin": 0,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 1024,
+  "width": 1620,
 }

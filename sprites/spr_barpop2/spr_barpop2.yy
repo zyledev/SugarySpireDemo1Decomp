@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "barpop",
-    "path": "folders/Sprites/UI/HUD/barpop.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

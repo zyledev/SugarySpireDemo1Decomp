@@ -75,8 +75,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Chocolate",
-    "path": "folders/Sprites/Collectables/Confecti/Chocolate.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

@@ -70,8 +70,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "bombpep",
-    "path": "folders/Sprites/Characters/Pizzelle/bombpep.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

@@ -49,8 +49,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Combo Ratings",
-    "path": "folders/Sprites/misc/Combo Ratings.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

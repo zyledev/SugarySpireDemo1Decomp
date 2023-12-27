@@ -27,10 +27,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_Minecartrail",
-    "path": "sprites/spr_Minecartrail/spr_Minecartrail.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": false,
 }

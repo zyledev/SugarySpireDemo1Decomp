@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "door objects",
-    "path": "folders/Sprites/Technical stuff/door objects.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

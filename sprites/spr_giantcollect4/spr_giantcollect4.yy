@@ -69,8 +69,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Giant",
-    "path": "folders/Sprites/Collectables/Giant.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

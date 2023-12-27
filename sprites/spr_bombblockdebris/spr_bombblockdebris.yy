@@ -54,8 +54,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Debris",
-    "path": "folders/Sprites/Level Design/Destroyables/Debris.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

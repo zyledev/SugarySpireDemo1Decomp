@@ -50,8 +50,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Cracker Kicker",
-    "path": "folders/Sprites/Enemies/Cracker Kicker.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

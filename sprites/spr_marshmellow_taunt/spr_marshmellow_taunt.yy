@@ -49,8 +49,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Marshmallow",
-    "path": "folders/Sprites/Collectables/Confecti/Marshmallow.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

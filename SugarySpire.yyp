@@ -38,6 +38,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sequences","folderPath":"folders/Sequences.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Shaders","folderPath":"folders/Shaders.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sounds","folderPath":"folders/Sounds.yy",},
+<<<<<<< HEAD
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"music","folderPath":"folders/Sounds/music.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"sfx","folderPath":"folders/Sounds/sfx.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy",},
@@ -148,6 +149,10 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Molasses","folderPath":"folders/Tile Sets/Levels/Molasses.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Secret","folderPath":"folders/Tile Sets/Levels/Secret.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"misc","folderPath":"folders/Tile Sets/misc.yy",},
+=======
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
+>>>>>>> parent of b2adecd0 (Merge pull request #6 from zyledev/main)
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
   ],
   "IncludedFiles": [

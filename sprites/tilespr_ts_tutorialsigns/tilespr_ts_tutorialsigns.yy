@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "tilespr_ts_tutorialsigns",
-  "bbox_bottom": 543,
+  "bbox_bottom": 63,
   "bbox_left": 0,
-  "bbox_right": 636,
+  "bbox_right": 63,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,20 +13,20 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"c393e391-e956-441e-bfbd-e3c497f7b255",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"32ec247a-0eb9-4e14-aa0c-447fcc75171b",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 608,
+  "height": 684,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"280d492f-e18b-42e4-825b-3ae37e11f9ad","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"198526a2-e857-4ed3-af7c-222371493872","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Hub",
-    "path": "folders/Sprites/Tilesets/Hub.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -54,10 +54,10 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"c393e391-e956-441e-bfbd-e3c497f7b255","path":"sprites/tilespr_ts_tutorialsigns/tilespr_ts_tutorialsigns.yy",},},},"Disabled":false,"id":"425a9f94-76dd-4bf9-b7d9-73058511aed2","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"32ec247a-0eb9-4e14-aa0c-447fcc75171b","path":"sprites/tilespr_ts_tutorialsigns/tilespr_ts_tutorialsigns.yy",},},},"Disabled":false,"id":"de70ab3d-109d-483a-b1f8-a132d3754013","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": null,
+    "visibleRange": {"x":0.0,"y":0.0,},
     "volume": 1.0,
     "xorigin": 0,
     "yorigin": 0,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 640,
+  "width": 684,
 }

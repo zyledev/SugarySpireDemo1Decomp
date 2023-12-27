@@ -71,8 +71,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "flingfrog",
-    "path": "folders/Sprites/Level Design/Levels/Molasses/Level-Specific/flingfrog.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

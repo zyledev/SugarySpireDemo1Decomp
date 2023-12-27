@@ -51,8 +51,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Char Cherry",
-    "path": "folders/Sprites/Enemies/Char Cherry.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

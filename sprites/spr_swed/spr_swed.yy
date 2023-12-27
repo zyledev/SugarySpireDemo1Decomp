@@ -57,8 +57,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Swedish Fish",
-    "path": "folders/Sprites/Enemies/Swedish Fish.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

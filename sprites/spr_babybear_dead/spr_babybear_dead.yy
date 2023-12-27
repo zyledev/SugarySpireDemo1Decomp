@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Mini-Harry",
-    "path": "folders/Sprites/Enemies/Mini-Harry.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

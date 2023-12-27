@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Pause",
-    "path": "folders/Sprites/UI/Pause.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

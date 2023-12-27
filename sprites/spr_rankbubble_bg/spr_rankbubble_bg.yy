@@ -52,8 +52,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "rankbubble",
-    "path": "folders/Sprites/UI/HUD/rankbubble.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

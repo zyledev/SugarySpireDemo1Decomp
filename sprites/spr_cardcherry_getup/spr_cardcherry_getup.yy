@@ -53,8 +53,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Tutorial",
-    "path": "folders/Sprites/Level Design/Tutorial.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

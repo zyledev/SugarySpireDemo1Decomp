@@ -12,8 +12,8 @@
   "out_tilehborder": 2,
   "out_tilevborder": 2,
   "parent": {
-    "name": "Cottontown",
-    "path": "folders/Tile Sets/Levels/Cottontown.yy",
+    "name": "Tile Sets",
+    "path": "folders/Tile Sets.yy",
   },
   "spriteId": {
     "name": "tilespr_tile_cottonplat",
@@ -45,9 +45,9 @@
   "tileAnimationFrames": [],
   "tileAnimationSpeed": 0.0,
   "tileHeight": 32,
-  "tilehsep": 0,
-  "tilevsep": 0,
+  "tilehsep": 4,
+  "tilevsep": 4,
   "tileWidth": 32,
-  "tilexoff": 0,
-  "tileyoff": 0,
+  "tilexoff": 2,
+  "tileyoff": 2,
 }

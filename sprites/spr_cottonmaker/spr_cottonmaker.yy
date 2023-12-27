@@ -50,8 +50,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Transformations",
-    "path": "folders/Sprites/Level Design/Transformations.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

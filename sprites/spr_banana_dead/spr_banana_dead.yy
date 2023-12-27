@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Banana Knight",
-    "path": "folders/Sprites/Enemies/Banana Knight.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

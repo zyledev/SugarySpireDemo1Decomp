@@ -104,7 +104,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"15fc1088-1d59-4df7-9f1a-320ed2fa94a8","path":"sprites/spr_aranktopping/spr_aranktopping.yy",},},},"Disabled":false,"id":"560ff8d7-097e-4da5-8ab1-2349f4fda5bf","IsCreationKey":false,"Key":12.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": null,
+    "visibleRange": {"x":0.0,"y":0.0,},
     "volume": 1.0,
     "xorigin": 135,
     "yorigin": 87,

@@ -55,8 +55,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Cotton Witch",
-    "path": "folders/Sprites/Enemies/Cotton Witch.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -94,7 +94,7 @@
             {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"cfabc1db-0ac8-40d0-bab6-7968ee272bcd","path":"sprites/spr_cottonwitchprojectile/spr_cottonwitchprojectile.yy",},},},"Disabled":false,"id":"65a1e4df-38fc-44f0-a5d6-aa134501095b","IsCreationKey":false,"Key":7.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": null,
+    "visibleRange": {"x":0.0,"y":0.0,},
     "volume": 1.0,
     "xorigin": 50,
     "yorigin": 50,

@@ -50,8 +50,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Gumball",
-    "path": "folders/Sprites/Enemies/Gumball.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

@@ -53,8 +53,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "TV Sprites",
-    "path": "folders/Sprites/UI/HUD/TV Sprites.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

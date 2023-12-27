@@ -2,9 +2,9 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "tilespr_ts_molasses1",
-  "bbox_bottom": 1915,
+  "bbox_bottom": 63,
   "bbox_left": 0,
-  "bbox_right": 1023,
+  "bbox_right": 63,
   "bbox_top": 0,
   "bboxMode": 0,
   "collisionKind": 1,
@@ -13,20 +13,20 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"cc29def8-1c84-49bd-b40f-baf415f229ab",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"5288195b-3a89-4f9b-b7ed-45d68dada7b4",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 2080,
+  "height": 1656,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"34ad8e68-922e-4d39-ad52-dbdadb28d95c","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"fbcbfc85-8dad-4fcb-804f-29596cf5fe23","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Molasses",
-    "path": "folders/Sprites/Tilesets/Levels/Molasses.yy",
+    "name": "Sprites",
+    "path": "folders/Sprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -54,10 +54,10 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"cc29def8-1c84-49bd-b40f-baf415f229ab","path":"sprites/tilespr_ts_molasses1/tilespr_ts_molasses1.yy",},},},"Disabled":false,"id":"f93cd948-2acf-4866-b630-b92a8c45c647","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"5288195b-3a89-4f9b-b7ed-45d68dada7b4","path":"sprites/tilespr_ts_molasses1/tilespr_ts_molasses1.yy",},},},"Disabled":false,"id":"20a72948-39d2-4f3f-bdf8-75fcb4687808","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
-    "visibleRange": null,
+    "visibleRange": {"x":0.0,"y":0.0,},
     "volume": 1.0,
     "xorigin": 0,
     "yorigin": 0,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 1024,
+  "width": 1620,
 }
