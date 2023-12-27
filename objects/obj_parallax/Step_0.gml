@@ -38,3 +38,5 @@ layer_x("Backgrounds_moon", (_cam_x * 0.99));
 var bgs1 = layer_background_get_sprite(layer_background_get_id(layer_get_id("Backgrounds_still1")));
 var _value = (_cam_y - clamp((_cam_y * (0.15 * (540 / room_height))), 0, (sprite_get_height(bgs1) - 540)));
 layer_y("Backgrounds_still1", _value);
+layer_x("Background_scroll", _cam_x + bgx--)
+layer_y("Background_scroll", _cam_y + bgy--)

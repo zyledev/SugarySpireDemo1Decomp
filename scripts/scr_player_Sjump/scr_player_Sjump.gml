@@ -102,10 +102,10 @@ function scr_player_Sjump() //scr_player_Sjump
             xscale = move
         movespeed = 10
         machhitAnim = 0
-        state = 63
+        state = 83
         flash = 1
         vsp = -12
-        sprite_index = spr_mach2jump
+        sprite_index = spr_player_mach3
         with (instance_create(x, y, obj_jumpdust))
             image_xscale = other.xscale
     }
