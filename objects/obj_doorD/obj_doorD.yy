@@ -2,11 +2,11 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "obj_doorD",
-  "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-  ],
+  "eventList": [],
   "managed": false,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_doortrigger_parent","path":"objects/obj_doortrigger_parent/obj_doortrigger_parent.yy",},"propertyId":{"name":"id_door","path":"objects/obj_doortrigger_parent/obj_doortrigger_parent.yy",},"value":"\"D\"",},
+  ],
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",
