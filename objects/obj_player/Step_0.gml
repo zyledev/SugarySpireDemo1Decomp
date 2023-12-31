@@ -1,4 +1,5 @@
 scr_getinput();
+
 scr_characterspr();
 scr_playerstate();
 with (obj_player)

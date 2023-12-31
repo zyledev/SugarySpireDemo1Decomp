@@ -11,7 +11,7 @@ function scr_initinput()
     global.key_shoot = ini_read_string("ControlsKeys", "shoot", ord("A"));
     global.key_attack = ini_read_string("ControlsKeys", "attack", vk_shift);
     global.key_start = ini_read_string("ControlsKeys", "start", vk_escape);
-    global.key_special = ini_read_string("ControlsKeys", "special", 86); // i have no clue what the rest are so i'll just leave them as is
+    global.key_special = ini_read_string("ControlsKeys", "special", 86); // i have no clue what the rest are so i'll just leave them as is // note from zyle: NOOB
     global.key_upC = ini_read_string("ControllerButton", "up", 32781);
     global.key_rightC = ini_read_string("ControllerButton", "right", 32784);
     global.key_leftC = ini_read_string("ControllerButton", "left", 32783);
